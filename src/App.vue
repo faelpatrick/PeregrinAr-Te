@@ -1,11 +1,18 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <Home />
     </v-main>
   </v-app>
 </template>
 
 <script setup>
-  //
+//
 </script>
+
+<style>
+  body {
+    background-color: #55310e;
+    color: #bfa07b;
+  }
+</style>
