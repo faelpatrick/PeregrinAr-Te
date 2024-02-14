@@ -12,6 +12,9 @@ import App from './App.vue'
 
 // Composables
 import { createApp } from 'vue'
+import {inject} from '@vercel/analytics';
+
+inject();
 
 const app = createApp(App)
 
