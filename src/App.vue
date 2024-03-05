@@ -2,6 +2,7 @@
   <v-app>
     <!-- NavBar Superior -->
     <v-app-bar app :color="colors.secondary" dark>
+      <img src="./assets/logo.png" style=" height: 90%; margin-left: 20px;" alt="">
       <v-toolbar-title>PeregrinAr-Te</v-toolbar-title>
     </v-app-bar>
 
@@ -50,9 +51,13 @@ export default {
 </script>
 
 <style>
-/* Aqui você pode definir os estilos globais e componentes específicos */
-.v-app-bar {
-  /* Estilo personalizado para a barra de navegação */
+
+.v-app-bar, .v-toolbar__content{
+  height: 80px;
+}
+.v-toolbar-title {
+  font-family: 'Island Moments';
+  font-size: 2.8rem !important;
 }
 
 .v-main {
@@ -61,10 +66,6 @@ export default {
   background-position: center;
 }
 
-body * {
-  /* font-family: 'Merriweather', serif; */
-  font-family: 'Roboto Slab', serif;
-}
 
 .blue {
   color: #6c7540;
