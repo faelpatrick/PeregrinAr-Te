@@ -1,109 +1,35 @@
 <template>
   <v-app>
-
-    <!-- Navigation Drawer -->
-    <v-navigation-drawer v-model="drawer" app expand-on-hover rail>
-      <!-- Conteúdo do Drawer -->
-      <v-list dense>
-
-        <v-list>
-          <v-list-item prepend-avatar="./assets/logo.png" title="PeregrinAr-Te" subtitle="" style="
-  font-family: 'Island Moments'; font-size: 32px;">
-          </v-list-item>
-        </v-list>
-
-        <v-list-item v-for="item in items" :key="item.title" :prepend-icon="item.icon" title="Capitulo"
-          @click="() => { activeTab = item.tab }">
-
-
-
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-
-
-    <!-- NavBar Superior -->
-    <v-app-bar app :color="colors.secondary" dark>
-      <!-- <img src="./assets/logo.png" style=" height: 90%; margin-left: 20px;" alt=""> -->
-      <v-toolbar-title class="pl-13">PeregrinAr-Te</v-toolbar-title>
+    <v-app-bar app>
+      <v-toolbar-title>PeregrinAr-Te</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn text @click="$router.push('/')">Home</v-btn>
+      <v-btn text @click="$router.push('/primeira-edicao')">Primeira Edição</v-btn>
     </v-app-bar>
 
-    <!-- Conteúdo -->
-    <v-main :style="{ backgroundColor: colors.background }">
-
-      <v-container>
-        <v-card-text>
-          <v-window v-model="activeTab">
-
-            <!-- TAB 1 - Consultar Dados da Ideia -->
-            <v-window-item value="tab-1">
-              Capitulo 1
-            </v-window-item>
-
-            <v-window-item value="tab-2">
-              Capitulo 2
-            </v-window-item>
-
-            <v-window-item value="tab-3">
-              Capitulo 3
-            </v-window-item>
-
-            <v-window-item value="tab-4">
-              Capitulo 4
-            </v-window-item>
-
-            <v-window-item value="tab-5">
-              Capitulo 5
-            </v-window-item>
-
-            <v-window-item value="tab-6">
-              Capitulo 6
-            </v-window-item>
-
-            <v-window-item value="tab-7">
-              Capitulo 7
-            </v-window-item>
-
-            <v-window-item value="tab-8">
-              Capitulo 8
-            </v-window-item>
-          </v-window>
-        </v-card-text>
-
-
-
-      </v-container>
+    <v-main>
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
-<script setup>
-import { ref } from 'vue';
-
-const activeTab = ref('tab-1');
-const drawer = true;
-const items = [
-  { title: 'Capitulo 1', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
-  { title: 'Capitulo 2', icon: 'mdi-roman-numeral-2', tab: 'tab-2' },
-  { title: 'Capitulo 3', icon: 'mdi-roman-numeral-3', tab: 'tab-3' },
-  { title: 'Capitulo 4', icon: 'mdi-roman-numeral-4', tab: 'tab-4' },
-  { title: 'Capitulo 5', icon: 'mdi-roman-numeral-5', tab: 'tab-5' },
-  { title: 'Capitulo 6', icon: 'mdi-roman-numeral-6', tab: 'tab-6' },
-  { title: 'Capitulo 7', icon: 'mdi-roman-numeral-7', tab: 'tab-7' },
-  { title: 'Capitulo 8', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
-]
-const colors = ref({
-  primary: '#124c74',
-  secondary: '#422e00',
-  tertiary: '#6c7540',
-  accent: '#ecd5af',
-  neutralLight: '#d7cfb4',
-  background: '#f6f6f6',
-});
-
+<script>
+export default {
+  name: 'App'
+}
 </script>
 
+
 <style>
+:root {
+  --primary: #124c74;
+  --secondary: #422e00;
+  --tertiary: #6c7540;
+  --accent: #ecd5af;
+  --neutralLight: #d7cfb4;
+  --background: #f6f6f6;
+}
+
 .v-toolbar-title {
   font-family: 'Island Moments';
   font-size: 2.8rem !important;
@@ -136,13 +62,18 @@ p {
   padding: 1rem 0;
 }
 
+main.v-main .v-container {
+  padding-left: 4rem;
+}
+
+.v-toolbar__content,
 .v-navigation-drawer__content,
 .v-bottom-navigation,
 .v-navigation-drawer,
 .v-tabs,
 .v-tab {
   color: #ffffff;
-  background-color: #124c74;
+  background-color: var(--secondary);
 }
 
 .v-tab .v-icon {
