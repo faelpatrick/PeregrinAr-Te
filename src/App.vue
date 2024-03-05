@@ -1,108 +1,76 @@
 <template>
   <v-app>
+
+    <!-- Navigation Drawer -->
+    <v-navigation-drawer v-model="drawer" app expand-on-hover rail>
+      <!-- Conteúdo do Drawer -->
+      <v-list dense>
+
+        <v-list>
+          <v-list-item prepend-avatar="./assets/logo.png" title="PeregrinAr-Te" subtitle="" style="
+  font-family: 'Island Moments'; font-size: 32px;">
+          </v-list-item>
+        </v-list>
+
+        <v-list-item v-for="item in items" :key="item.title" :prepend-icon="item.icon" title="Capitulo"
+          @click="() => { activeTab = item.tab }">
+
+
+
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+
+
     <!-- NavBar Superior -->
     <v-app-bar app :color="colors.secondary" dark>
-      <img src="./assets/logo.png" style=" height: 90%; margin-left: 20px;" alt="">
-      <v-toolbar-title>PeregrinAr-Te</v-toolbar-title>
+      <!-- <img src="./assets/logo.png" style=" height: 90%; margin-left: 20px;" alt=""> -->
+      <v-toolbar-title class="pl-13">PeregrinAr-Te</v-toolbar-title>
     </v-app-bar>
 
     <!-- Conteúdo -->
     <v-main :style="{ backgroundColor: colors.background }">
-      <v-container>
 
+      <v-container>
         <v-card-text>
           <v-window v-model="activeTab">
 
             <!-- TAB 1 - Consultar Dados da Ideia -->
             <v-window-item value="tab-1">
-              <!-- Título -->
-              <v-row justify="center">
-                <v-col cols="12" sm="8" md="6">
-                  <h1 class="text-h4 text-center" :style="{ color: colors.secondary }">Bem-vindo ao PeregrinAr-Te</h1>
-
-                  <v-divider class="my-3"></v-divider>
-                  <div class="blue">
-                    <p class="text-center" :style="{ color: colors.neutralLight }">
-                      Este é um projeto de arte e cultura que visa promover a arte e a cultura em geral, com foco na
-                      arte
-                      sacra
-                      e na peregrinação.
-                    </p>
-                  </div>
-                </v-col>
-              </v-row>
+              Capitulo 1
             </v-window-item>
 
             <v-window-item value="tab-2">
-              teste 2
+              Capitulo 2
             </v-window-item>
 
             <v-window-item value="tab-3">
+              Capitulo 3
             </v-window-item>
 
             <v-window-item value="tab-4">
+              Capitulo 4
             </v-window-item>
 
             <v-window-item value="tab-5">
+              Capitulo 5
             </v-window-item>
 
             <v-window-item value="tab-6">
+              Capitulo 6
             </v-window-item>
 
             <v-window-item value="tab-7">
+              Capitulo 7
             </v-window-item>
 
             <v-window-item value="tab-8">
+              Capitulo 8
             </v-window-item>
           </v-window>
         </v-card-text>
 
-        <v-bottom-navigation>
-          <v-tabs v-model="activeTab" align-tabs="center" class="align-center">
-            <v-tab value="tab-1" class="d-flex flex-column">
-              <span>Capitulo</span>
-              <v-icon>mdi-roman-numeral-1</v-icon>
-            </v-tab>
 
-            <v-tab value="tab-2" class="d-flex flex-column">
-              <span>Capitulo</span>
-              <v-icon>mdi-roman-numeral-2</v-icon>
-            </v-tab>
-
-            <v-tab value="tab-3" class="d-flex flex-column">
-              <span>Capitulo</span>
-              <v-icon>mdi-roman-numeral-3</v-icon>
-            </v-tab>
-
-            <v-tab value="tab-1" class="d-flex flex-column">
-              <span>Capitulo</span>
-              <v-icon>mdi-roman-numeral-4</v-icon>
-            </v-tab>
-
-            <v-tab value="tab-1" class="d-flex flex-column">
-              <span>Capitulo</span>
-              <v-icon>mdi-roman-numeral-5</v-icon>
-            </v-tab>
-
-            <v-tab value="tab-1" class="d-flex flex-column">
-              <span>Capitulo</span>
-              <v-icon>mdi-roman-numeral-6</v-icon>
-            </v-tab>
-
-            <v-tab value="tab-1" class="d-flex flex-column">
-              <span>Capitulo</span>
-              <v-icon>mdi-roman-numeral-7</v-icon>
-            </v-tab>
-
-            <v-tab value="tab-1" class="d-flex flex-column">
-              <span>Capitulo</span>
-              <v-icon>mdi-roman-numeral-8</v-icon>
-            </v-tab>
-
-
-          </v-tabs>
-          
-        </v-bottom-navigation>
 
       </v-container>
     </v-main>
@@ -113,7 +81,17 @@
 import { ref } from 'vue';
 
 const activeTab = ref('tab-1');
-
+const drawer = true;
+const items = [
+  { title: 'Capitulo 1', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
+  { title: 'Capitulo 2', icon: 'mdi-roman-numeral-2', tab: 'tab-2' },
+  { title: 'Capitulo 3', icon: 'mdi-roman-numeral-3', tab: 'tab-3' },
+  { title: 'Capitulo 4', icon: 'mdi-roman-numeral-4', tab: 'tab-4' },
+  { title: 'Capitulo 5', icon: 'mdi-roman-numeral-5', tab: 'tab-5' },
+  { title: 'Capitulo 6', icon: 'mdi-roman-numeral-6', tab: 'tab-6' },
+  { title: 'Capitulo 7', icon: 'mdi-roman-numeral-7', tab: 'tab-7' },
+  { title: 'Capitulo 8', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
+]
 const colors = ref({
   primary: '#124c74',
   secondary: '#422e00',
@@ -126,11 +104,6 @@ const colors = ref({
 </script>
 
 <style>
-.v-app-bar,
-.v-toolbar__content {
-  height: 80px;
-}
-
 .v-toolbar-title {
   font-family: 'Island Moments';
   font-size: 2.8rem !important;
@@ -163,11 +136,11 @@ p {
   padding: 1rem 0;
 }
 
-.v-bottom-navigation__content,
+.v-navigation-drawer__content,
 .v-bottom-navigation,
+.v-navigation-drawer,
 .v-tabs,
 .v-tab {
-  min-height: 80px;
   color: #ffffff;
   background-color: #124c74;
 }
@@ -179,32 +152,5 @@ p {
 .v-tab span {
   display: block;
   font-size: 12px;
-}
-
-.v-tab {}
-
-#btn-close,
-#btn-back {
-  position: absolute;
-  top: 0;
-  padding: 16px;
-  cursor: pointer;
-  font-size: 20pt;
-  height: 80px;
-  color: #ffffff;
-  background-color: transparent;
-}
-
-#btn-close:hover,
-#btn-back:hover {
-  background-color: #ededed50;
-}
-
-#btn-close {
-  right: 16px;
-}
-
-#btn-back {
-  left: 16px;
 }
 </style>
