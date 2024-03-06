@@ -30,10 +30,12 @@
                         <!-- TAB 1 - Consultar Dados da Ideia -->
                         <v-window-item value="tab-1">
                             Capitulo 1
+                            <capitulo1 />
                         </v-window-item>
 
                         <v-window-item value="tab-2">
                             Capitulo 2
+                            <capitulo2/>
                         </v-window-item>
 
                         <v-window-item value="tab-3">
@@ -71,6 +73,8 @@
 
 <script setup>
 import { ref } from 'vue';
+import Capitulo1 from './Capitulos/Capitulo1.vue';
+import Capitulo2 from './Capitulos/Capitulo2.vue';
 
 const activeTab = ref('tab-1');
 const drawer = true;
