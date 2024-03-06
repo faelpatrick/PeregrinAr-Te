@@ -40,6 +40,7 @@
 
                         <v-window-item value="tab-3">
                             Capitulo 3
+                            <capitulo3 />
                         </v-window-item>
 
                         <v-window-item value="tab-4">
@@ -75,6 +76,7 @@
 import { ref } from 'vue';
 import Capitulo1 from './Capitulos/Capitulo1.vue';
 import Capitulo2 from './Capitulos/Capitulo2.vue';
+import Capitulo3 from './Capitulos/Capitulo3.vue';
 
 const activeTab = ref('tab-1');
 const drawer = true;
