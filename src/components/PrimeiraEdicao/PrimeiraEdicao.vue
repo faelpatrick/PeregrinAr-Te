@@ -85,9 +85,9 @@ function onMenuItemClick(item) {
     // activeTab.value = item.tab;
     expandOnHover.value = false;
 
-    setTimeout(() => {
-        expandOnHover.value = true;
-    }, 300); 
+    // setTimeout(() => {
+    //     expandOnHover.value = true;
+    // }, 300); 
 }
 
 
