@@ -82,7 +82,7 @@ const mini = ref(true); // Começa como mini-variant
 const expandOnHover = ref(true); // Expandir ao passar o mouse
 
 function onMenuItemClick(item) {
-    activeTab.value = item.tab;
+    // activeTab.value = item.tab;
     expandOnHover.value = false;
 
     setTimeout(() => {
