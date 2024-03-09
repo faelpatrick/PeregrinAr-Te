@@ -1,7 +1,7 @@
 <template>
     <v-app>
         <!-- Navigation Drawer -->
-        <v-navigation-drawer v-model="drawer" app :expand-on-hover="expandOnHover" rail :width="350">
+        <v-navigation-drawer v-model="drawer" app :expand-on-hover="expandOnHover" rail :width="350" @click.stop="() => { onMenuItemClick(item) }">
             <!-- Conteúdo do Drawer -->
             <v-list dense>
 
@@ -85,12 +85,9 @@ function onMenuItemClick(item) {
     activeTab.value = item.tab;
     expandOnHover.value = false;
 
-    // Reativa expand-on-hover após um curto atraso
     setTimeout(() => {
         expandOnHover.value = true;
-    }, 300); // Ajuste o tempo conforme necessário
-
-    // Aqui você pode adicionar mais lógica baseada no item clicado
+    }, 300); 
 }
 
 
@@ -113,9 +110,7 @@ const colors = ref({
     background: '#f6f6f6',
 });
 
-watch(() => activeTab.value, (value) => {
-    mini.value = !mini.value;
-});
+
 
 </script>
 
