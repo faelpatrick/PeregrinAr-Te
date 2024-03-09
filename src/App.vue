@@ -24,7 +24,7 @@ export default {
 :root {
   --primary: #124c74;
   --secondary: #422e00;
-  --tertiary: #6c7540;
+  --tertiary: #4f4507;
   --accent: #ecd5af;
   --neutralLight: #d7cfb4;
   --background: #f6f6f6;
@@ -35,37 +35,17 @@ export default {
   font-size: 2.8rem !important;
 }
 
-.v-main {
-  background-image: url(https://img.freepik.com/fotos-premium/fundo-de-textura-de-papel-retro-vintage-velho-grunge_47840-948.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707782400&semt=ais);
-  background-repeat: repeat;
-  background-position: center;
-}
-
-
-.blue {
-  color: #6c7540;
-  background-color: #124c74;
-  padding: 4rem;
-  border-radius: 2rem;
-}
-
-.text-h4 {
-  font-size: 2.5rem;
-  font-weight: 500;
-  padding: 2rem 0;
-}
-
-
-p {
-  font-size: 1.5rem;
-  font-weight: 300;
-  padding: 1rem 0;
-}
 
 main.v-main .v-container {
   padding-left: 4rem;
 }
 
+@media screen and (max-width: 1024px){
+  main.v-main .v-container {
+    padding-left: 1.5rem;
+  }
+  
+}
 .v-toolbar__content,
 .v-navigation-drawer__content,
 .v-bottom-navigation,
@@ -80,8 +60,5 @@ main.v-main .v-container {
   font-size: 24px;
 }
 
-.v-tab span {
-  display: block;
-  font-size: 12px;
-}
+
 </style>

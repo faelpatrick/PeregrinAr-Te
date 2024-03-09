@@ -1,27 +1,24 @@
 <template>
     <v-app>
         <!-- Navigation Drawer -->
-        <v-navigation-drawer v-model="drawer" app expand-on-hover rail :width="350">
+        <v-navigation-drawer v-model="drawer" app :expand-on-hover="expandOnHover" rail :width="350">
             <!-- Conteúdo do Drawer -->
             <v-list dense>
 
                 <v-list>
-                    <v-list-item prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te" subtitle="" style="
-    font-family: 'Island Moments'; font-size: 32px;">
+                    <v-list-item prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te" subtitle=""
+                        style="font-family: 'Island Moments'; font-size: 32px;">
                     </v-list-item>
                 </v-list>
 
                 <v-list-item v-for="item in items" :key="item.title" :prepend-icon="item.icon" :title="item.title"
-                    :subtitle="item.subtitle" @click="() => { activeTab = item.tab }">
-
-
-
+                    :subtitle="item.subtitle" @click.stop="() => { onMenuItemClick(item) }">
                 </v-list-item>
             </v-list>
         </v-navigation-drawer>
 
         <!-- Conteúdo -->
-        <v-main :style="{ backgroundColor: colors.background }">
+        <v-main>
 
             <v-container>
                 <v-card-text>
@@ -35,7 +32,7 @@
 
                         <v-window-item value="tab-2">
                             Capitulo 2
-                            <capitulo2/>
+                            <capitulo2 />
                         </v-window-item>
 
                         <v-window-item value="tab-3">
@@ -73,13 +70,30 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 import Capitulo1 from './Capitulos/Capitulo1.vue';
 import Capitulo2 from './Capitulos/Capitulo2.vue';
 import Capitulo3 from './Capitulos/Capitulo3.vue';
 
 const activeTab = ref('tab-1');
 const drawer = true;
+
+const mini = ref(true); // Começa como mini-variant
+const expandOnHover = ref(true); // Expandir ao passar o mouse
+
+function onMenuItemClick(item) {
+    activeTab.value = item.tab;
+    expandOnHover.value = false;
+
+    // Reativa expand-on-hover após um curto atraso
+    setTimeout(() => {
+        expandOnHover.value = true;
+    }, 300); // Ajuste o tempo conforme necessário
+
+    // Aqui você pode adicionar mais lógica baseada no item clicado
+}
+
+
 const items = [
     { title: 'Capitulo I', subtitle: 'Anunciação', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
     { title: 'Capitulo II', subtitle: 'Nascimento', icon: 'mdi-roman-numeral-2', tab: 'tab-2' },
@@ -99,6 +113,10 @@ const colors = ref({
     background: '#f6f6f6',
 });
 
+watch(() => activeTab.value, (value) => {
+    mini.value = !mini.value;
+});
+
 </script>
 
 <style>
@@ -108,31 +126,11 @@ const colors = ref({
 }
 
 .v-main {
-    background-image: url(https://img.freepik.com/fotos-premium/fundo-de-textura-de-papel-retro-vintage-velho-grunge_47840-948.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707782400&semt=ais);
     background-repeat: repeat;
     background-position: center;
 }
 
 
-.blue {
-    color: #6c7540;
-    background-color: #124c74;
-    padding: 4rem;
-    border-radius: 2rem;
-}
-
-.text-h4 {
-    font-size: 2.5rem;
-    font-weight: 500;
-    padding: 2rem 0;
-}
-
-
-p {
-    font-size: 1.5rem;
-    font-weight: 300;
-    padding: 1rem 0;
-}
 
 .v-navigation-drawer__content,
 .v-bottom-navigation,
@@ -145,10 +143,5 @@ p {
 
 .v-tab .v-icon {
     font-size: 24px;
-}
-
-.v-tab span {
-    display: block;
-    font-size: 12px;
 }
 </style>
