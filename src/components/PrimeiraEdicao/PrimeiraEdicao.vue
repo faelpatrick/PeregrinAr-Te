@@ -1,8 +1,7 @@
 <template>
     <v-app>
         <!-- Navigation Drawer -->
-        <v-navigation-drawer v-model="drawer" app :expand-on-hover="expandOnHover" rail :width="350" 
-        :mini-variant="miniVariant">
+        <v-navigation-drawer v-model="drawer" app :expand-on-hover="expandOnHover" rail :width="350">
             <!-- Conteúdo do Drawer -->
             <v-list dense>
 
@@ -78,7 +77,6 @@ import Capitulo3 from './Capitulos/Capitulo3.vue';
 
 const activeTab = ref('tab-1');
 const drawer = true;
-const miniVariant = ref(false);
 
 const mini = ref(true); // Começa como mini-variant
 const expandOnHover = ref(true); // Expandir ao passar o mouse
@@ -92,9 +90,6 @@ function onMenuItemClick(item) {
     }, 300); 
 }
 
-function toggleMiniVariant() {
-  miniVariant.value = !miniVariant.value; // Alterna entre o modo compacto e normal
-}
 
 const items = [
     { title: 'Capitulo I', subtitle: 'Anunciação', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
