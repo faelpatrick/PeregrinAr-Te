@@ -1,7 +1,7 @@
 <template>
     <v-app>
         <!-- Navigation Drawer -->
-        <v-navigation-drawer v-model="drawer" app rail :expand-on-hover :width="width">
+        <v-navigation-drawer v-model="drawer" app rail :expand-on-hover width="350px" :permanent="true">
             <!-- Conteúdo do Drawer -->
             <v-list dense>
                 <v-list>
@@ -112,6 +112,7 @@ const items = [
     { title: 'Capitulo VII', subtitle: 'Ressurreição', icon: 'mdi-roman-numeral-7', tab: 'tab-7' },
     { title: 'Capitulo VIII', subtitle: 'Caminho e Ceia de Emaús', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
 ]
+
 
 
 </script>
