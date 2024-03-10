@@ -63,7 +63,7 @@ function goTo(route) {
 @media screen and (max-width: 1024px) {
   main.v-main .v-container {
     padding: 0;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     margin: 0;
   }
 
