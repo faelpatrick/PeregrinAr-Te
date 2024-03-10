@@ -91,7 +91,7 @@ h2.primeiro-texto-h2 {
     margin-top: 1rem;
     text-align: left;
     margin: auto;
-    width: 50%;
+    width: 60%;
 }
 @media screen and (max-width: 1024x) {
     img {

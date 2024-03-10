@@ -1,8 +1,7 @@
 <template>
     <v-app>
         <!-- Navigation Drawer -->
-        <v-navigation-drawer v-model="drawer" app rail :mini-variant="isMiniVariant" :expand-on-hover="expandOnHover"
-            :class="{ 'mini-variant': isMiniVariant, 'expand-on-hover': expandOnHover }" :width="width">
+        <v-navigation-drawer v-model="drawer" app rail :expand-on-hover :width="width">
             <!-- Conteúdo do Drawer -->
             <v-list dense>
                 <v-list>
@@ -14,6 +13,10 @@
                     <v-list-item v-for="item in items" :key="item.title" :prepend-icon="item.icon" :title="item.title"
                         :subtitle="item.subtitle" @click="onMenuItemClick(item)">
                     </v-list-item>
+                    <v-divider></v-divider>
+                    <v-list-item key="HOME" prepend-icon="mdi-home" title="Home" @click="goTo('/')">
+                    </v-list-item>
+
                 </v-list>
             </v-list>
         </v-navigation-drawer>
@@ -71,30 +74,28 @@
 </template>
 
 <script setup>
-import { onMounted, ref, watch } from 'vue';
+import {  ref } from 'vue';
 import Capitulo1 from './Capitulos/Capitulo1.vue';
 import Capitulo2 from './Capitulos/Capitulo2.vue';
 import Capitulo3 from './Capitulos/Capitulo3.vue';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 const activeTab = ref('tab-1');
 const drawer = ref(true);
-const isMiniVariant = ref(true);
 const expandOnHover = ref(true);
 const width = 350;
 
 
 function onMenuItemClick(item) {
     activeTab.value = item.tab;
-    drawer.value = true;
-
+    width.value = true;
 }
 
-function adjustDrawerBehavior() {
-    if (window.innerWidth <= 960) {
-   
-    } else {
-    
-    }
+function goTo(route) {
+    router.push(route);
+    drawer.value = false;
 }
 
 
@@ -115,29 +116,4 @@ const items = [
 
 </script>
 
-<style>
-.v-toolbar-title {
-    font-family: 'Island Moments';
-    font-size: 2.8rem !important;
-}
-
-.v-main {
-    background-repeat: repeat;
-    background-position: center;
-}
-
-
-
-.v-navigation-drawer__content,
-.v-bottom-navigation,
-.v-navigation-drawer,
-.v-tabs,
-.v-tab {
-    color: #ffffff;
-    background-color: #124c74;
-}
-
-.v-tab .v-icon {
-    font-size: 24px;
-}
-</style>
+<style></style>

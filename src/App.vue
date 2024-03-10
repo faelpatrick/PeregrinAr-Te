@@ -1,51 +1,74 @@
 <template>
   <v-app>
-    <v-app-bar app>
-      <v-toolbar-title>PeregrinAr-Te</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn text @click="$router.push('/')">Home</v-btn>
-      <v-btn text @click="$router.push('/primeira-edicao')">Primeira Edição</v-btn>
-    </v-app-bar>
+    <!-- Navigation Drawer para Mobile -->
+    <v-navigation-drawer v-model="drawer" app temporary v-if="isMobile">
+      <v-list dense>
+        <v-list-item @click="$router.push('/')">
+          <v-list-item-icon>
+            <v-icon>mdi-home</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>Home</v-list-item-content>
+        </v-list-item>
+        <v-list-item @click="$router.push('/primeira-edicao')">
+          <v-list-item-icon>
+            <v-icon>mdi-book-open-page-variant</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>Primeira Edição</v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
 
     <v-main>
       <router-view />
     </v-main>
+
   </v-app>
 </template>
 
-<script>
-export default {
-  name: 'App'
+
+<script setup>
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+
+const drawer = ref(false);
+const drawerTop = ref(false);
+const router = useRouter();
+
+// Função para navegar
+function goTo(route) {
+  router.push(route);
+  drawerTop.value = false; // Opcional: fecha o menu após a navegação
 }
+
+
 </script>
 
 
 <style>
 :root {
-  --primary: #124c74;
-  --secondary: #422e00;
-  --tertiary: #4f4507;
-  --accent: #ecd5af;
-  --neutralLight: #d7cfb4;
-  --background: #f6f6f6;
+  --primary-color: #124c74;
+  --secondary-color: #422e00;
+  --tertiary-color: #6c7540;
+  --accent-color: #ecd5af;
+  --neutralLight-color: #d7cfb4;
+  --background-color: #f6f6f6;
 }
 
-.v-toolbar-title {
-  font-family: 'Island Moments';
-  font-size: 2.8rem !important;
+.v-main {
+  background-image: url('./assets/bg.jpg');
+  background-repeat: repeat;
+  background-position: center;
 }
 
-
-main.v-main .v-container {
-  padding-left: 4rem;
-}
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   main.v-main .v-container {
+    padding: 0;
     padding-left: 1.5rem;
+    margin: 0;
   }
-  
+
 }
+
 .v-toolbar__content,
 .v-navigation-drawer__content,
 .v-bottom-navigation,
@@ -53,12 +76,20 @@ main.v-main .v-container {
 .v-tabs,
 .v-tab {
   color: #ffffff;
-  background-color: var(--secondary);
+  background-color: #124c74;
 }
 
-.v-tab .v-icon {
-  font-size: 24px;
+.logo-menu .v-list-item__spacer
+ {
+  padding: 0;
+  margin: 0;
 }
-
+  
+.logo-menu .v-list-item-title {
+  font-family: 'Island Moments';
+  font-size: 34px !important;
+  overflow: visible;
+  padding: 0 !important;
+}
 
 </style>
