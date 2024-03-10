@@ -1,7 +1,14 @@
 <template>
     <v-app>
         <!-- Navigation Drawer -->
-        <v-navigation-drawer v-model="drawer" app :expand-on-hover="expandOnHover" rail :width="350">
+        <v-navigation-drawer
+        v-model="drawer"
+        app 
+        rail 
+        :mini-variant="isMiniVariant"
+        :expand-on-hover="expandOnHover"
+        :class="{'mini-variant': isMiniVariant, 'expand-on-hover': expandOnHover}" 
+        :width="width">
             <!-- Conteúdo do Drawer -->
             <v-list dense>
 
@@ -70,7 +77,7 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import { isMemoSame, ref, watch } from 'vue';
 import Capitulo1 from './Capitulos/Capitulo1.vue';
 import Capitulo2 from './Capitulos/Capitulo2.vue';
 import Capitulo3 from './Capitulos/Capitulo3.vue';
