@@ -11,15 +11,14 @@
         :width="width">
             <!-- Conteúdo do Drawer -->
             <v-list dense>
-
                 <v-list>
-                    <v-list-item prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te" subtitle=""
-                        style="font-family: 'Island Moments'; font-size: 32px;">
+                    <v-list-item prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te"
+                    style="font-family: 'Island Moments'; font-size: 32px;">
                     </v-list-item>
                 </v-list>
 
                 <v-list-item v-for="item in items" :key="item.title" :prepend-icon="item.icon" :title="item.title"
-                    :subtitle="item.subtitle" @click.stop="() => { onMenuItemClick(item) }">
+                    :subtitle="item.subtitle" @click="() => { onMenuItemClick(item) }">
                 </v-list-item>
             </v-list>
         </v-navigation-drawer>
@@ -97,7 +96,24 @@ function onMenuItemClick(item) {
     }, 300); 
 }
 
+function adjustDrawerBehavior() {
+    if (window.innerWidth <= 960) {
+      isMiniVariant.value = false;
+      expandOnHover.value = false;
+      drawer.value = false;
+    } else {
+      isMiniVariant.value = true;
+      expandOnHover.value = true;
+    }
+  }
 
+
+  onMounted(() => {
+    adjustDrawerBehavior();
+    window.addEventListener('resize', adjustDrawerBehavior);
+  });
+
+  
 const items = [
     { title: 'Capitulo I', subtitle: 'Anunciação', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
     { title: 'Capitulo II', subtitle: 'Nascimento', icon: 'mdi-roman-numeral-2', tab: 'tab-2' },
