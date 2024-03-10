@@ -5,7 +5,13 @@
         <v-list-item class="logo-menu" prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te" subtitle="">
         </v-list-item>
       </v-list>
-      <v-list-item key="HOME" prepend-icon="mdi-home" title="Home" @click="$router.push('/')">
+      <v-list-item key="HOME" prepend-icon="mdi-home" title="Casa" @click="$router.push('/')">
+      </v-list-item>
+      <v-list-item key="Primeira Edição" prepend-icon="mdi-palette" title="Primeira Edição"
+        @click="$router.push('/primeira-edicao')">
+      </v-list-item>
+      <v-list-item key="Primeira Edição" prepend-icon="mdi-palette" title="Sou peregrina desde sempre!"
+        @click="$router.push('/primeira-edicao')">
       </v-list-item>
       <v-list-item key="Primeira Edição" prepend-icon="mdi-palette" title="Primeira Edição"
         @click="$router.push('/primeira-edicao')">

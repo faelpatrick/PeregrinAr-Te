@@ -7,13 +7,21 @@
           <v-list-item-icon>
             <v-icon>mdi-home</v-icon>
           </v-list-item-icon>
-          <v-list-item-content>Home</v-list-item-content>
+          <v-list-item-content>Casa</v-list-item-content>
         </v-list-item>
+
         <v-list-item @click="$router.push('/primeira-edicao')">
           <v-list-item-icon>
             <v-icon>mdi-book-open-page-variant</v-icon>
           </v-list-item-icon>
           <v-list-item-content>Primeira Edição</v-list-item-content>
+        </v-list-item>
+
+        <v-list-item @click="$router.push('/')">
+          <v-list-item-icon>
+            <v-icon>mdi-book-open-page-variant</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>Novo item</v-list-item-content>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -48,6 +56,7 @@ function goTo(route) {
 :root {
   --primary-color: #124c74;
   --secondary-color: #422e00;
+  --secondary-color2: #281d0a;
   --tertiary-color: #6c7540;
   --accent-color: #ecd5af;
   --neutralLight-color: #d7cfb4;
@@ -76,20 +85,48 @@ function goTo(route) {
 .v-tabs,
 .v-tab {
   color: #ffffff;
-  background-color: #124c74;
+  background-color: var(--primary-color);
+  overflow: visible;
+  padding: 0;
+}
+
+.v-list-item--density-default.v-list-item--one-line {
+    min-height: 8px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+
+.v-navigation-drawer__content {
+    overflow: visible !important;
 }
 
 .logo-menu .v-list-item__spacer
  {
-  padding: 0;
-  margin: 0;
+  padding: 2px;
+  margin: 2px;
 }
   
 .logo-menu .v-list-item-title {
   font-family: 'Island Moments';
-  font-size: 34px !important;
+  font-size: 30px !important;
   overflow: visible;
-  padding: 0 !important;
+  padding: 20px !important;
+}
+
+.v-list.v-theme--light.bg-transparent.v-list--density-default.v-list--one-line {
+    padding: 2px 0;
+}
+
+.v-list-item.v-list-item--link.v-theme--light.v-list-item--density-default.v-list-item--one-line.v-list-item--variant-text:nth-child(odd) {
+    background: #0d476f;
+}
+
+.v-list-item-title {
+    font-size: 9pt !important;
+}
+.v-list-item-subtitle {
+    font-size: 9pt !important;
 }
 
 </style>

@@ -1,21 +1,34 @@
 <template>
     <v-app>
         <!-- Navigation Drawer -->
-        <v-navigation-drawer v-model="drawer" app rail :expand-on-hover width="350px" :permanent="true">
+        <v-navigation-drawer v-model="drawer" app rail :expand-on-hover :permanent="true" :width="width">
             <!-- Conteúdo do Drawer -->
             <v-list dense>
                 <v-list>
+
                     <v-list-item prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te"
                         style="font-family: 'Island Moments'; font-size: 32px;">
                     </v-list-item>
+                    <v-divider></v-divider>
+                    <v-divider></v-divider>
+                    <v-list-item key="HOME" prepend-icon="mdi-home" title="Casa" @click="goTo('/')">
+                    </v-list-item>
+                    <v-list-item v-show="!capitulos" v-for="item in itemsRaiz" :key="item.title"
+                        :prepend-icon="item.icon" :title="item.title" :subtitle="item.subtitle"
+                        @click="onMenuItemClick(item)">
+                    </v-list-item>
+
+                    <v-divider></v-divider>
+                    <v-list-item key="Capitulos" prepend-icon="mdi-format-list-bulleted" title="Capitulos"
+                        @click="capitulos = !capitulos">
+                    </v-list-item>
                 </v-list>
                 <v-list>
-                    <v-list-item v-for="item in items" :key="item.title" :prepend-icon="item.icon" :title="item.title"
-                        :subtitle="item.subtitle" @click="onMenuItemClick(item)">
+
+                    <v-list-item v-show="capitulos" v-for="item in items" :key="item.title" :prepend-icon="item.icon"
+                        :title="item.title" :subtitle="item.subtitle" @click="onMenuItemClick(item)">
                     </v-list-item>
-                    <v-divider></v-divider>
-                    <v-list-item key="HOME" prepend-icon="mdi-home" title="Home" @click="goTo('/')">
-                    </v-list-item>
+
 
                 </v-list>
             </v-list>
@@ -29,6 +42,15 @@
                     <v-window v-model="activeTab">
 
                         <!-- TAB 1 - Consultar Dados da Ideia -->
+                        <v-window-item value="tab-start">
+                            Start
+                        </v-window-item>
+
+                        <v-window-item value="tab-simbol">
+                            <!-- Simbolo Coração -->
+                            <Joia />
+                        </v-window-item>
+
                         <v-window-item value="tab-1">
                             Capitulo 1
                             <capitulo1 />
@@ -63,6 +85,19 @@
                         <v-window-item value="tab-8">
                             Capitulo 8
                         </v-window-item>
+
+                        <v-window-item value="tab-8">
+                            Capitulo 9
+                        </v-window-item>
+
+                        <v-window-item value="CompanheirosDeCaminho">
+                            <!-- Capitulo 10 -->
+                            <CompanheirosDeCaminho />
+                        </v-window-item>
+
+                        <v-window-item value="tab-8">
+                            Capitulo 11
+                        </v-window-item>
                     </v-window>
                 </v-card-text>
 
@@ -74,10 +109,12 @@
 </template>
 
 <script setup>
-import {  ref } from 'vue';
+import { ref } from 'vue';
+import Joia from './Paginas/Joia.vue';
 import Capitulo1 from './Capitulos/Capitulo1.vue';
 import Capitulo2 from './Capitulos/Capitulo2.vue';
 import Capitulo3 from './Capitulos/Capitulo3.vue';
+import CompanheirosDeCaminho from './Paginas/CompanheirosDeCaminho.vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
@@ -86,6 +123,7 @@ const activeTab = ref('tab-1');
 const drawer = ref(true);
 const expandOnHover = ref(true);
 const width = 350;
+const capitulos = ref(false);
 
 
 function onMenuItemClick(item) {
@@ -102,15 +140,25 @@ function goTo(route) {
 
 
 
+const itemsRaiz = [
+    { title: 'Partida ', subtitle: 'Prefácio', icon: 'mdi-ray-start-arrow', tab: 'tab-start' },
+    { title: 'Símbolo: ', subtitle: 'Jóia CorAção em Ação ', icon: 'mdi-heart-settings-outline', tab: 'tab-simbol' },
+    { title: 'Roteiro: ', subtitle: 'Jóin via Vitae Christi', icon: 'mdi-chart-timeline', tab: 'tab-simbol' },
+];
 const items = [
-    { title: 'Capitulo I', subtitle: 'Anunciação', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
-    { title: 'Capitulo II', subtitle: 'Nascimento', icon: 'mdi-roman-numeral-2', tab: 'tab-2' },
-    { title: 'Capitulo III', subtitle: 'Autorrevelação... bodas de Caná', icon: 'mdi-roman-numeral-3', tab: 'tab-3' },
-    { title: 'Capitulo IV', subtitle: 'Última Ceia e Instituição eucarística', icon: 'mdi-roman-numeral-4', tab: 'tab-4' },
-    { title: 'Capitulo V', subtitle: 'Coroação de Espinhos e Crucifixão', icon: 'mdi-roman-numeral-5', tab: 'tab-5' },
-    { title: 'Capitulo VI', subtitle: 'Senhora Diante da Cruz  Pietá', icon: 'mdi-roman-numeral-6', tab: 'tab-6' },
-    { title: 'Capitulo VII', subtitle: 'Ressurreição', icon: 'mdi-roman-numeral-7', tab: 'tab-7' },
-    { title: 'Capitulo VIII', subtitle: 'Caminho e Ceia de Emaús', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
+    { t11: 'Capitulo I', title: 'Anunciação', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
+    { t11: 'Capitulo II', title: 'Nascimento', icon: 'mdi-roman-numeral-2', tab: 'tab-2' },
+    { t11: 'Capitulo III', title: 'Autorrevelação... bodas de Caná', icon: 'mdi-roman-numeral-3', tab: 'tab-3' },
+    { t11: 'Capitulo IV', title: 'Última Ceia e Instituição eucarística', icon: 'mdi-roman-numeral-4', tab: 'tab-4' },
+    { t11: 'Capitulo V', title: 'Coroação de Espinhos e Crucifixão', icon: 'mdi-roman-numeral-5', tab: 'tab-5' },
+    { t11: 'Capitulo VI', title: 'Senhora Diante da Cruz  Pietá', icon: 'mdi-roman-numeral-6', tab: 'tab-6' },
+    { t11: 'Capitulo VII', title: 'Ressurreição', icon: 'mdi-roman-numeral-7', tab: 'tab-7' },
+    { t11: 'Capitulo VIII', title: 'Caminho e Ceia de Emaús', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
+    { t11: 'Descanso', title: 'Exposição fotográfica ', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
+    { t11: 'Música', title: 'Exposição fotográfica ', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
+    { t11: 'Credencial', title: ' ', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
+    { t11: '', title: 'Companheiros de Caminho', icon: 'mdi-account-supervisor', tab: 'CompanheirosDeCaminho' },
+    { t11: 'Citação Final', title: ' ', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
 ]
 
 
