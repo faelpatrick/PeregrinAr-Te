@@ -1,25 +1,20 @@
 <template>
     <v-app>
         <!-- Navigation Drawer -->
-        <v-navigation-drawer
-        v-model="drawer"
-        app 
-        rail 
-        :mini-variant="isMiniVariant"
-        :expand-on-hover="expandOnHover"
-        :class="{'mini-variant': isMiniVariant, 'expand-on-hover': expandOnHover}" 
-        :width="width">
+        <v-navigation-drawer v-model="drawer" app rail :mini-variant="isMiniVariant" :expand-on-hover="expandOnHover"
+            :class="{ 'mini-variant': isMiniVariant, 'expand-on-hover': expandOnHover }" :width="width">
             <!-- Conteúdo do Drawer -->
             <v-list dense>
                 <v-list>
                     <v-list-item prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te"
-                    style="font-family: 'Island Moments'; font-size: 32px;">
+                        style="font-family: 'Island Moments'; font-size: 32px;">
                     </v-list-item>
                 </v-list>
-
-                <v-list-item v-for="item in items" :key="item.title" :prepend-icon="item.icon" :title="item.title"
-                    :subtitle="item.subtitle" @click="() => { onMenuItemClick(item) }">
-                </v-list-item>
+                <v-list>
+                    <v-list-item v-for="item in items" :key="item.title" :prepend-icon="item.icon" :title="item.title"
+                        :subtitle="item.subtitle" @click="onMenuItemClick(item)">
+                    </v-list-item>
+                </v-list>
             </v-list>
         </v-navigation-drawer>
 
@@ -76,44 +71,36 @@
 </template>
 
 <script setup>
-import { isMemoSame, ref, watch } from 'vue';
+import { onMounted, ref, watch } from 'vue';
 import Capitulo1 from './Capitulos/Capitulo1.vue';
 import Capitulo2 from './Capitulos/Capitulo2.vue';
 import Capitulo3 from './Capitulos/Capitulo3.vue';
 
 const activeTab = ref('tab-1');
-const drawer = true;
+const drawer = ref(true);
+const isMiniVariant = ref(true);
+const expandOnHover = ref(true);
+const width = 350;
 
-const mini = ref(true); // Começa como mini-variant
-const expandOnHover = ref(true); // Expandir ao passar o mouse
 
 function onMenuItemClick(item) {
     activeTab.value = item.tab;
-    expandOnHover.value = false;
+    drawer.value = true;
 
-    setTimeout(() => {
-        expandOnHover.value = true;
-    }, 300); 
 }
 
 function adjustDrawerBehavior() {
     if (window.innerWidth <= 960) {
-      isMiniVariant.value = false;
-      expandOnHover.value = false;
-      drawer.value = false;
+   
     } else {
-      isMiniVariant.value = true;
-      expandOnHover.value = true;
+    
     }
-  }
+}
 
 
-  onMounted(() => {
-    adjustDrawerBehavior();
-    window.addEventListener('resize', adjustDrawerBehavior);
-  });
 
-  
+
+
 const items = [
     { title: 'Capitulo I', subtitle: 'Anunciação', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
     { title: 'Capitulo II', subtitle: 'Nascimento', icon: 'mdi-roman-numeral-2', tab: 'tab-2' },
@@ -124,15 +111,6 @@ const items = [
     { title: 'Capitulo VII', subtitle: 'Ressurreição', icon: 'mdi-roman-numeral-7', tab: 'tab-7' },
     { title: 'Capitulo VIII', subtitle: 'Caminho e Ceia de Emaús', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
 ]
-const colors = ref({
-    primary: '#124c74',
-    secondary: '#422e00',
-    tertiary: '#6c7540',
-    accent: '#ecd5af',
-    neutralLight: '#d7cfb4',
-    background: '#f6f6f6',
-});
-
 
 
 </script>
