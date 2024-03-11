@@ -34,7 +34,6 @@
 </template>
 
 <script setup>
-import NavImg from './components/NavImg.vue';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 

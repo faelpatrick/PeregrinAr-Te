@@ -10,7 +10,6 @@
                         style="font-family: 'Island Moments'; font-size: 32px;">
                     </v-list-item>
                     <v-divider></v-divider>
-                    <v-divider></v-divider>
                     <v-list-item key="HOME" prepend-icon="mdi-home" title="Casa" @click="goTo('/')">
                     </v-list-item>
                     <v-list-item v-show="!capitulos" v-for="item in itemsRaiz" :key="item.title"
@@ -27,6 +26,12 @@
 
                     <v-list-item v-show="capitulos" v-for="item in items" :key="item.title" :prepend-icon="item.icon"
                         :title="item.title" :subtitle="item.subtitle" @click="onMenuItemClick(item)">
+                    </v-list-item>
+                    
+                    <v-divider></v-divider>
+                    <v-list-item v-show="!capitulos" v-for="item in itemsFinais" :key="item.title"
+                        :prepend-icon="item.icon" :title="item.title" :subtitle="item.subtitle"
+                        @click="onMenuItemClick(item)">
                     </v-list-item>
 
 
@@ -141,7 +146,7 @@ function goTo(route) {
 
 const itemsRaiz = [
     { title: 'Partida ', subtitle: 'Prefácio', icon: 'mdi-ray-start-arrow', tab: 'tab-start' },
-    { title: 'Jóia: ', subtitle: 'CorAção em Ação ', icon: 'mdi-heart-settings-outline', tab: 'tab-simbol' },
+    { title: 'Jóia ', subtitle: 'CorAção em Ação ', icon: 'mdi-heart-settings-outline', tab: 'tab-simbol' },
     { title: 'Roteiro: ', subtitle: 'Jóin via Vitae Christi', icon: 'mdi-chart-timeline', tab: 'tab-simbol' },
 ];
 const items = [
@@ -152,13 +157,15 @@ const items = [
     { t11: 'Capitulo V', title: 'Coroação de Espinhos e Crucifixão', icon: 'mdi-roman-numeral-5', tab: 'tab-5' },
     { t11: 'Capitulo VI', title: 'Senhora Diante da Cruz  Pietá', icon: 'mdi-roman-numeral-6', tab: 'tab-6' },
     { t11: 'Capitulo VII', title: 'Ressurreição', icon: 'mdi-roman-numeral-7', tab: 'tab-7' },
-    { t11: 'Capitulo VIII', title: 'Caminho e Ceia de Emaús', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
-    { t11: 'Descanso', title: 'Exposição fotográfica ', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
-    { t11: 'Música', title: 'Exposição fotográfica ', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
-    { t11: 'Credencial', title: ' ', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
-    { t11: '', title: 'Companheiros de Caminho', icon: 'mdi-account-supervisor', tab: 'CompanheirosDeCaminho' },
-    { t11: 'Citação Final', title: ' ', icon: 'mdi-roman-numeral-8', tab: 'tab-8' },
-]
+    { t11: 'Capitulo VIII', title: 'Caminho e Ceia de Emaús', icon: 'mdi-roman-numeral-8', tab: 'tab-8' }
+];
+const itemsFinais = [
+    { subtitle: 'Exposição fotográfica', title: 'Descanso', icon: 'mdi-pause-box-outline', tab: 'tab-9' },
+    { subtitle: 'Concerto Musical', title: 'Música ', icon: 'mdi-music-rest-sixteenth', tab: 'tab-10' },
+    { subtitle: '', title: 'Credencial ', icon: 'mdi-badge-account-horizontal-outline', tab: 'tab-11' },
+    { subtitle: '', title: 'Companheiros de Caminho', icon: 'mdi-account-supervisor', tab: 'CompanheirosDeCaminho' },
+    { subtitle: 'Citação Final', title: ' ', icon: 'mdi-ray-end', tab: 'tab-13' },
+];
 
 
 

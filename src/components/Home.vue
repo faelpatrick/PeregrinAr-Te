@@ -10,12 +10,10 @@
       <v-list-item key="Primeira Edição" prepend-icon="mdi-palette" title="Primeira Edição"
         @click="$router.push('/primeira-edicao')">
       </v-list-item>
-      <v-list-item key="Primeira Edição" prepend-icon="mdi-palette" title="Sou peregrina desde sempre!"
-        @click="$router.push('/primeira-edicao')">
+      <v-list-item key="Primeira Edição" prepend-icon="mdi-watermark" title="Patrocínio"
+        @click="onItemClick('Patrocinio')">
       </v-list-item>
-      <v-list-item key="Primeira Edição" prepend-icon="mdi-palette" title="Primeira Edição"
-        @click="$router.push('/primeira-edicao')">
-      </v-list-item>
+
 
     </v-list>
   </v-navigation-drawer>
@@ -23,24 +21,23 @@
   <!-- Conteúdo -->
   <v-main>
     <v-container>
-      Hello World
+      <v-window v-model="activeTab">
+        <v-window-item value="Patrocinio">
+          <Patrocinio />
+        </v-window-item>
+      </v-window>
     </v-container>
   </v-main>
 </template>
 
 <script setup>
 import { ref } from 'vue';
+import Patrocinio from './PrimeiraEdicao/Paginas/Patrocinio.vue';
+
+const activeTab = ref('Patrocinio');
 
 const drawer = true;
 
 </script>
 
-<style >
-
-
-
-
-
-
-
-</style>
+<style></style>

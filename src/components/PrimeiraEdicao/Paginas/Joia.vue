@@ -1,7 +1,7 @@
 <template>
 
     <div class="container v-100">
-        <v-carousel class="carousel" height="640" >
+        <v-carousel class="carousel" height="640">
             <v-carousel-item src="@/assets/imagens/joia/1.jpg"></v-carousel-item>
             <v-carousel-item src="@/assets/imagens/joia/2.jpg"></v-carousel-item>
             <v-carousel-item src="@/assets/imagens/joia/3.jpg"></v-carousel-item>
@@ -88,6 +88,11 @@ h4 {
     padding-bottom: .5rem;
 }
 
+.olhares h3 {
+    border-bottom: solid 1px var(--primary-color);
+    padding-bottom: 0px !important;
+}
+
 .carousel {
     border-radius: 15px;
     border: solid var(--primary-color) 6px;
@@ -95,7 +100,9 @@ h4 {
     margin: 0 2rem;
     margin-bottom: 2rem;
     background: #000000;
+    min-width: 500px;
 }
+
 .olhares {
     display: flex;
     flex-direction: column;
