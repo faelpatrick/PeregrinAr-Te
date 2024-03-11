@@ -5,11 +5,10 @@
             <!-- Conteúdo do Drawer -->
             <v-list dense>
                 <v-list>
-
-                    <v-list-item prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te"
-                        style="font-family: 'Island Moments'; font-size: 32px;">
+                    <v-list-item class="logo-menu" prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te" subtitle="">
                     </v-list-item>
-                    <v-divider></v-divider>
+                </v-list>
+                <v-list>
                     <v-list-item key="HOME" prepend-icon="mdi-home" title="Casa" @click="goTo('/')">
                     </v-list-item>
                     <v-list-item v-show="!capitulos" v-for="item in itemsRaiz" :key="item.title"
@@ -27,7 +26,7 @@
                     <v-list-item v-show="capitulos" v-for="item in items" :key="item.title" :prepend-icon="item.icon"
                         :title="item.title" :subtitle="item.subtitle" @click="onMenuItemClick(item)">
                     </v-list-item>
-                    
+
                     <v-divider></v-divider>
                     <v-list-item v-show="!capitulos" v-for="item in itemsFinais" :key="item.title"
                         :prepend-icon="item.icon" :title="item.title" :subtitle="item.subtitle"

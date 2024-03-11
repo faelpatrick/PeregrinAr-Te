@@ -65,12 +65,16 @@ function goTo(route) {
   background-image: url('./assets/bg.jpg');
   background-repeat: repeat;
   background-position: center;
+  padding: 0rem !important;
+}
+
+.v-list-item-title :nth-child(1) {
+  font-family: 'Island Moments';
 }
 
 @media screen and (max-width: 1024px) {
   main.v-main .v-container {
     padding: 0;
-    padding-left: .1rem;
     margin: 0;
   }
 

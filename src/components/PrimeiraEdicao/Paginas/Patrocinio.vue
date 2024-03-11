@@ -28,7 +28,7 @@ import { ref } from 'vue';
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .patrocinadores img {
@@ -37,17 +37,24 @@ import { ref } from 'vue';
     box-shadow: 0 0 10px #00000050;
 }
 
-.v-container {
-    padding: 2rem;
-    background: #f6f6f6;
-    border-radius: 15px;
-    box-shadow: 0 0 10px #00000050;
-    margin: 2rem;
-}
 
 h2 {
     color: var(--primary-color);
     padding-bottom: .5rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .patrocinadores {
+    
+        margin: 0;
+        padding: 0;
+    }
+
+    .patrocinadores img {
+        max-height: 150px;
+    }
+    
 }
 
 
