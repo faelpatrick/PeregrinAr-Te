@@ -77,6 +77,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -91,7 +92,8 @@ h4 {
     border-radius: 15px;
     border: solid var(--primary-color) 6px;
     box-shadow: 0 0 10px #00000050;
-    margin: 0 2rem 2rem 0;
+    margin: 0 2rem;
+    margin-bottom: 2rem;
     background: #000000;
 }
 .olhares {
