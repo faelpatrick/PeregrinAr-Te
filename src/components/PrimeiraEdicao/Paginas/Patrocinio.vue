@@ -1,12 +1,21 @@
 <template>
-    Patrocínio
-
-    <div class="patrocinadores">
-        <img src="@/assets/imagens/patrocinadores/imagem6.png" alt="">
-        <img src="@/assets/imagens/patrocinadores/imagem5.jpg" alt="">
-        <img src="@/assets/imagens/patrocinadores/imagem3.png" alt="">
-        <img src="@/assets/imagens/patrocinadores/imagem2.jpg" alt="">
-    </div>
+    <v-container>
+        <v-row>
+            <v-col>
+                <h2>Patrocinadores </h2>
+            </v-col>
+        </v-row>
+        <v-row>
+            <v-col>
+                <div class="patrocinadores">
+                    <img src="@/assets/imagens/patrocinadores/imagem6.png" alt="">
+                    <img src="@/assets/imagens/patrocinadores/imagem5.jpg" alt="">
+                    <img src="@/assets/imagens/patrocinadores/imagem3.png" alt="">
+                    <img src="@/assets/imagens/patrocinadores/imagem2.jpg" alt="">
+                </div>
+            </v-col>
+        </v-row>
+    </v-container>
 </template>
 
 <script setup>
@@ -27,4 +36,19 @@ import { ref } from 'vue';
     border-radius: 15px;
     box-shadow: 0 0 10px #00000050;
 }
+
+.v-container {
+    padding: 2rem;
+    background: #f6f6f6;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00000050;
+    margin: 2rem;
+}
+
+h2 {
+    color: var(--primary-color);
+    padding-bottom: .5rem;
+}
+
+
 </style>

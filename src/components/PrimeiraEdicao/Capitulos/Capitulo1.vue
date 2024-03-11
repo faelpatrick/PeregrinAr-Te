@@ -3,19 +3,11 @@
         <div class="primeiro-texto">
             <h2 class="primeiro-texto-h2">Anunciação do Arcanjo S. Gabriel a Maria</h2>
 
-            <p>Anunciação do Arcanjo S. Gabriel a Maria'</p>
-            <p>Acendam-se as estrelas nas alturas!</p>
-            <p>Abrande o Astro Rei o seu fulgor!</p>
-            <p>Escutem o convite do Arcanjo</p>
-            <p>Á Eleita Mãe do nosso Redendor.</p>
+            <p>linha</p>
             <br>
-            <p>Chegou esta alvorada de Esperança,</p>
-            <p>Depois de muitos anos de vigília.</p>
-            <p>O Verbo Se fez Carne. Veio ao mundo</p>
-            <p>E quer p´ra sempre ser nossa Família.</p>
+            <p>Linha 2</p>
             <div class="autor-texto">
                 <br>Fernando Silva
-                <br>Solenidade de Cristo Rei,
                 <br>26 de novembro de 2023
             </div>
         </div>

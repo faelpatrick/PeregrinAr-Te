@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer v-model="drawer" app temporary>
+  <v-navigation-drawer v-model="drawer" app rail :expand-on-hover :permanent="true" :width="width">
     <v-list dense>
       <v-list>
         <v-list-item class="logo-menu" prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te" subtitle="">
@@ -13,11 +13,8 @@
       <v-list-item key="Primeira Edição" prepend-icon="mdi-watermark" title="Patrocínio"
         @click="onItemClick('Patrocinio')">
       </v-list-item>
-
-
     </v-list>
   </v-navigation-drawer>
-
   <!-- Conteúdo -->
   <v-main>
     <v-container>
@@ -34,9 +31,11 @@
 import { ref } from 'vue';
 import Patrocinio from './PrimeiraEdicao/Paginas/Patrocinio.vue';
 
+const drawer = ref(true);
+const expandOnHover = ref(true);
+const width = 350;
 const activeTab = ref('Patrocinio');
 
-const drawer = true;
 
 </script>
 
