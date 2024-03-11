@@ -13,10 +13,9 @@
   </v-app>
 </template>
 
-<script>
-export default {
-  name: 'App'
-}
+<script setup>
+import NavImg from './components/NavImg.vue';
+
 </script>
 
 
