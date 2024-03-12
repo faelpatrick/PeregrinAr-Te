@@ -66,7 +66,6 @@ function goTo(route) {
   background-repeat: repeat;
   background-position: center;
   padding: 0rem !important;
-  padding-left: 2rem !important;
 }
 
 .v-list-item-title :nth-child(1) {
@@ -78,6 +77,10 @@ function goTo(route) {
     padding: 0;
     margin: 0;
   }
+
+  .v-main {
+  padding-left: 2rem !important;
+}
 
 }
 
