@@ -131,4 +131,14 @@ function goTo(route) {
     font-size: 9pt !important;
 }
 
+.v-navigation-drawer
+,.v-navigation-drawer--left
+,.v-navigation-drawer--expand-on-hover
+,.v-navigation-drawer--rail
+,.v-navigation-drawer--active
+,.v-navigation-drawer--mobile
+{
+  position: fixed !important;
+}
+
 </style>
