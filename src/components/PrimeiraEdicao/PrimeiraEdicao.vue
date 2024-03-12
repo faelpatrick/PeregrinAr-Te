@@ -55,6 +55,11 @@
                             <Joia />
                         </v-window-item>
 
+                        <!-- Partida -->
+                        <v-window-item value="tab-partida" class="container-conteudo">
+                            <Partida />
+                        </v-window-item>
+                        
                         <!-- Capitulo 1 -->
                         <v-window-item value="tab-1">
                             <capitulo1 />
@@ -113,6 +118,7 @@
 <script setup>
 import { ref } from 'vue';
 import Joia from './Paginas/Joia.vue';
+import Partida from './Capitulos/Partida.vue';
 import Capitulo1 from './Capitulos/Capitulo1.vue';
 import Capitulo2 from './Capitulos/Capitulo2.vue';
 import Capitulo3 from './Capitulos/Capitulo3.vue';
@@ -144,7 +150,7 @@ function goTo(route) {
 
 
 const itemsRaiz = [
-    { title: 'Partida ', subtitle: 'Prefácio', icon: 'mdi-ray-start-arrow', tab: 'tab-start' },
+    { title: 'Partida ', subtitle: 'Prefácio', icon: 'mdi-ray-start-arrow', tab: 'tab-partida' },
     { title: 'Jóia ', subtitle: 'CorAção em Ação ', icon: 'mdi-heart-settings-outline', tab: 'tab-simbol' },
     { title: 'Roteiro: ', subtitle: 'Jóin via Vitae Christi', icon: 'mdi-chart-timeline', tab: 'tab-simbol' },
 ];
@@ -170,4 +176,17 @@ const itemsFinais = [
 
 </script>
 
-<style></style>
+<style>
+
+.container-conteudo {
+    padding: 1rem;
+    margin: 1rem;
+    width: 98%;
+    height: 100%;
+    overflow: auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+</style>
