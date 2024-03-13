@@ -55,11 +55,16 @@
                             <Joia />
                         </v-window-item>
 
+                        <!-- Roteiro -->
+                        <v-window-item value="tab-roteiro">
+                            <Roteiro />
+                        </v-window-item>
+
                         <!-- Partida -->
                         <v-window-item value="tab-partida" class="container-conteudo">
                             <Partida />
                         </v-window-item>
-                        
+
                         <!-- Capitulo 1 -->
                         <v-window-item value="tab-1">
                             <capitulo1 />
@@ -99,6 +104,13 @@
                         <v-window-item value="tab-8">
                             <!-- Capitulo 9 -->
                         </v-window-item>
+                        <v-window-item value="tab-8">
+                            <!-- Capitulo 9 -->
+                        </v-window-item>
+
+                        <v-window-item value="tab-musica" class="container-conteudo">
+                            <Musica />
+                        </v-window-item>
 
                         <!-- Capitulo 10 -->
                         <v-window-item value="CompanheirosDeCaminho">
@@ -119,10 +131,12 @@
 import { ref } from 'vue';
 import Joia from './Paginas/Joia.vue';
 import Partida from './Capitulos/Partida.vue';
+import Roteiro from './Paginas/Roteiro.vue';
 import Capitulo1 from './Capitulos/Capitulo1.vue';
 import Capitulo2 from './Capitulos/Capitulo2.vue';
 import Capitulo3 from './Capitulos/Capitulo3.vue';
 import Capitulo4 from './Capitulos/Capitulo4.vue';
+import Musica from './Paginas/Musica.vue';
 import CompanheirosDeCaminho from './Paginas/CompanheirosDeCaminho.vue';
 import { useRouter } from 'vue-router';
 
@@ -152,7 +166,7 @@ function goTo(route) {
 const itemsRaiz = [
     { title: 'Partida ', subtitle: 'Prefácio', icon: 'mdi-ray-start-arrow', tab: 'tab-partida' },
     { title: 'Jóia ', subtitle: 'CorAção em Ação ', icon: 'mdi-heart-settings-outline', tab: 'tab-simbol' },
-    { title: 'Roteiro: ', subtitle: 'Jóin via Vitae Christi', icon: 'mdi-chart-timeline', tab: 'tab-simbol' },
+    { title: 'Roteiro: ', subtitle: 'Jóin via Vitae Christi', icon: 'mdi-chart-timeline', tab: 'tab-roteiro' },
 ];
 const items = [
     { t11: 'Capitulo I', title: 'Anunciação', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
@@ -166,7 +180,7 @@ const items = [
 ];
 const itemsFinais = [
     { subtitle: 'Exposição fotográfica', title: 'Descanso', icon: 'mdi-pause-box-outline', tab: 'tab-9' },
-    { subtitle: 'Concerto Musical', title: 'Música ', icon: 'mdi-music-rest-sixteenth', tab: 'tab-10' },
+    { subtitle: 'Concerto Musical', title: 'Música ', icon: 'mdi-music-rest-sixteenth', tab: 'tab-musica' },
     { subtitle: '', title: 'Credencial ', icon: 'mdi-badge-account-horizontal-outline', tab: 'tab-11' },
     { subtitle: '', title: 'Companheiros de Caminho', icon: 'mdi-account-supervisor', tab: 'CompanheirosDeCaminho' },
     { subtitle: 'Citação Final', title: ' ', icon: 'mdi-ray-end', tab: 'tab-13' },
@@ -177,7 +191,6 @@ const itemsFinais = [
 </script>
 
 <style>
-
 .container-conteudo {
     padding: 1rem;
     margin: 1rem;
@@ -188,5 +201,4 @@ const itemsFinais = [
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
 </style>
