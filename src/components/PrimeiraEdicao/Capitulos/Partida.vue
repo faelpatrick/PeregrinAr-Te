@@ -198,4 +198,40 @@ article p::first-letter {
     position: relative;
     top: 4px;
 }
+
+@media screen and (max-width: 1024px) {
+    main.v-main {
+        padding: 1rem !important;
+    }
+
+    h2 {
+        margin-left: 1rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .assinatura {
+        margin: .5rem;
+    }
+
+    article p::first-letter {
+        font-size: 1.5rem;
+    }
+
+    article {
+
+        padding: 10px;
+        margin: 1px;
+    }
+
+    .v-card,
+    .v-card-text {
+        padding: 2px !important;
+        margin: 2px !important;
+    }
+
+
+}
 </style>

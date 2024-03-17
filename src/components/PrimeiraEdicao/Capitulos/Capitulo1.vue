@@ -65,42 +65,55 @@
                 <img src="@/assets/imagens/anunciacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="dialog = true"
                     style="max-width: 300px; cursor: pointer;"></img>
 
-                </div>
-                <div class="img-desc">
-                    <span class="img-titulo">Anunciação I</span>
-                    <span class="img-autor">Paulo Teia</span>
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Anunciação I</span>
+                <span class="img-autor">Paulo Teia</span>
 
-                </div>
+            </div>
+            <h3>OUTRO OLHAR </h3>
+
+            <div class="autor-texto"> Maria José Morais </div>
+            <p>
+                Uma mulher menina “vestida de Sol”, o olhar especial e profundo
+                porque vai ao fundo do coração. A iluminada ou iluminadora a
+                nossa Senhora que se entrega inteiramente e adere com determinação ao ousado plano de AMOR.
+            </p>
 
 
-            <v-dialog v-model="dialog" persistent max-width="1200px">
-                <v-img src="@/assets/imagens/anunciacao.jpg" aspect-ratio="1"></v-img>
+            <br><br>
+            <hr>
+            <br><br>
+
+
+            <div class="img-container">
+                <img src="@/assets/imagens/visitacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="dialog = true"
+                    style="max-width: 300px; cursor: pointer;"></img>
+
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Anunciação I</span>
+                <span class="img-autor">Paulo Teia</span>
+
+            </div>
+            <h3>OUTRO OLHAR </h3>
+
+            <div class="autor-texto"> Maria José Morais </div>
+            <p>
+                Uma mulher menina “vestida de Sol”, o olhar especial e profundo
+                porque vai ao fundo do coração. A iluminada ou iluminadora a
+                nossa Senhora que se entrega inteiramente e adere com determinação ao ousado plano de AMOR.
+            </p>
+
+
+            <v-dialog v-model="dialog" max-width="96vw">
+                <v-btn text size="x-large" @click="dialog = false" class="d-flex">X Fechar</v-btn>
+
+                <v-img src="@/assets/imagens/visitacao.jpg" aspect-ratio="1" width="90vw"></v-img>
+
 
             </v-dialog>
 
-
-            <div class="primeiro-texto">
-                <h2 class="primeiro-texto-h2">Anunciação do Arcanjo S. Gabriel a Maria</h2>
-                <p>Anunciação do Arcanjo S. Gabriel a Maria'</p>
-                <p>Acendam-se as estrelas nas alturas!</p>
-                <p>Abrande o Astro Rei o seu fulgor!</p>
-                <p>Escutem o convite do Arcanjo</p>
-                <p>Á Eleita Mãe do nosso Redendor.</p>
-                <br>
-                <p>Chegou esta alvorada de Esperança,</p>
-                <p>Depois de muitos anos de vigília.</p>
-                <p>O Verbo Se fez Carne. Veio ao mundo</p>
-                <p>E quer p´ra sempre ser nossa Família.</p>
-                <div class="creditos">
-                    <br>Fernando Silva
-                    <br>Solenidade de Cristo Rei,
-                    <br>26 de novembro de 2023
-                </div>
-            </div>
-            <div>
-                <img src="@/assets/imagens/anunciacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="dialog = true"
-                    style="max-width: 300px; cursor: pointer;"></img>
-            </div>
         </div>
     </v-container>
 
@@ -123,9 +136,30 @@ const dialog = ref(false);
 </script>
 
 <style scoped>
+.v-dialog {
+    width: 100vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
 .v-dialog img {
     max-width: 90vw;
+    padding: 0;
+    margin: 0;
 }
+
+img.v-img__img.v-img__img--contain {
+    height: auto !important;
+    align-self: center;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    left: 0;
+}
+
+
 
 .img-container {
     display: flex;
@@ -141,29 +175,31 @@ const dialog = ref(false);
 
 .img-desc {
     display: flex;
-    flex-direction: column ;
-    justify-content:first baseline;
+    flex-direction: column;
+    justify-content: first baseline;
     align-items: left;
     width: 300px;
     text-align: left;
     padding: .1rem;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px #00000050;
+    margin-top: -3rem;
+    padding-left: 25%;
+    min-width: 100%;
+    background-color: #f6f6f6;
 }
 
 .img-titulo {
     width: 100%;
-    background-color: #f6f6f6;
     font-weight: 700;
     text-align: left;
     color: #a7834a;
+    padding-left: 1rem;
 }
 
 .img-autor {
     width: 100%;
-    background-color: #f6f6f6;
     font-weight: 600;
     text-align: left;
+    padding-left: 1rem;
     color: var(--primary-color);
 }
 
@@ -236,7 +272,6 @@ h3 {
     font-size: 1rem;
     font-weight: 500;
     margin: .6rem;
-    text-align: right;
 }
 
 .autor-texto::before {

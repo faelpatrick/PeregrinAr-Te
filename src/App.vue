@@ -74,6 +74,7 @@ console.log('Rota atual:', router.currentRoute.value.path)
   font-family: 'Island Moments';
 }
 
+
 @media screen and (max-width: 1024px) {
   main.v-main .v-container {
     padding: 0;
@@ -81,12 +82,18 @@ console.log('Rota atual:', router.currentRoute.value.path)
   }
 
   .v-main {
-    padding-left: 2rem !important;
+    padding: 0 !important;
+    padding-left: 1rem !important;
   }
 
   .container {
     flex-direction: column;
     align-items: center;
+  }
+
+  .v-card {
+    padding: 2px;
+    margin: 2px;
   }
 
   .v-card-text {
