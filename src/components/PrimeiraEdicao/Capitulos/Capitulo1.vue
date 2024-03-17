@@ -1,11 +1,18 @@
 <template>
     <v-container>
         <div class="primeiro-texto">
-            <h2 class="primeiro-texto-h2">Anunciação do Arcanjo S. Gabriel a Maria</h2>
+            <h1>Capítulo I</h1>
+            <h2>ANUNCIAÇÃO A MARIA</h2>
 
-            <p>linha</p>
+
+            <h3>Anunciação do Arcanjo S. Gabriel a Maria</h3>
             <br>
-            <p>Linha 2</p>
+            <p>O filho de Deus irá assumir a natureza humana para nos salvar. É a proposta
+                que Gabriel faz a Nossa Senhora. A resposta é afirmativa e,assim, o Redentor
+                dos homens e do mundo poderá vir ao coracão de cada um de nós para nos
+                dizer em que consiste a santidade de Deus e a santidade que Ele espera
+                de nós.
+            </p>
             <div class="autor-texto">
                 <br>Fernando Silva
                 <br>26 de novembro de 2023
@@ -87,21 +94,39 @@ img {
     border-radius: 2rem;
     box-shadow: 0 0 10px #00000050;
     margin: .1rem;
-    padding: .1rem;
+    padding: 1rem;
 }
 
-h2.primeiro-texto-h2 {
-    font-size: 1rem;
-    font-weight: 500;
+h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--primary-color);
     padding: 1rem;
-    text-align: center;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #a7834a;
+    padding: 1rem 0 0 0;
+    margin-left: 1rem;
+    text-align: left;
+    border-bottom: solid 2px var(--primary-color);
+    width: fit-content;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem;
+    text-align: left;
 }
 
 .primeiro-texto p {
     font-size: 1rem;
     font-weight: 300;
-    padding: 1rem;
-    line-height: .01;
+    padding: 1.2rem;
 }
 
 .creditos {
