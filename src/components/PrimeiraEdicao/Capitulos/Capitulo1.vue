@@ -61,10 +61,16 @@
             <br><br>
 
 
-            <div>
+            <div class="img-container">
                 <img src="@/assets/imagens/anunciacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="dialog = true"
                     style="max-width: 300px; cursor: pointer;"></img>
-            </div>
+
+                </div>
+                <div class="img-desc">
+                    <span class="img-titulo">Anunciação I</span>
+                    <span class="img-autor">Paulo Teia</span>
+
+                </div>
 
 
             <v-dialog v-model="dialog" persistent max-width="1200px">
@@ -119,6 +125,46 @@ const dialog = ref(false);
 <style scoped>
 .v-dialog img {
     max-width: 90vw;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 0px;
+    background-color: #e9decf;
+    box-shadow: inset 0 0 10px #00000050;
+    box-shadow: 0 0 10px #00000050;
+}
+
+.img-desc {
+    display: flex;
+    flex-direction: column ;
+    justify-content:first baseline;
+    align-items: left;
+    width: 300px;
+    text-align: left;
+    padding: .1rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #00000050;
+}
+
+.img-titulo {
+    width: 100%;
+    background-color: #f6f6f6;
+    font-weight: 700;
+    text-align: left;
+    color: #a7834a;
+}
+
+.img-autor {
+    width: 100%;
+    background-color: #f6f6f6;
+    font-weight: 600;
+    text-align: left;
+    color: var(--primary-color);
 }
 
 img {
