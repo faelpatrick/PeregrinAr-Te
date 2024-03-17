@@ -142,7 +142,7 @@ import { useRouter } from 'vue-router';
 
 const router = useRouter();
 
-const activeTab = ref('tab-1');
+const activeTab = ref('tab-partida');
 const drawer = ref(true);
 const expandOnHover = ref(true);
 const width = 350;

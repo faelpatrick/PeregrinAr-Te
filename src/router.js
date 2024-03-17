@@ -18,6 +18,21 @@ const routes = [
     path: '/primeira-edicao/patrocinio',
     name: 'Patrocinio',
     component: Patrocinio
+  },
+  {
+    path: '/primeira-edicao/patrocinador',
+    name: 'Patrocinio',
+    component: Patrocinio
+  },
+  {
+    path: '/patrocinio',
+    name: 'Patrocinio',
+    component: Patrocinio
+  },
+  {
+    path: '/patrocinador',
+    name: 'Patrocinio',
+    component: Patrocinio
   }
 
 ];

@@ -21,12 +21,12 @@
       <v-window v-model="activeTab">
         <v-window-item value="Casa" id="casa" class="casa text-center">
           <h1>PeregrinAr-Te</h1>
+          <h2>in via Vitae Christi</h2>
           <v-row cols="12">
             <v-col>
               <img src="@/assets/imagens/livro/capa.png" alt="">
             </v-col>
           </v-row>
-          <h2>Onde o chão pode ser ceú</h2>
           <div class="casa-info">
             <p>
               <span>PeregrinAr-Te</span> apresenta, na Semana Santa de Braga 2024, a exposição in via Vitae Christi, no
@@ -77,7 +77,9 @@
 <script setup>
 import { ref } from 'vue';
 import Patrocinio from './PrimeiraEdicao/Paginas/Patrocinio.vue';
+import { useRouter } from 'vue-router';
 
+const router = useRouter();
 const drawer = ref(true);
 const expandOnHover = ref(true);
 const width = 350;
@@ -86,6 +88,8 @@ const activeTab = ref('Casa');
 const onItemClick = (tab) => {
   activeTab.value = tab;
 }
+
+console.log('Rota atual:', router.currentRoute.value.path)
 
 </script>
 

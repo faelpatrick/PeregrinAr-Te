@@ -47,6 +47,8 @@ function goTo(route) {
   drawerTop.value = false; // Opcional: fecha o menu após a navegação
 }
 
+console.log('Rota atual:', router.currentRoute.value.path)
+
 </script>
 
 
@@ -79,9 +81,18 @@ function goTo(route) {
   }
 
   .v-main {
-  padding-left: 2rem !important;
-}
+    padding-left: 2rem !important;
+  }
 
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .v-card-text {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .v-toolbar__content,
@@ -97,22 +108,21 @@ function goTo(route) {
 }
 
 .v-list-item--density-default.v-list-item--one-line {
-    min-height: 8px !important;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
+  min-height: 8px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
 }
 
 
 .v-navigation-drawer__content {
-    overflow: visible !important;
+  overflow: visible !important;
 }
 
-.logo-menu .v-list-item__spacer
- {
+.logo-menu .v-list-item__spacer {
   padding: 2px;
   margin: 2px;
 }
-  
+
 .logo-menu .v-list-item-title {
   font-family: 'Island Moments';
   font-size: 30px !important;
@@ -121,28 +131,27 @@ function goTo(route) {
 }
 
 .v-list.v-theme--light.bg-transparent.v-list--density-default.v-list--one-line {
-    padding: 2px 0;
+  padding: 2px 0;
 }
 
 .v-list-item.v-list-item--link.v-theme--light.v-list-item--density-default.v-list-item--one-line.v-list-item--variant-text:nth-child(odd) {
-    background: #0d476f;
+  background: #0d476f;
 }
 
 .v-list-item-title {
-    font-size: 9pt !important;
-}
-.v-list-item-subtitle {
-    font-size: 9pt !important;
+  font-size: 9pt !important;
 }
 
-.v-navigation-drawer
-,.v-navigation-drawer--left
-,.v-navigation-drawer--expand-on-hover
-,.v-navigation-drawer--rail
-,.v-navigation-drawer--active
-,.v-navigation-drawer--mobile
-{
+.v-list-item-subtitle {
+  font-size: 9pt !important;
+}
+
+.v-navigation-drawer,
+.v-navigation-drawer--left,
+.v-navigation-drawer--expand-on-hover,
+.v-navigation-drawer--rail,
+.v-navigation-drawer--active,
+.v-navigation-drawer--mobile {
   position: fixed !important;
 }
-
 </style>

@@ -1,83 +1,108 @@
 <template>
 
-    <div class="container v-100">
-        <v-carousel class="carousel" height="640">
-            <v-carousel-item src="@/assets/imagens/joia/1.jpg"></v-carousel-item>
-            <v-carousel-item src="@/assets/imagens/joia/2.jpg"></v-carousel-item>
-            <v-carousel-item src="@/assets/imagens/joia/3.jpg"></v-carousel-item>
-            <v-carousel-item src="@/assets/imagens/joia/4.jpg"></v-carousel-item>
-            <v-carousel-item src="@/assets/imagens/joia/5.jpg"></v-carousel-item>
-            <v-carousel-item src="@/assets/imagens/joia/6.jpg"></v-carousel-item>
-            <v-carousel-item src="@/assets/imagens/joia/7.jpg"></v-carousel-item>
-        </v-carousel>
-
-        <div class="olhares">
-            <h2> PeregrinAr-Te in via Vitae Christi 2024</h2>
-            <hr>
-            <br>
-
-            <div class="olhar_artista">
-                <h3>
-                    O OLHAR DA ARTISTA
-                </h3>
-                <p>
-                    Este coração fala-nos dos múltiplos caminhos que a vida nos oferece e da complexidade da escolha.
-                    Reporta-nos, ainda, para os desafios da existência que, não raras vezes, nos coloca para além das
-                    fronteiras conhecidas, esses territórios onde só o Amor Divino nos pode resgatar do abismo.
-                </p>
-                <p>
-                    Tudo parte do coração e tudo se encaminha para lá, seja na dimensão corpórea, seja na dimensão
-                    espiritual. Sem ele as veias e artérias morrem.
-                </p>
-                <p class="assinatura">
-                    Sylvie Castro
-                    <span> (designer/ créditos fotográficos)</span>
-                </p>
+    <div class="container-joia v-100">
+        <h2> PeregrinAr-Te in via Vitae Christi 2024</h2>
+        <div class="container-2 v-100">
+            <div class="carousel">
+                <v-carousel height="640">
+                    <v-carousel-item src="@/assets/imagens/joia/1.jpg"></v-carousel-item>
+                    <v-carousel-item src="@/assets/imagens/joia/2.jpg"></v-carousel-item>
+                    <v-carousel-item src="@/assets/imagens/joia/3.jpg"></v-carousel-item>
+                    <v-carousel-item src="@/assets/imagens/joia/4.jpg"></v-carousel-item>
+                    <v-carousel-item src="@/assets/imagens/joia/5.jpg"></v-carousel-item>
+                    <v-carousel-item src="@/assets/imagens/joia/6.jpg"></v-carousel-item>
+                    <v-carousel-item src="@/assets/imagens/joia/7.jpg"></v-carousel-item>
+                </v-carousel>
             </div>
 
-            <div class="olhar_artista">
-                <h3>
-                    OUTRO OLHAR
-                </h3>
-                <p>
-                    Coração minhoto, jóia em prata, com fios, laços que o unem a montes, fontes e, sobretudo, ao
-                    sonho de servir as gentes.
-                </p>
-                <p class="assinatura">
-                    Isabel Vasco Costa
-                </p>
+            <div class="olhares">
+                <hr>
+                <br>
+
+                <div class="olhar_artista">
+                    <h3>
+                        O OLHAR DA ARTISTA
+                    </h3>
+
+                    <p class="assinatura">
+                        <span class="autor"> Sylvie Castro</span>
+                        <span> (designer/ créditos fotográficos)</span>
+                    </p>
+                    <p>
+                        Este coração fala-nos dos múltiplos caminhos que a vida nos oferece e da complexidade da
+                        escolha.
+                        Reporta-nos, ainda, para os desafios da existência que, não raras vezes, nos coloca para além
+                        das
+                        fronteiras conhecidas, esses territórios onde só o Amor Divino nos pode resgatar do abismo.
+                    </p>
+                    <p>
+                        Tudo parte do coração e tudo se encaminha para lá, seja na dimensão corpórea, seja na dimensão
+                        espiritual. Sem ele as veias e artérias morrem.
+                    </p>
+
+                </div>
+                <div class="olhar_artista">
+                    <h3>
+                        OUTRO OLHAR
+                    </h3>
+                    <p class="assinatura">
+                        <span class="autor">Isabel Vasco Costa</span>
+                    </p>
+                    <p>
+                        Coração minhoto, jóia em prata, com fios, laços que o unem a montes, fontes e, sobretudo, ao
+                        sonho de servir as gentes.
+                    </p>
+
+                </div>
+
+                <div class="olhar_artista">
+                    <h3>
+                        OUTRO OLHAR
+                    </h3>
+                    <p class="assinatura">
+                        <span class="autor">
+                            Teresa Nogueira
+                        </span>
+                    </p>
+                    <p>
+                        O coração estabelece o ritmo e a coerência do nosso ritmo, dentro de nós e com o Todo.
+
+                        Ele é o centro que une os nossos centros energéticos superiores, ligados ao divino, e
+                        inferiores,
+                        ligados à terra e à nossa ancestralidade. Pensar, Sentir e Materializar.
+
+                        Ele é a música, a banda sonora que conecta o nosso corpo à nossa alma.
+                    </p>
+
+                </div>
+
             </div>
-
-            <div class="olhar_artista">
-                <h3>
-                    OUTRO OLHAR
-                </h3>
-                <p>
-                    O coração estabelece o ritmo e a coerência do nosso ritmo, dentro de nós e com o Todo.
-
-                    Ele é o centro que une os nossos centros energéticos superiores, ligados ao divino, e inferiores,
-                    ligados à terra e à nossa ancestralidade. Pensar, Sentir e Materializar.
-
-                    Ele é a música, a banda sonora que conecta o nosso corpo à nossa alma.
-                </p>
-                <p class="assinatura">
-                    Teresa Nogueira
-                </p>
-            </div>
-
         </div>
     </div>
 
 </template>
 
 <style scoped>
-.container {
+.container-joia {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #00000050;
+
+}
+
+.container-2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
 }
 
 h1,
@@ -94,6 +119,8 @@ h4 {
 }
 
 .carousel {
+    background-color: #e9decf;
+
     border-radius: 15px;
     border: solid var(--primary-color) 6px;
     box-shadow: 0 0 10px #00000050;
@@ -109,10 +136,8 @@ h4 {
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0;
-    padding: 0 2rem;
     background: #f6f6f6;
     border-radius: 15px;
-    box-shadow: 0 0 10px #00000050;
     padding: 2rem;
 }
 
@@ -126,7 +151,30 @@ h4 {
 p.assinatura {
     font-size: .8rem;
     font-weight: 300;
-    text-align: right;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+span.autor {
+    font-weight: 600;
+    font-size: 1rem;
+    padding-bottom: 0px !important;
+}
+
+span.autor::after {
+    content: " ] ";
+}
+
+span.autor::before {
+    content: " [ ";
+}
+
+span.autor::after,
+span.autor::before {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #a6834a;
 }
 
 @media screen and (max-width: 1024px) {
@@ -134,5 +182,15 @@ p.assinatura {
         flex-direction: column;
         align-items: center;
     }
+
+    .v-card-text {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-joia.v-100 {
+        margin: 5px 0;
+    }
+
 }
 </style>

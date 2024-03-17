@@ -11,7 +11,9 @@
                     <img src="@/assets/imagens/patrocinadores/imagem6.png" alt="">
                     <img src="@/assets/imagens/patrocinadores/imagem5.jpg" alt="">
                     <img src="@/assets/imagens/patrocinadores/imagem3.png" alt="">
-                    <img src="@/assets/imagens/patrocinadores/imagem2.jpg" alt="">
+                    <a href="https://graficamares.pt/" alt="Graficamares" target="_blank">
+                        <img src="@/assets/imagens/patrocinadores/imagem2.jpg" alt="">
+                    </a>
                 </div>
             </v-col>
         </v-row>
