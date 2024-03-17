@@ -127,7 +127,7 @@ h4 {
     margin: 0 2rem;
     margin-bottom: 2rem;
     background: #000000;
-    min-width: 500px;
+    min-width: 300px;
 }
 
 .olhares {
@@ -178,6 +178,29 @@ span.autor::before {
 }
 
 @media screen and (max-width: 1024px) {
+
+    .olhares {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .container-2 {
+        flex-direction: column;
+        align-items: center;
+        max-width: 90% !important;
+    }
+
+    .container-2.v-100 {
+        padding: 2px !important;
+        margin: 2px !important;
+    }
+
+    .carousel {
+        margin: 0;
+        padding: 0;
+        width: 90% !important;
+    }
+
     .container {
         flex-direction: column;
         align-items: center;

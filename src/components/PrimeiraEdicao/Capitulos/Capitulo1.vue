@@ -117,11 +117,11 @@
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/anunciação 1.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
-row            style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/anunciação 1.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
 
-                    <img src="@/assets/imagens/anunciação 2.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
-                    style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/anunciação 2.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
             </div>
             <div class="img-desc">
                 <span class="img-titulo">Aconchego</span>
@@ -137,9 +137,56 @@ row            style="max-width: 300px; cursor: pointer;"></img>
                 anjo da guarda.
             </p>
 
+            <br>
+            <h3>OUTRO OLHAR</h3>
+
+            <div class="autor-texto">Mário Malheiro </div>
+            <p>
+                Poço de virtudes
+                <br> Cântaro de água viva
+                <br> Raios férteis
+                <br> Pureza de açucena velada
+                <br> Tálamo nupcial divino
+            </p>
+            <br>
+            <br>
+            <h4>O ícone em palavra</h4>
+            <p>
+                <b> Inspirado na simbologia icónica da Anunciação das pinturas medievais e renascentistas</b>
+                <br><a href="https://ler.letras.up.pt/uploads/ficheiros/9411.pdf" target="_blank">
+                    https://ler.letras.up.pt/uploads/ficheiros/9411.pdf</a>
+            </p>
+            <br><br>
+
+            <h4> Anunciação</h4>
+            <br>Poço de virtudes
+            <br>Cântaro de água viva
+            <br>Raios férteis
+            <br>Pureza de açucena velada
+            <br>Tálamo nupcial divino
+            <br>Livro sagrado
+            <br>Porta celeste
+            <br>Vaso de cristal
+            <br>Mensageiro alado
+            <br>Arcanjo de ceptro ostentado
+            <br>Sarça ardente materna
+            <br>Púrpura violácea descida sobre frágeis ombros eleitos
+            <br>Drap’d honneur guardado por 12 primaveras
+            <br>Concha em ninho do futuro divino
+            <br>Tábuas da lei em doce dossel de cetim encoberto
+            <br>Esteira de oração rubra em templo sagrado
+            <br>Janela para o horto do Éden da expiação
+            <br>«Fiat Mihi secundum verbum tuum»
+            <br>Faça-se em mim, segundo a tua vontade
+            <br>Véu do templo cosido
+            <br>Muro de Gadreel reconstruído
+            <br>Horto fechado resgatado
+
+            <div class="autor-texto"> Mário Malheiro</div>
+
 
             <v-dialog v-model="dialog" max-width="96vw">
-                <v-btn text size="x-large" @click="dialog = false" class="btnClose">X Fechar</v-btn>
+                <v-btn size="large" @click="dialog = false" class="btnClose ml-4">X</v-btn>
 
                 <v-img id="dialog-img" :src="urlImg" aspect-ratio="1" width="90vw"></v-img>
 
@@ -175,9 +222,7 @@ function mostrar(event) {
 <style scoped>
 .v-dialog {
 
-}
-
-.v-dialog img {
+    background-color: #000000e0;
 }
 
 .v-overlay__content {
@@ -216,10 +261,11 @@ function mostrar(event) {
     min-width: 100%;
     background-color: #f6f6f6;
 }
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1024px) {
     .img-desc img {
         width: 40% !important;
-}
+    }
 }
 
 .img-titulo {
@@ -285,6 +331,15 @@ h3 {
     text-align: left;
 }
 
+h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: .8rem 0 0 0px;
+    margin: 0px;
+    text-align: left;
+    color: #a7834a;
+}
+
 .primeiro-texto p {
     font-size: 1rem;
     font-weight: 300;
@@ -338,6 +393,12 @@ h3 {
 }
 
 @media screen and (max-width: 1024x) {
+
+    .btnClose {
+        font-size: .5rem;
+        padding: 1rem;
+    }
+
     img {
         max-width: 100%;
     }
