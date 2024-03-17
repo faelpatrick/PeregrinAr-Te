@@ -24,7 +24,7 @@
             </p>
             <h3> Annunciation of the Archangel Saint Gabriel to Mary</h3>
             <p>
-                The Son of God will become man to save us. This is the proposal that Gabriel
+                The Son of God will become man to save us. $event proposal that Gabriel
                 makes to Our Lady. She accepts the proposal, and thus, the Redeemer of men
                 and the world can come to the heart of each of us to tell us what the holiness
                 of God consists of and the holiness that He expects from us.
@@ -62,7 +62,7 @@
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/anunciacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="dialog = true"
+                <img src="@/assets/imagens/anunciacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
                     style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
@@ -87,29 +87,61 @@
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/visitacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="dialog = true"
+                <img src="@/assets/imagens/visitacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
                     style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
             <div class="img-desc">
-                <span class="img-titulo">Anunciação I</span>
+                <span class="img-titulo">Anunciação II</span>
                 <span class="img-autor">Paulo Teia</span>
 
             </div>
             <h3>OUTRO OLHAR </h3>
 
-            <div class="autor-texto"> Maria José Morais </div>
+            <div class="autor-texto"> Maria José Meireles </div>
             <p>
-                Uma mulher menina “vestida de Sol”, o olhar especial e profundo
-                porque vai ao fundo do coração. A iluminada ou iluminadora a
-                nossa Senhora que se entrega inteiramente e adere com determinação ao ousado plano de AMOR.
+                Regresso
+                <br> sempre
+                <br> aqui
+                <br> quando a alma
+                <br> está faminta.
+                <br> Este canto
+                <br> é alimento.
+            </p>
+
+
+
+            <br><br>
+            <hr>
+            <br><br>
+
+
+            <div class="img-container">
+                <img src="@/assets/imagens/anunciação 1.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+row            style="max-width: 300px; cursor: pointer;"></img>
+
+                    <img src="@/assets/imagens/anunciação 2.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                    style="max-width: 300px; cursor: pointer;"></img>
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Aconchego</span>
+                <span class="img-autor">Técnica Mista</span>
+
+            </div>
+            <h3>O OLHAR DA ARTISTA</h3>
+
+            <div class="autor-texto"> Nuna Poliana Magalhães </div>
+            <p>
+                A paz e a felicidade de um menino nos braços protetores
+                de uma Mãe debaixo do olhar sereno e abençoado do
+                anjo da guarda.
             </p>
 
 
             <v-dialog v-model="dialog" max-width="96vw">
-                <v-btn text size="x-large" @click="dialog = false" class="d-flex">X Fechar</v-btn>
+                <v-btn text size="x-large" @click="dialog = false" class="btnClose">X Fechar</v-btn>
 
-                <v-img src="@/assets/imagens/visitacao.jpg" aspect-ratio="1" width="90vw"></v-img>
+                <v-img id="dialog-img" :src="urlImg" aspect-ratio="1" width="90vw"></v-img>
 
 
             </v-dialog>
@@ -128,35 +160,32 @@
 <script setup>
 import { ref } from 'vue';
 
-import anunciacaoImg from '@/assets/imagens/anunciacao.jpg';
-
-
 const dialog = ref(false);
+const urlImg = ref('');
+
+function mostrar(event) {
+    urlImg.value = event.target.src;
+    console.log(urlImg.value);
+    dialog.value = true;
+}
+
 
 </script>
 
 <style scoped>
 .v-dialog {
-    width: 100vw;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+
 }
 
 .v-dialog img {
-    max-width: 90vw;
-    padding: 0;
-    margin: 0;
 }
 
-img.v-img__img.v-img__img--contain {
-    height: auto !important;
-    align-self: center;
-    text-align: center;
-    position: absolute;
-    top: 10px;
-    right: 0;
-    left: 0;
+.v-overlay__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -164,7 +193,8 @@ img.v-img__img.v-img__img--contain {
 .img-container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     margin: 2rem 0;
     gap: 0px;
@@ -182,9 +212,14 @@ img.v-img__img.v-img__img--contain {
     text-align: left;
     padding: .1rem;
     margin-top: -3rem;
-    padding-left: 25%;
+    padding-left: 30%;
     min-width: 100%;
     background-color: #f6f6f6;
+}
+@media screen and (max-width: 1024px){
+    .img-desc img {
+        width: 40% !important;
+}
 }
 
 .img-titulo {
@@ -290,6 +325,18 @@ h3 {
     top: 1px;
 }
 
+.btnClose {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #a7834a;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0;
+    z-index: 9999999999;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1024x) {
     img {
         max-width: 100%;
@@ -299,6 +346,7 @@ h3 {
         font-size: 1rem;
         padding: 2px;
     }
+
 
 
 }

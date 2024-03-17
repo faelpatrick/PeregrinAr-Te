@@ -81,6 +81,16 @@ console.log('Rota atual:', router.currentRoute.value.path)
     margin: 0;
   }
 
+  article {
+    border-radius: 0px !important;
+    }
+    article:first-of-type {
+      border-radius: 20px 20px 0px 0px !important;
+    } 
+    article:last-of-type {
+      border-radius: 0px 0px 20px 20px !important;
+    }
+
   .v-main {
     padding: 0 !important;
     padding-left: 1rem !important;
