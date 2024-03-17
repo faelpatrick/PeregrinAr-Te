@@ -20,15 +20,13 @@
     <v-container>
       <v-window v-model="activeTab">
         <v-window-item value="Casa" id="casa" class="casa text-center">
-          <h2>Onde o chão pode ser ceú</h2>
+          <h1>PeregrinAr-Te</h1>
           <v-row cols="12">
             <v-col>
-              <img src="@/assets/imagens/livro/capa.jpg" alt="">
-            </v-col>
-            <v-col>
-              <img src="@/assets/imagens/livro/contracapa.jpg" alt="">
+              <img src="@/assets/imagens/livro/capa.png" alt="">
             </v-col>
           </v-row>
+          <h2>Onde o chão pode ser ceú</h2>
           <div class="casa-info">
             <p>
               <span>PeregrinAr-Te</span> apresenta, na Semana Santa de Braga 2024, a exposição in via Vitae Christi, no
@@ -91,7 +89,20 @@ const onItemClick = (tab) => {
 
 </script>
 
-<style>
+<style scoped>
+#casa {
+  border: 4px solid var(--primary-color);
+}
+
+#casa h1 {
+  font-family: 'Island Moments', serif;
+  font-size: 52pt;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: var(--primary-color);
+} 
+
 #casa h2 {
   font-family: 'Island Moments', serif;
   font-size: 42pt;
@@ -107,7 +118,8 @@ const onItemClick = (tab) => {
   margin: 1rem 0 0 0;
 }
 
-#casa, #patrocinio {
+#casa,
+#patrocinio {
   font-size: x-large;
   background-color: #fff;
   padding: 2rem;
@@ -144,14 +156,17 @@ const onItemClick = (tab) => {
 
 @media only screen and (max-width: 1024px) {
 
-  #casa, #patrocinio {
+  #casa,
+  #patrocinio {
     margin-right: 2%;
     margin-left: 0 !important;
     padding-left: 0 !important;
   }
-  #casa img, #patrocinio img {
+
+  #casa img,
+  #patrocinio img {
     max-width: 90%;
   }
-  
+
 }
 </style>
