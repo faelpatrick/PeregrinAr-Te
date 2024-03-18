@@ -221,7 +221,6 @@ function mostrar(event) {
 
 <style scoped>
 .v-dialog {
-
     background-color: #000000e0;
 }
 
@@ -232,8 +231,6 @@ function mostrar(event) {
     margin: 0;
     padding: 0;
 }
-
-
 
 .img-container {
     display: flex;

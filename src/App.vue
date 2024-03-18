@@ -83,6 +83,12 @@ main.v-main {
   padding-left: 1.8rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .primeiro-texto {
+    padding: 4rem !important;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   main.v-main {
     padding-left: 2rem !important;
