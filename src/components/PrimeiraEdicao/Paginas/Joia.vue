@@ -12,6 +12,7 @@
                     <v-carousel-item src="@/assets/imagens/joia/5.jpg"></v-carousel-item>
                     <v-carousel-item src="@/assets/imagens/joia/6.jpg"></v-carousel-item>
                     <v-carousel-item src="@/assets/imagens/joia/7.jpg"></v-carousel-item>
+                    <v-carousel-item src="@/assets/imagens/joia/8.jpg"></v-carousel-item>
                 </v-carousel>
             </div>
 
