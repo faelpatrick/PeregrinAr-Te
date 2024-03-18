@@ -70,15 +70,48 @@ console.log('Rota atual:', router.currentRoute.value.path)
   padding: 0rem !important;
 }
 
+main.v-main {
+  margin-left: 1.5rem;
+}
+
 .v-list-item-title :nth-child(1) {
   font-family: 'Island Moments';
 }
 
+.v-container.v-locale--is-ltr {
+  max-width: 98vw;
+  padding-left: 1.8rem;
+}
 
 @media screen and (max-width: 1024px) {
+  main.v-main {
+    padding-left: 2rem !important;
+  }
+
   main.v-main .v-container {
     padding: 0;
     margin: 0;
+  }
+
+  #casa h1 {
+    font-size: 3rem !important;
+  }
+
+  #casa h2 {
+    font-size: 2rem !important;
+  }
+
+  #casa img[data-v-08e32229] {
+    width: 100% !important;
+    height: 200px;
+  }
+
+  .patrocinadores {
+    margin-left: 2rem !important;
+  }
+
+  .patrocinio img {
+    max-width: 70vw;
   }
 
   article {

@@ -122,12 +122,16 @@ console.log('Rota atual:', router.currentRoute.value.path)
   margin: 1rem 0 0 0;
 }
 
+#casa{
+}
+
 #casa,
 #patrocinio {
   font-size: x-large;
   background-color: #fff;
   padding: 2rem;
   margin-right: 1rem;
+  margin-left: 2rem;
   border-radius: 17px;
 }
 

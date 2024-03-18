@@ -200,9 +200,7 @@ article p::first-letter {
 }
 
 @media screen and (max-width: 1024px) {
-    main.v-main {
-        padding: 1rem !important;
-    }
+
 
     h2 {
         margin-left: 1rem;
@@ -225,13 +223,5 @@ article p::first-letter {
         padding: 10px;
         margin: 1px;
     }
-
-    .v-card,
-    .v-card-text {
-        padding: 2px !important;
-        margin: 2px !important;
-    }
-
-
 }
 </style>
