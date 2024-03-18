@@ -83,13 +83,15 @@ console.log('Rota atual:', router.currentRoute.value.path)
 
   article {
     border-radius: 0px !important;
-    }
-    article:first-of-type {
-      border-radius: 20px 20px 0px 0px !important;
-    } 
-    article:last-of-type {
-      border-radius: 0px 0px 20px 20px !important;
-    }
+  }
+
+  article:first-of-type {
+    border-radius: 20px 20px 0px 0px !important;
+  }
+
+  article:last-of-type {
+    border-radius: 0px 0px 20px 20px !important;
+  }
 
   .v-main {
     padding: 0 !important;
@@ -130,6 +132,9 @@ console.log('Rota atual:', router.currentRoute.value.path)
   padding-bottom: 8px !important;
 }
 
+.v-container.v-locale--is-ltr {
+  padding: 2px;
+}
 
 .v-navigation-drawer__content {
   overflow: visible !important;
