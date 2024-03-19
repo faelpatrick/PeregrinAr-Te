@@ -83,9 +83,68 @@ main.v-main {
   padding-left: 1.8rem;
 }
 
+
+.primeiro-texto {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f6f6f6;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px #00000050;
+    margin: .1rem;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding: 1rem;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #a7834a;
+    padding: 1rem 0 0 0;
+    margin-left: 1rem;
+    margin-bottom: .6rem;
+    /* text-align: left; */
+    border-bottom: solid 2px var(--primary-color);
+    width: fit-content;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .8rem 0 0 0px;
+    margin: 0px;
+    /* text-align: left; */
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: .8rem 0 0 0px;
+    margin: 0px;
+    /* text-align: left; */
+    color: #a7834a;
+}
+
+.primeiro-texto p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 4px;
+    margin: 0;
+    text-align: justify;
+    /* border: solid 1px #00000050; */
+    width: fit-content;
+    margin: auto;
+}
+
 @media screen and (min-width: 1024px) {
   .primeiro-texto {
     padding: 4rem !important;
+    text-align: center;
   }
 }
 
