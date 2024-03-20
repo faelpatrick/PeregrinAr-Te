@@ -543,9 +543,91 @@
             <br>
             <br>
 
-            RECEITA
-DE
-NATAL
+            <div class="receita-natal">
+                <h2> RECEITA DE NATAL </h2>
+                <div>
+                    <p>
+                        <br> Pega no teu coração.
+                        <br> Será ele a tigela p’ra receber a punção.
+                        <br> Deita-lhe alguns sorrisos
+                        <br> bonitos, mas não altivos.
+                        <br> Bate bem para que saiam do fundo
+                        <br> e se voltem para o Mundo.
+                        <br> Junta bastante carinho
+                        <br> para que o doce fique docinho.
+                        <br> Uma boa dose de amabilidade,
+                        <br> outra igual de caridade.
+                        <br> Vinte doses de solidariedade,
+                        <br> outras tantas de compreensão.
+                        <br> De dádivas e de perdão.
+                        <br> Não ponhas sal, que faz muito mal.
+                        <br> Deita-lhe frutos maduros
+                        <br> assim puros
+                        <br> como vêm da Natureza
+                        <br> e colocas na tua mesa.
+                        <br> Paciência e Amor,
+                        <br> põe bastante,
+                        <br> por favor.
+                        <br> Mas não sejas negligente:
+                        <br> Vai batendo e acrescentando sempre
+                        <br> Boas pitadas de inteligência,
+                        <br> Outras tantas de prudência.
+                        <br> Atenção,
+                        <br> Tens na mão,
+                        <br> Não dizeres ou não fazeres
+                        <br> O que julgues sem razão.
+                        <br> Todo o cuidado é pouco.
+                        <br> Mexe devagarinho
+                        <br> Para que tudo fique juntinho.
+                        <br> Não esqueças de acrescentar
+                        <br> Qualquer destas coisinhas
+                        <br> Que esteja a acabar.
+                        <br> Dia-a-dia, hora a hora,
+                        <br> Minuto a minuto
+                        <br> Ou na fracção do segundo.
+                        <br>
+                        <br> E será Natal no mundo
+                        <br> Onde tu estiveres e esta receita fizeres
+                        <br> E a toda a gente a deres.
+                        <br> Passa palavra!
+                        <br> É receita da minha lavra,
+                        <br> mas sei que resulta!
+                        <br> Ah! Já me esquecia!
+                        <br> Regista no papel:
+                        <br> Regar com molho de mel
+                        <br> Quanto baste.
+                        <br> Mexer bem mexidinho,
+                        <br> Devagarinho,
+                        <br> Para que o doce fique bem docinho.
+                        <br> Dá a provar a toda a gente
+                        <br> - mesmo que te seja indiferente!
+                        <br> Que comam à vontade!
+                        <br> A tua bondade,
+                        <br> Sem desplante,
+                        <br> Fará mais, num instante.
+                        <br> Será doce sempre pronto
+                        <br> Na tigela do coração!
+                        <br> Estará sempre à mão.
+                        <br> Então, se tu quiseres
+                        <br> E assim fizeres,
+                        <br> Haverá em todos os corações,
+                        <br> Mesmo nos mais resmungões,
+                        <br> Um coração de Natal.
+                        <br> Sempre.
+                        <br> Dia-a-dia,
+                        <br> Hora a hora,
+                        <br> Minuto a minuto
+                        <br> E na fracção do segundo.
+                        <br> Será Natal em todo o Mundo!
+                    </p>
+
+                    <div class="text-right">
+                        <div class="autor-texto">Maria do Céu Nogueira</div>
+                        In Natal, Florilégio
+                    </div>
+                </div>
+            </div>
+
             <v-dialog v-model="dialog" max-width="96vw">
                 <v-btn size="large" @click="dialog = false" class="btnClose ml-4">X</v-btn>
 
@@ -620,7 +702,25 @@ function mostrar(event) {
     background-color: #f6f6f6;
 }
 
+.receita-natal {
+    background-color: #d6c4a8;
+    border-radius: 15px;
+    display: flex;
+}
+
+.receita-natal h2 {
+    text-align: center;
+    color: #89192c;
+    padding-top: 1.8rem;
+}
+
 @media screen and (max-width: 1024px) {
+    .receita-natal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .img-desc img {
         width: 40% !important;
     }
