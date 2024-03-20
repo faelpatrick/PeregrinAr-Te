@@ -545,7 +545,7 @@
 
             <div class="receita-natal">
                 <h2> RECEITA DE NATAL </h2>
-                <div>
+                <div class="receita-texto">
                     <p>
                         <br> Pega no teu coração.
                         <br> Será ele a tigela p’ra receber a punção.
@@ -706,12 +706,21 @@ function mostrar(event) {
     background-color: #d6c4a8;
     border-radius: 15px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
 }
 
 .receita-natal h2 {
     text-align: center;
     color: #89192c;
     padding-top: 1.8rem;
+    border: none;
+}
+
+.receita-texto {
+    max-resolution: auto;
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
