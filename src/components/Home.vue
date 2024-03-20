@@ -7,7 +7,7 @@
       </v-list>
       <v-list-item key="HOME" prepend-icon="mdi-home" title="Casa" @click="onItemClick('Casa')">
       </v-list-item>
-      <v-list-item key="Primeira Edição" prepend-icon="mdi-palette" title="Primeira Edição"
+      <v-list-item key="Primeira Edição" prepend-icon="mdi-book-open-page-variant" title="Primeira Edição"
         @click="$router.push('/primeira-edicao')">
       </v-list-item>
       <v-list-item key="Primeira Edição" prepend-icon="mdi-watermark" title="Patrocínio"
@@ -20,13 +20,14 @@
     <v-container>
       <v-window v-model="activeTab">
         <v-window-item value="Casa" id="casa" class="casa text-center">
-          <h1>PeregrinAr-Te</h1>
-          <h2>in via Vitae Christi</h2>
+          
           <v-row cols="12">
             <v-col>
-              <img src="@/assets/imagens/livro/capa.png" alt="">
+              <img src="/src/assets/peregrinarte.png" alt="">
             </v-col>
           </v-row>
+            <h2 class="d-flex text-center justify-center mx-auto">in via Vitae Christi</h2>
+
           <div class="casa-info">
             <p>
               <span>PeregrinAr-Te</span> apresenta, na Semana Santa de Braga 2024, a exposição in via Vitae Christi, no
@@ -122,8 +123,6 @@ console.log('Rota atual:', router.currentRoute.value.path)
   margin: 1rem 0 0 0;
 }
 
-#casa{
-}
 
 #casa,
 #patrocinio {
@@ -140,7 +139,7 @@ console.log('Rota atual:', router.currentRoute.value.path)
   height: 300px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6), -5px 0 15px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  transform: rotate(-2deg);
+  /* transform: rotate(-2deg); */
   margin: 20px;
 }
 

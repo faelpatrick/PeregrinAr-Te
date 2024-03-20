@@ -1,6 +1,6 @@
 <template>
     <div class="banner text-center">
-        <img src="@/assets/perehgrinarte.png" alt="" class="w-75 h-100">
+        <img src="/src/assets/peregrinarte.png" alt="" class="w-75 h-100">
     </div>
     <div class="box_title">
         <h2>Companheiros de Caminho</h2>

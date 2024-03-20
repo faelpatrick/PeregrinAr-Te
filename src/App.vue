@@ -30,12 +30,16 @@
       <router-view />
     </v-main>
 
+    <!-- Alterar cores do Site -->
+   
+    <AlterarCoresSite />
   </v-app>
 </template>
 
 <script setup>
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
+import AlterarCoresSite from './components/Cores/AlterarCoresSite.vue';
 
 const drawer = ref(false);
 const drawerTop = ref(false);
@@ -55,6 +59,8 @@ console.log('Rota atual:', router.currentRoute.value.path)
 <style>
 :root {
   --primary-color: #124c74;
+  --menu-bg-color: #124c74;
+  --menu-text-color: #d6c4a8;
   --secondary-color: #422e00;
   --secondary-color2: #281d0a;
   --tertiary-color: #6c7540;
@@ -218,10 +224,19 @@ h4 {
 .v-navigation-drawer,
 .v-tabs,
 .v-tab {
-  color: #ffffff;
-  background-color: var(--primary-color);
+  /* color: #ffffff; */
+  /* color: var(--primary-color); */
+  /* text-shadow: 0 1px 1px var(--primary-color); */
+  /* color: #88162b;
+  background-color: var(--primary-color-menu) !important; */
+  color: var(--menu-text-color);
+  background-color: var(--menu-bg-color) !important;
   overflow: visible;
   padding: 0;
+}
+
+.v-list:nth-child(odd) {
+  background: var(--primary-color-menu);
 }
 
 .v-list-item--density-default.v-list-item--one-line {
@@ -252,10 +267,6 @@ h4 {
 
 .v-list.v-theme--light.bg-transparent.v-list--density-default.v-list--one-line {
   padding: 2px 0;
-}
-
-.v-list-item.v-list-item--link.v-theme--light.v-list-item--density-default.v-list-item--one-line.v-list-item--variant-text:nth-child(odd) {
-  background: #0d476f;
 }
 
 .v-list-item-title {

@@ -16,8 +16,12 @@
                     </v-list-item>
 
                     <v-divider></v-divider>
-                    <v-list-item key="etapas" prepend-icon="mdi-format-list-bulleted" title="Etapas"
-                       subtitle="Etapas I a VIII" @click="etapas = !etapas">
+                    <v-list-item
+                    key="etapas"
+                    prepend-icon="mdi-format-list-bulleted"
+                    title="Etapas"
+                    subtitle="Etapas I a VIII" 
+                    @click="etapas = !etapas">
                     </v-list-item>
                 </v-list>
                 <v-list>
