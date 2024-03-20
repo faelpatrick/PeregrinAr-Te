@@ -57,9 +57,6 @@
                 </div>
 
                 <div class="olhar_artista">
-                    <h3>
-                        OUTRO OLHAR
-                    </h3>
                     <p class="assinatura">
                         <span class="autor">
                             Teresa Nogueira
@@ -73,6 +70,23 @@
                         ligados à terra e à nossa ancestralidade. Pensar, Sentir e Materializar.
 
                         Ele é a música, a banda sonora que conecta o nosso corpo à nossa alma.
+                    </p>
+
+                </div>
+
+                <div class="olhar_artista">
+                    <p class="assinatura">
+                        <span class="autor">Maria José Morais </span>
+                    </p>
+                    <p>
+                        <b><i>Coração em Ação</i></b> é o ícone deste grupo de companheiros de Caminho. <br>
+                        Nesta 1.a edição de <i>PeregrinAr-Te</i>, escolhe-se olhar com o coração
+
+                        etapas da vida de Cristo, em direção a caminhos de encontro, acei-
+                        tação, perdão, libertação...Ação! <br>
+
+                        O Coração é lugar de encontro e rampa de lançamento para o espetá-
+                        culo incomensurável da vida.
                     </p>
 
                 </div>
