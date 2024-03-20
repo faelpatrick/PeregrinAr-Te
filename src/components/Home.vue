@@ -173,8 +173,8 @@ console.log('Rota atual:', router.currentRoute.value.path)
 
   #patrocinio {
     margin-right: 2%;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+    margin-left: 1rem !important;
+    padding-left: 1rem !important;
   }
 
   #casa img,
@@ -187,6 +187,15 @@ console.log('Rota atual:', router.currentRoute.value.path)
     margin-right: 2%;
     margin-left: 0 !important;
   }
+  #casa h4 {
+    font-size: 1.5rem !important;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  #casa p {
+    margin-top: 0px;
+    padding-top: 0px;
+  } 
 
 }
 </style>
