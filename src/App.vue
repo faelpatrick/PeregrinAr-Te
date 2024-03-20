@@ -156,7 +156,7 @@ h4 {
 
 @media screen and (max-width: 1024px) {
   main.v-main {
-    padding-left: 2rem !important;
+    padding-left: 0rem !important;
   }
 
   main.v-main .v-container {
