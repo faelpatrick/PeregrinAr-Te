@@ -163,7 +163,7 @@ console.log('Rota atual:', router.currentRoute.value.path)
 
 .peregrinarte-logo {
   max-width: 90%;
-  height: 100%;
+  height: auto !important;
 }
 
 @media only screen and (max-width: 1024px) {
