@@ -6,14 +6,14 @@
             </template>
 
             <v-list>
-                <v-list-item @click="mudarCorSite('Azul')">
+                <v-list-item class="azul" @click="mudarCorSite('Azul')">
                     <v-list-item-title>Azul</v-list-item-title>
                 </v-list-item>
-                <v-list-item>
-                    <v-list-item-title @click="mudarCorSite('Castanho')">Castanho</v-list-item-title>
+                <v-list-item class="castanho" @click="mudarCorSite('Castanho')">
+                    <v-list-item-title>Castanho</v-list-item-title>
                 </v-list-item>
-                <v-list-item>
-                    <v-list-item-title @click="mudarCorSite('Vermelho')">Vermelho</v-list-item-title>
+                <v-list-item class="vermelho" @click="mudarCorSite('Vermelho')">
+                    <v-list-item-title>Vermelho</v-list-item-title>
                 </v-list-item>
             </v-list>
         </v-menu>
@@ -67,4 +67,21 @@ function mudarCorSite(color) {
     background-color: var(--menu-bg-color) !important;
     color: var(--menu-text-color) !important;
 }
+
+.azul {
+    background-color: #124c74 !important;
+    color: #ffffff !important;
+}
+
+.castanho {
+    background-color: #e9decf !important;
+    color: #000000 !important;
+}   
+
+.vermelho {
+    background-color: #622f31 !important;
+    color: #ffffff !important;
+}
+
+
 </style>
