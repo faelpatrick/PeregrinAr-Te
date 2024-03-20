@@ -20,13 +20,13 @@
     <v-container>
       <v-window v-model="activeTab">
         <v-window-item value="Casa" id="casa" class="casa text-center">
-          
+
           <v-row cols="12">
             <v-col>
-              <img src="/src/assets/peregrinarte.png" alt="">
+              <img src="/src/assets/peregrinarte.png" class="peregrinarte-logo" alt="">
             </v-col>
           </v-row>
-            <h2 class="d-flex text-center justify-center mx-auto">in via Vitae Christi</h2>
+          <h2 class="d-flex text-center justify-center mx-auto">in via Vitae Christi</h2>
 
           <div class="casa-info">
             <p>
@@ -106,7 +106,7 @@ console.log('Rota atual:', router.currentRoute.value.path)
   padding: 0;
   margin: 0;
   color: var(--primary-color);
-} 
+}
 
 #casa h2 {
   font-family: 'Island Moments', serif;
@@ -161,7 +161,14 @@ console.log('Rota atual:', router.currentRoute.value.path)
   }
 }
 
+.peregrinarte-logo {
+  max-width: 90%;
+}
+
 @media only screen and (max-width: 1024px) {
+  .peregrinarte-logo {
+    max-width: 80%;
+  }
 
   #casa,
   #patrocinio {
