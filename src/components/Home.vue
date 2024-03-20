@@ -171,7 +171,6 @@ console.log('Rota atual:', router.currentRoute.value.path)
     max-width: 80%;
   }
 
-  #casa,
   #patrocinio {
     margin-right: 2%;
     margin-left: 0 !important;
@@ -181,6 +180,12 @@ console.log('Rota atual:', router.currentRoute.value.path)
   #casa img,
   #patrocinio img {
     max-width: 90%;
+  }
+
+  #casa {
+    padding-left: 2rem !important;
+    margin-right: 2%;
+    margin-left: 0 !important;
   }
 
 }
