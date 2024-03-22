@@ -33,6 +33,7 @@
     <!-- Alterar cores do Site -->
    
     <AlterarCoresSite />
+    <footer>Desenvolvido por <a href="https://linktr.ee/faelpatrick" target="_blank">Rafael Patrick</a> </footer>
   </v-app>
 </template>
 
