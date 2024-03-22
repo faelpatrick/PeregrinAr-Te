@@ -90,18 +90,22 @@
 
                         <v-window-item value="tab-5">
                             <!-- Etapa 5 -->
+                            <etapa5 />
                         </v-window-item>
 
                         <v-window-item value="tab-6">
                             <!-- Etapa 6 -->
+                            <etapa6 />
                         </v-window-item>
 
                         <v-window-item value="tab-7">
                             <!-- Etapa 7 -->
+                            <etapa7 />
                         </v-window-item>
 
                         <v-window-item value="tab-8">
                             <!-- Etapa 8 -->
+                            <etapa8 />
                         </v-window-item>
 
                         <v-window-item value="tab-8">
@@ -139,6 +143,10 @@ import Etapa1 from './Etapas/Etapa1.vue';
 import Etapa2 from './Etapas/Etapa2.vue';
 import Etapa3 from './Etapas/Etapa3.vue';
 import Etapa4 from './Etapas/Etapa4.vue';
+import Etapa5 from './Etapas/Etapa5.vue';
+import Etapa6 from './Etapas/Etapa6.vue';
+import Etapa7 from './Etapas/Etapa7.vue';
+import Etapa8 from './Etapas/Etapa8.vue';
 import Musica from './Paginas/Musica.vue';
 import CompanheirosDeCaminho from './Paginas/CompanheirosDeCaminho.vue';
 import { useRouter } from 'vue-router';
