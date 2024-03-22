@@ -285,4 +285,10 @@ h4 {
 .v-navigation-drawer--mobile {
   position: fixed !important;
 }
+
+.text-right {
+    text-align: right !important;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
 </style>

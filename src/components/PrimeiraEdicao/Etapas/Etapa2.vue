@@ -720,7 +720,7 @@ function mostrar(event) {
 
 .receita-texto {
     max-resolution: auto;
-    width: 100%;
+    width: 60%;
 }
 
 @media screen and (max-width: 1024px) {
