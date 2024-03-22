@@ -2,76 +2,74 @@
     <v-container>
         <div class="primeiro-texto">
             <h1>Capítulo V</h1>
-            <h2>COROAÇÃO DE ESPINHOS;<br>
+            <h2 class="text-left">COROAÇÃO DE ESPINHOS;<br>
                 CRUCIFIXÃO E MORTE DE JESUS</h2>
 
 
-            <h3>Presépio</h3>
-            <p>“Que pena tenho porque em Belém não há amor na pousada para o Amor que
-                vem” Jesus nasce num curral, aposento de animais. <br>
-                Os pastores vão apressados contemplar o Deus-Menino aconchegado em
-                paninhos e reclinado numa manjedoura. Com eles, nós também ficamos
-                pasmados perante tamanha bondade de Deus.
+            <h3>Coroação de espinhos. Crucifixão. Morte de Jesus</h3>
+            <p>O Rei dos judeus é coroado de espinhos. É vestido com um manto sujo e roto
+                e entregam-lhe uma cana verde para fazer de cetro. Cospem-lhe no rosto.
+                Depois de três horas de longa e dolorosa agonia morrerá suspenso numa
+                Cruz, com os braços abertos em gesto de sacerdote eterno.
 
             </p>
 
 
-            <h3>Adoração dos Magos. Fuga para o Egito </h3>
+            <h3>La corona de espinos. Crucifixión. Muerte de Jesús </h3>
             <p>
-                A viagem foi longa. A estrela ocultou-se algumas vezes. Eles não desistem,
-                superando os incómodos e o cansaço, e continuam o seu caminhar até chegar
-                à meta desejada. <br>
-                Oferecem-lhe ao nascido Rei dos judeus ouro incenso e mirra, presentes que
-                correspondem à sua dignidade. <br>
-                Depois devem fugir para o Egito. Herodes não admite adversários. Morrem
+                Al Rey de los judios se le corona con espinos. Está vestido con un manto
+                sucio y roto. Le entregan una caña verde como si fuera un cetro. Le escupen
+                en la cara. Después de tres horas de larga y dolorosa agonía morirá suspendido en una Cruz, com los
+                brazos abiertos en gesto de sacerdote eterno.
                 muitas crianças inocentes. Jesus viverá a experiência dos migrantes e deslocados. <br>
             </p>
-            <h3>El nacimiento</h3>
+            <h3>Crown of thorns. Crucifixion. Death of Jesus.</h3>
             <p>
-                Tengo una gran pena porque en Belén no hay amor en la posada para el
-                Amor que está llegando”. Jesús nace en un corral, lugar para animales. Los
-                pastores vienen com prisa para contemplar al Niño-Dios envuelto en pañales
-                y reclinado en un pesebre. Con ellos también nosotros nos quedamos maravillados ante tanta bondad de
-                Dios.
+                The King of the Jews is crowned with thorns. He is dressed in a dirty and torn
+                cloak, and they give him a green cane to serve as a scepter. They spit on his
+                face.
+                After three hours of long and painful agony, he will die suspended on a Cross,
+                with his arms open in the gesture of the eternal priest.
             </p>
-            <h3>Adoración de los Magos. Huída para Egipto</h3>
+            <div class="text-right">
+                <div class="autor-texto">Jesus Gomez-Pablos e Ana Alves</div>
+            </div>
+            <br>
+            <h3>Coroação de espinhos</h3>
             <p>
-                El viaje fue largo. La estrella se ocultó algunas veces. Ellos no desisten, superando las incomodidades
-                y el cansancio, continuando su caminar hasta llegar
-                a la meta deseada. Le ofrecen al nacido Rey de los judios oro, incienso y mirra,
-                regalos que corresponden a su dignidad. Después deberán huir para Egipto.
-                Herodes no admite adversarios. Mueren muchos niños inocentes. Jesús vivirá
-                la experiencia de los emigrantes y desplazados.
+                Flagelaram Jesus; deram-Lhe espinhos.
+                <br>E cobrem-Lhe um farrapo roto e sujo.
+                <br>Coroam-n’O de espinhos, como escárneo,
+                <br>E fazem d’Ele trapo e vil, rabujo...
+                <br>Escarram-Lhe no rosto, com desprezo,
+                <br>Lançando-Lhe soezes vitupérios.
+                <br>Humilham, como o último dos homens,
+                <br>Àquele que do nada fez impérios.
             </p>
-            <h3>Nativity</h3>
+            <br>
+            <h3>Crucifixão</h3>
             <p>
-                “I regret that in Bethlehem there is no love in the inn for the Love that comes.”
-                Jesus is born in a stable, a place for animals. The shepherds hurry to behold
-                the God-Child nestled in cloths and lying in a manger. With them, we also
-                stand amazed at such kindness of God.
+                Ouvimos marteladas violentas
+                <br>E vemos mãos e pés vertendo sangue;
+                <br>Um corpo numa Cruz arfando a custo
+                <br>Que pende do madeiro quase exangue.
+                <br>Coloca as tuas mãos bem junto às Suas
+                <br>E deixa que estes cravos as trespassem...
+                <br>Seguro a Jesus, p’ra todo o sempre,
+                <br>Que, então, teus braços loucos O abracem.
             </p>
-            <h3>Adoration of the Magi. Flight to Egypt</h3>
+            <br>
+            <h3>Morte de Jesus</h3>
             <p>
-                The journey was long. The star hid itself at times. They do not give up, overcoming discomfort and
-                fatigue, and continue their journey until they reach the
-                desired destination. <br>
-                They offer to the born King of the Jews gold, incense, and myrrh, gifts that
-                correspond to his dignity. <br>
-                Then they must flee to Egypt. Herod does not tolerate rivals. Many innocent
-                children die. Jesus will experience the life of migrants and displaced persons.
-                Jesus Gomez-Pablos e Ana Alves <br>
+                Jesus morre pregado numa Cruz,
+                <br>O Seu Seu Povo rejeita-O como in’migo.
+                <br>Desceu à sepultura por três dias.
+                <br>Morreu p’ra dar a vida: é o grão de trigo.
+                <br>Cordeiro, agora Vítima Pascal,
+                <br>Na Cruz, solenemente alevantado,
+                <br>Atrairá a Si os corações,
+                <br>Felizes, por estarem a Seu lado. <br>
             </p>
-
-            <h3></h3>
-            <p></p>
-
-
-            <h3></h3>
-            <p></p>
-
-
-            <h3></h3>
-            <p></p>
 
             <div class="text-right">
                 <div class="autor-texto">Fernando Silva</div>
@@ -86,30 +84,55 @@
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/nascimento_em_belem.jpg" alt="" class="ma-5" aspect-ratio="1"
+                <img src="@/assets/imagens/coroação de espinhos.jpg" alt="" class="ma-5" aspect-ratio="1"
                     @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
             <div class="img-desc">
-                <span class="img-titulo">Nascimento em Belém</span>
+                <span class="img-titulo">Coroação de espinhos</span>
                 <span class="img-autor">Paulo Teia</span>
 
             </div>
+            <div class="img-container">
+                <img src="@/assets/imagens/morte na cruz.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
+
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Morte na Cruz</span>
+                <span class="img-autor">Paulo Teia</span>
+
+            </div>
+            <br>
             <h3>OUTRO OLHAR </h3>
 
-            <div class="autor-texto"> Maria José Morais </div>
+            <div class="autor-texto"> Jesus Gomez-Pablos </div>
             <p>
-                <br>Corações de Boa Vontade br
-                <br>O profeta Miqueias anunciou que ali, nessa pequena localidade,
-                <br>havia de nascer o Messias:
-                <br>“Mas tu, Belém-Éfrata, tão pequena entre as famílias de Judá, é
-                <br>de ti que me há-de sair aquele que governará em Israel”.
-                <br>Aleluia! o Menino Jesus nasceu em Éfrata , a “fértil”, a conhecida
-                <br>Belém.
-                <br>Grande sinais e maravilhas indicaram este nascimento.
-                <br>Jesus continua a nascer todos os dias e em muitos lugares!
+                Houve um dia em que foi plantada uma árvore, entre todas a única
+                distinta, pois nela o Criador pacientemente alimentava o espírito
+                humano com a contemplação do mistério da vida que cresce sem
+                cessar. A árvore! Símbolo do espírito criado que recebe refugio na
+                bondade sábia de Deus e se alegra numa vida de comunhão com o
+                Criador. <br><br>
+                Houve um dia, também, em que um homem e uma mulher arrancaram
+                o fruto da sua origem, separam-no desta árvore, e já morto o fruto entre
+                as suas mãos, não o deixaram viver na terra. Cessou sobre a terra a
+                comunhão com a bondade e a sabedoria; toda a vida entrou em agonia;
+                e com mistério a árvore desapareceu até... <br><br>
+                Até ao dia em que uma cruz foi plantada por Deus feito homem, Jesus
+                Cristo. Sobre este madeiro derramou a sua Vida. E a cruz germina
+                desde então. Hoje (o que é o tempo em Deus?): Hoje já podemos
+                contemplar a árvore do mistério de Deus entre os homens; a comunhão
+                de uma Vida que não cessa!
             </p>
+            <br>
 
+            <div class="autor-texto"> Maria José Meireles </div>
+            <p>
+                Apenas a morte
+                <br>pode ler-te
+                <br>por inteiro.
+            </p>
 
             <br><br>
             <hr>
@@ -117,21 +140,44 @@
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/Fuga.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
-                    style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/Fogo sagrado 1.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/Fogo sagrado 2.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
             <div class="img-desc">
-                <span class="img-titulo">Fuga</span>
-                <span class="img-autor">Técnica Mista</span>
+                <span class="img-titulo">Fogo Sagrado</span>
+                <span class="img-autor">Acrílico s/ tela</span>
 
             </div>
+            <br>
+
+            <h3>O OLHAR DA ARTISTA</h3>
+            <div class="autor-texto"> Verónica Parente </div>
+            <p>
+                <b>ó Cruz! que acendes</b>
+                <br>no coração da humanidade
+                <br>o sagrado fogo do amor! <br>
+                <br>que jamais deixemos de Te glorificar
+                <br>para vivermos de Ti,
+                <br>de Amor. <br>
+                <br>que deixemos de ser nós,
+                <br>para que sejas Tu, em nós,
+                <br>e que todo o nosso ser declare: ó Cruz,
+                <br><b>ó Amor!</b>
+            </p>
+            <br>
             <h3>OUTRO OLHAR </h3>
 
-            <div class="autor-texto"> Nuna Poliana Magalhães </div>
+            <div class="autor-texto">Maria José Morais </div>
             <p>
-                Quando a luz e a cor é o nosso caminho...
-            </p>
+                Desafio: Entusiasmo <br>
+                Na condição precária, mas com aceso entusiasmo (do grego
+                Enthousiasmos. En significa dentro. Theos significa Deus – literalmente ter um deus dentro de si),
+                deixa-te habitar, deixa-te
+                viver de dentro para fora, declara o amor pela vida num ritmo
+                comunitário. </p>
 
 
 
@@ -664,6 +710,11 @@ function mostrar(event) {
 </script>
 
 <style scoped>
+b {
+
+    font-weight: 700;
+}
+
 .v-dialog {
     background-color: #000000e0;
 }
