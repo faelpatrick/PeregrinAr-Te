@@ -28,12 +28,12 @@
 
     <v-main>
       <router-view />
+    <footer>&copy;Desenvolvido por <a href="https://linktr.ee/faelpatrick" target="_blank">Rafael Patrick</a> </footer>
     </v-main>
 
     <!-- Alterar cores do Site -->
    
     <AlterarCoresSite />
-    <footer>Desenvolvido por <a href="https://linktr.ee/faelpatrick" target="_blank">Rafael Patrick</a> </footer>
   </v-app>
 </template>
 
@@ -90,6 +90,22 @@ main.v-main {
   padding-left: 1.8rem;
 }
 
+footer {
+  background-color: var(--menu-bg-color);
+  color: var(--menu-text-color);
+  text-align: center;
+  padding: .5rem;
+  font-size: .8rem;
+  font-weight: 700;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: var(--menu-text-color);
+  text-decoration: none;
+}
 
 .primeiro-texto {
     font-family: 'Times New Roman', Times, serif;
