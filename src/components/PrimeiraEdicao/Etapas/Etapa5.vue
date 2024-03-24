@@ -502,7 +502,7 @@
             </div>
             <br>
             <div class="img-container">
-                <img src="@/assets/imagens/Cristo V.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                <img src="@/assets/imagens/Sol, Grade e Corpo.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
                     row style="max-width: 300px; cursor: pointer;"></img>
             </div>
             <div class="img-desc">
@@ -511,7 +511,7 @@
             </div>
             <br>
             <div class="img-container">
-                <img src="@/assets/imagens/Cristo V.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                <img src="@/assets/imagens/Cristo X.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
                     row style="max-width: 300px; cursor: pointer;"></img>
             </div>
             <div class="img-desc">
