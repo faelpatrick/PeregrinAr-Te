@@ -249,7 +249,9 @@
             </p>
             <br>
             <div class="img-container">
-                <img src="@/assets/imagens/Presépio.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                <img src="@/assets/imagens/descida da cruz 2 celestina.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                    row style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/coroa de espinhos 3.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
                     row style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
@@ -260,9 +262,9 @@
             </div>
             <h3>O OLHAR DA ARTISTA</h3>
 
-            <div class="autor-texto"> Ademar Magalhães </div>
+            <div class="autor-texto"> Celestina Oliveira </div>
             <p>
-                Presépio, o presente!
+                Ilustre glória da imortalidade.
             </p>
 
             <br>
