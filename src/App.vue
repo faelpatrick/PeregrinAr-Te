@@ -100,6 +100,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 9999;
 }
 
 footer a {
