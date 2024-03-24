@@ -264,47 +264,67 @@
             </div>
 
             <br>
-            O OLHAR DA ARTISTA
-            [ Celestina Oliveira ]
-            O que os olhos jamais viram, o que os ouvidos jamais escutaram e
-            o que o coração jamais sentiu é o que Deus preparou para os que O
-            amam.
-            OUTRO OLHAR
-            [ Jesus Gomez-Pablos ]
-            Jesus ressuscitou. A Vida pôde mais do que a morte.
-            [ Maria José Morais ]
-            Poder restaurador e transformador (transforma a dor)
-            Não há irremediável, não há incurável, não há irreversível, há a reabertura das possibilidades da vida de
-            cada um a começar e a recomeçar
-            pela via do amor e da confiança.
-            Entenderemos Jesus, intérprete de Deus, ao entendermos e nos avizinharmos da Sua liberdade. Manda-nos sair,
-            desconcerta-nos e ensina-
-            -nos uma liberdade que não conhecemos e da qual temos medo
+            <h3>O OLHAR DA ARTISTA</h3>
+            <div class="autor-texto">Celestina Oliveira </div>
+            <p>
+                O que os olhos jamais viram, o que os ouvidos jamais escutaram e
+                o que o coração jamais sentiu é o que Deus preparou para os que O
+                amam.
+            </p>
+            <h3> OUTRO OLHAR</h3>
+            <div class="autor-texto">Jesus Gomez-Pablos</div>
+            <p>
+                Jesus ressuscitou. A Vida pôde mais do que a morte.
+            </p>
+            <div class="autor-texto">Maria José Morais </div>
+            <p>
 
+                Poder restaurador e transformador (transforma a dor)
+                Não há irremediável, não há incurável, não há irreversível, há a reabertura das possibilidades da vida
+                de
+                cada um a começar e a recomeçar
+                pela via do amor e da confiança.
+                Entenderemos Jesus, intérprete de Deus, ao entendermos e nos avizinharmos da Sua liberdade. Manda-nos
+                sair,
+                desconcerta-nos e ensina-
+                -nos uma liberdade que não conhecemos e da qual temos medo
+            </p>
 
+            <br>
+            <p>
 
-            Dizes
-            que somos
-            a maior história
-            de amor
-            da humanidade
-            e eu digo
-            ao mundo
-            que somos apenas
-            um segredo.
-            [ Maria José Meireles ]
-            In Momentos de Liberdade
-            Com o fascínio
-            de todos
-            os abismos
-            aqueço agora a alma
-            e o corpo
-            e aprendo a coragem
-            da luz.
-            [ Maria José Meireles ]
-            In Momentos de Liberdade
+                Dizes
+                <br>que somos
+                <br>a maior história
+                <br>de amor
+                <br>da humanidade
+                <br>e eu digo
+                <br>ao mundo
+                <br>que somos apenas
+                <br>um segredo.
+            </p>
+            <div class="text-right">
+                <div class="autor-texto">Maria José Meireles </div>
+                In Momentos de Liberdade
+            </div>
 
+            <br>
 
+            <p>
+                Com o fascínio
+                <br>de todos
+                <br>os abismos
+                <br>aqueço agora a alma
+                <br>e o corpo
+                <br>e aprendo a coragem
+                <br>da luz.
+            </p>
+            <div class="text-right">
+                <div class="autor-texto">Maria José Meireles </div>
+                In Momentos de Liberdade
+            </div>
+
+            <br>
 
 
             <v-dialog v-model="dialog" max-width="96vw">
