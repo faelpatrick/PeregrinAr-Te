@@ -249,10 +249,10 @@
             </p>
             <br>
             <div class="img-container">
-                <img src="@/assets/imagens/descida da cruz 2 celestina.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
-                    row style="max-width: 300px; cursor: pointer;"></img>
-                <img src="@/assets/imagens/coroa de espinhos 3.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
-                    row style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/descida da cruz 2 celestina.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/coroa de espinhos 3.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
             <div class="img-desc">
@@ -270,14 +270,14 @@
             <br>
             <h3>OUTRO OLHAR</h3>
 
-            <div class="autor-texto">Fernando Silva</div>
+            <div class="autor-texto">Teresa Nogueira</div>
             <p>
                 <i>
-                    Pastores sonolentos: Despertai!
-                    <br>Erguei-vos os que estais hoje de vela!
-                    <br>Bem perto, na pobreza de uma gruta,
-                    <br>Acaba de brilhar formosa estrela.
-
+                    A cruz representa a união através do Coração.
+                    <br>A união da conexão do nosso corpo, como canal entre o céu e a terra,
+                    <br>e da nossa força de ação, através dos nossos braços.
+                    <br>Agora dotados de liberdade de movimento, podemos honrar este
+                    <br>legado, esta Consciência Crística, materializando-a.
                 </i>
             </p>
             <br>
