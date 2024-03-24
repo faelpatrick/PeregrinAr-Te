@@ -10,7 +10,7 @@
         </header>
 
         <p>
-            Utilize a o menu de navegação, localizado na barra lateral esquerda, para acessar os capítulos do livro.
+            Utilize a o menu de navegação, localizado na barra lateral esquerda, para acessar os Etapas do livro.
         </p>
 
     </v-container>

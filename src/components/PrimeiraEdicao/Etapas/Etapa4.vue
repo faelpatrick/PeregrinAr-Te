@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <div class="primeiro-texto">
-            <h1>Capítulo IV</h1>
+            <h1>Etapa IV</h1>
             <h2>ÚLTIMA CEIA E A INSTITUIÇÃO DA EUCARISTIA</h2>
 
 

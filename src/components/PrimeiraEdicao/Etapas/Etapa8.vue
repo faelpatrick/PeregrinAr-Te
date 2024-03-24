@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <div class="primeiro-texto">
-            <h1>Capítulo I</h1>
+            <h1>Etapa I</h1>
             <h2>ANUNCIAÇÃO A MARIA</h2>
 
 

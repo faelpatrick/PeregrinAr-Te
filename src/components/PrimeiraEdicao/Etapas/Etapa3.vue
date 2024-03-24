@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <div class="primeiro-texto">
-            <h1>Capítulo III</h1>
+            <h1>Etapa III</h1>
             <h2>AUTORREVELAÇÃO DE JESUS
                 NAS BODAS DE CANÁ</h2>
 

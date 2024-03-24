@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <div class="primeiro-texto">
-            <h1>Capítulo II</h1>
+            <h1>Etapa II</h1>
             <h2>NASCIMENTO DE JESUS; PRESÉPIO; FUGA PARA O EGÍTO</h2>
 
 

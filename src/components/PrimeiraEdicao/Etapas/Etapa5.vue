@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <div class="primeiro-texto">
-            <h1>Capítulo V</h1>
+            <h1>Etapa V</h1>
             <h2 class="text-left">COROAÇÃO DE ESPINHOS;<br>
                 CRUCIFIXÃO E MORTE DE JESUS</h2>
 
@@ -518,6 +518,8 @@
                 <span class="img-titulo">Cristo X</span>
                 <span class="img-autor">Óleo s/ tela</span>
             </div>
+            <br>
+            <br>
             <br>
 
         </div>
