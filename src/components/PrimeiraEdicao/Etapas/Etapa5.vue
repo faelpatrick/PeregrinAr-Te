@@ -187,15 +187,40 @@
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/OquartoReiMago.jpg" alt="" class="ma-5" aspect-ratio="1"
+                <img src="@/assets/imagens/Cor(o)ação 1.jpg" alt="" class="ma-5" aspect-ratio="1"
                     @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
             <div class="img-desc">
-                <span class="img-titulo">O quarto Rei Mago</span>
+                <span class="img-titulo">Cor(o)ação</span>
                 <span class="img-autor">Técnica Mista</span>
 
             </div>
+
+            <div class="img-container-vertical">
+                <div class="fundo-imagem-vertical"></div>
+                <img src="@/assets/imagens/Cor(o)ação  2.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
+
+                <div class="d-flex justify-center flex-column pa-4">
+                    <h3>O OLHAR DA ARTISTA</h3>
+                    <div class="autor-texto"> Nuna Poliana Magalhães </div>
+                    <p>A linha do amor e da vida eterna…</p>
+                </div>
+            </div>
+            <br>
+
+            <div class="img-container">
+                <img src="@/assets/imagens/Cor(o)ação 1.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
+
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Coroação de espinhos</span>
+                <span class="img-autor">Chacota, óxidos e base em ferro forjado</span>
+
+            </div>
+
             <h3>O OLHAR DA ARTISTA</h3>
 
             <div class="autor-texto"> Nuna Poliana Magalhães </div>
@@ -348,7 +373,8 @@
                 para o caminho, seu marido adiantava o trabalho e arreava o burrinho que
                 devia transportar os mantimentos e algumas mantas para o frio.
                 <br>
-                O dia estava bonito e Jesus aproveitava as pausas de descanso e das refeições para perguntar pormenores
+                O dia estava bonito e Jesus aproveitava as pausas de descanso e das refeições para perguntar
+                pormenores
                 do seu nascimento. Aqueles que nós já
                 conhecemos e Jesus também sabia.
                 <br>
@@ -374,7 +400,8 @@
                 nascera horas antes! Que alegria!
                 <br>
                 Mostrou-lhes ainda alguns desenhos que fizera, numa penha recolhida da
-                gruta para os proteger dos estragos do tempo. Eram toscos, de traços irregulares, distorcidos por alguma
+                gruta para os proteger dos estragos do tempo. Eram toscos, de traços irregulares, distorcidos por
+                alguma
                 areia mais grossa que ficara sob o negro de
                 fumo do pau meio queimado que servira para escrever.
                 <br>
@@ -383,7 +410,8 @@
                 criança recém-nascida que sua mãe acarinhava.
                 <br>
                 Jesus disse a Ocozias que estava muito contente por ter nascido, que tinha
-                vindo ao mundo para salvar os homens, a ele e à sua família também. Acrescentou que os pais que cuidam e
+                vindo ao mundo para salvar os homens, a ele e à sua família também. Acrescentou que os pais que
+                cuidam e
                 educam bem dos filhos os preparam para
                 serem bons. Ocozias concordava e pediu ao Menino que os abençoasse aos
                 três. Jesus ficou enternecido com quanto Ocozias lhe dizia e assegurou-lhe
@@ -522,7 +550,8 @@
                 <br>
                 Voltando ao fascinante relato de João de Hildesheim, Melchior terá entregado
                 a Jesus “trinta dinheiros em ouro e um pomo de ouro de tal maneira grande
-                que não cabia inteiro numa mão. Baltazar ofereceu o incenso e Gaspar apresentou a mirra (...)” O Quarto
+                que não cabia inteiro numa mão. Baltazar ofereceu o incenso e Gaspar apresentou a mirra (...)” O
+                Quarto
                 Rei, aquele que nenhum conhecia e com que
                 todos se maravilharam, ajoelhado junto do Menino, inclinou-se, abriu as mãos
                 que tinham permanecido em concha e colocou ao lado do Pequenino Jesus
@@ -538,7 +567,8 @@
                 <br>
                 O gesto e preocupação e lembrança deste Quarto Rei que saiu da minha
                 imaginação foi, porém, esquecido pelos vindouros, isto é, por todos nós. Do
-                Ocidente foi levado o sal, símbolo da pureza, da integridade, da incorruptibilidade, do eterno. Então,
+                Ocidente foi levado o sal, símbolo da pureza, da integridade, da incorruptibilidade, do eterno.
+                Então,
                 tudo isso cá existiu, antes dos tempos. Somente
                 antes dos tempos e não agora. Estava escrito? Não, não estava. O que
                 estava escrito é o belo relato feito por João de Hildesheim sobre a visita
@@ -902,6 +932,28 @@ h4 {
     top: 1px;
 }
 
+.img-container-vertical {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+    gap: 0px;
+}
+
+.img-container-vertical img {
+    z-index: 4;
+}
+
+.fundo-imagem-vertical {
+    background-color: #e9decf;
+    height: 380px;
+    width: 300px;
+    box-sizing: border-box;
+    position: relative;
+    right: -15%;
+    z-index: 2;
+}
+
+
 .btnClose {
     position: absolute;
     top: 0;
@@ -913,6 +965,7 @@ h4 {
     z-index: 9999999999;
     cursor: pointer;
 }
+
 
 @media screen and (max-width: 1024x) {
 
