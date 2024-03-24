@@ -281,6 +281,138 @@
                 </i>
             </p>
             <br>
+            <h4 class="text-center mt-8">O MUNDO E A FÉ SEGUNDO MINHA MÃE</h4>
+            <p>
+                <br>Nas noites de grande inverno, contava minha mãe
+                diante do inconsumível ventre dum toco de oliveira a arder,
+                que em Jerusalém, naquele fim de tarde negro e insão,
+                quando já as candeias do escurecido céu se acendiam,
+                infindo pendia o Corpo do Redentor
+                preso por seus magros braços à fria cruz. <br>
+                <br>(– Jesus! Jesus! – exclamava nossa chorosa mãe –
+                escondendo o anguloso rosto entre as mãos nodosas.
+                <br>E nós, filhinhos, que há muito lhe doíamos o peito seco,
+                em enxuto enxame logo escondíamos nossas luzentes carinhas
+                dentro de nossas mãos pequeninas.) <br>
+                <br>E continuava:
+                <br>– Abíeis bós de ber, filhos meus do meu curaçõm,
+                o Corpo acaijo morto e inda quente de Nosso Sinhor.
+                <br>(A berdade é q’eu num bi, nem sei cumo foi,
+                sóssei o q’ nos dizem los Santos Ivangelhos,
+                e sinto, nãum sei cumo, uma comunhom nas dores
+                da Mãin Corredentora.) <br>
+                <br>– Ó mãin, e o q’é q’isso quer dizer?
+                <br>– Isso, o q’ê, filhinhos meus do meu coraçõm?
+                <br>– Mãin Cu… cu?…
+                <br>– Q’er dizer q’os inimigos de Nosso Sinhor l’O sangraram
+                com’a’um bitxo, e q’o Santo Sangue
+                q’ caía no txõm duro, muito mais q’até dizer bonda,
+                tãobém era o da sua Mãin! <br>
+                <br>– E o txom era duro purquê, mãin?
+                <br>– Purq’era pisado pelos pés de muitos incréus e pecadores!
+                <br>
+                <br>E continuava nossa mãe: <br>
+                <br>– E sempre q’um filho morre antes da mãin,
+                morra ele numa ritxa ou numa guerra,
+                por desleixo dos homes q’a’mandam e botam faladura;
+                q’sempre q’morre uma alma al abandono,
+                <br>ou q’a terra le bebe o sangue q’ente por calquer razõm
+                <br>(Apre! Arreda-te, diaño!) <br>
+                sempre, sempre q’há sangue dum filho a escorrer,
+                sempre é lo sangue da mãin q’ali s’isfria, seca e morre! <br>
+                <br>– E as mãins, mãin, tãobém morre?
+                <br>– Morre, filhos meus do meu curaçõm, morre,
+                mas nenhuma debia ber los filhinhos a le morrer… <br>
+                <br>E lá continuava a mãe do calado rosário preto
+                entre os dedos calejados da morena mão, regados
+                por furtivas lágrimas pequeninas indo-se esconder
+                em carreira nas cuidadas pregas das nossas almas: <br>
+                <br>– Abíeis de ber – e bendo bem, melhor fora nãum –,
+                filhos meus do meu coraçõm, o Corpo de Nosso Sinhor
+                no regaço morto da Mãin, viúva em desamparo
+                (Ai! – soluçava ela – Ai!) Ai, o desamparo, a solidom,
+                o negro eterno da mãin q’ mora só com seus filhinhos.
+                <br>(E de novo lá soluçava ela, por si e por eles,
+                e p’los muitos dias negros por vir…) <br>
+                <br>– Abíeis de ber, lá seguia ela como podia,
+                cum’ó despois de secas las fontes,
+                a Mãin Santa txorava e ‘scorria sal
+                cum’ó txoram os prêtos da Guinéa! <br>
+                <br>– Tãobém hay mãins na Guinéa, mãin? <br>
+                <br>– Hay, sim, filhinhos meus do meu coraçõm,
+                hay, q’o mundo deu-no-lo Deus de Deus berdadeiro,
+                e em calquer logar as mãins siguem a parir com dores,
+                a fim de intxerem lo mundo d’homes q’ bão p‘ra guerra
+                fazerem sofrer os irmãos, cumo bos lo digo multas bezes.
+                <br>
+                <br>– E ó despois da Guinéa, mãin, o q’hay p’lo longe? <br>
+                <br>– Depois da Guinéa hay o Ceilóm, a Txina, mai’lo Brasil,
+                q’ come os homes brabos daqui, mas a bem’dezer,
+                eu num sei bem q’al deles bem em primeiro.
+                Mas num e n’oitro tãobém hay dores ao parir,
+                no andar e no biber até s’abater o derradeiro bafo do corpo.
+                E tãobém hay lá txom q’padece q’ando padece Nosso Sinhor,
+                q’andou pela terra santificando-a.
+                <br>(Mas num andou por cá nem por tôda ela). <br>
+                <br>– E se Nosso Sinhor, mãin, num andou por la terra tôda,
+                purq’hay dôr em tôda la terra? – E hay cidades
+                em tôda la terra, mãin? <br>
+                <br>– Sim, hay!
+                <br>E emperadores bastos com’ó pó q’ando s’alevanta
+                de chicote de cobras nas mõns, p’ra nos gibatar!
+                <br>– Mas isso, mãin, só os homes maus é q’ fazem! <br>
+                <br>E assentia ela: <br>
+                <br>– Pois é, filhinhos meus do meu coraçõm, e alembraibos
+                de q’nunca abéis de atrepar a emperadores d’alguém.
+                <br>– Mas, ó mãin, se os emperadores tãobém têm mãin,
+                cumé q’eles são maus?
+                <br>– Isso, filhinhos, apreguntai-me doutra bez,
+                c’agora já é tarde e num’alembra!
+                <br>Mas alembraibos sempre disto:
+                <br>cada mãin é uma mõm bôua e semiadora, e bós,
+                filhinhos meus do meu coraçõm,
+                sois a leira, e oitros o leirancho,
+                cu’m’uma mãin bem sabe de tôdos e cada um. <br>
+                <br>Eu semeio p’ra q’oitros arrecadem! <br>
+                <br>[E signando-se, e benzendo-se, ademais:]
+                <br>
+                <br>E em nome do Padre, do Figlio e do ‘Sprito Santo
+                eu ma benzo, ma persigno e santifico
+                antes de cada semeadura, cada uma em sua era.
+                <br>Eia, pois, alembraibos bem disto,
+                pobres filhinhos meus do meu pobre coraçõm,
+                q’é o q’nesta Sexta de Cinzas eu bos lo boto:
+                <br>Nenhum filho deberia nascer p’ra morrer
+                antes da mãin q’lo botou ao mundo!
+                <br>(Por isso, nãum me morrendes antes q’a luz se m’apague!)
+                <br>
+                <br>Alembraibos bem disto,
+                <br>filhinhos meus do meu coraçõm,
+                <br>q’o pior q’oubera d’acontecer à bossa mãin era saber
+                <br>q’ lo Santo Sangue do Redentor caía na terra,
+                <br>por môr de bós serdes maus!
+                <br>E agora alevantaibos, bá, e’inde,
+                <br>e rezainde, cada um de bós três,
+                <br>dois Padre Nostros pequeninos e uma Abé Maria
+                <br>em nome da Virgemaria do Samáculo Pecado,
+                <br>e’inde durmir descansados q’a bossa mãin
+                <br>inda bai labar a louça.
+
+                <br>[E quando já na cama, quase dormíamos:] <br>
+                <br>– Benzendebos daí, q’eu bos benzo daqui:
+                <br>Padre Nostro e Abé Maria!
+
+            <div class="text-right">
+                <div class="autor-texto">Frei João Costa</div>
+            </div>
+            </p>
+
+
+
+
+
+
+
             <div class="img-container">
                 <img src="@/assets/imagens/Colo.jpeg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)" row
                     style="max-width: 300px; cursor: pointer;"></img>
