@@ -1,33 +1,43 @@
 <template>
     <v-container>
         <div class="primeiro-texto">
-            <h1>Etapa I</h1>
-            <h2>ANUNCIAÇÃO A MARIA</h2>
+            <h1>Etapa VII</h1>
+            <h2>OS APÓSTOLOS DIANTE DO TÚMULO VAZIO; <br>
+                RESSURREIÇÃO DE JESUS</h2>
 
-
-            <h3>Anunciação do Arcanjo S. Gabriel a Maria</h3>
-            <p>O filho de Deus irá assumir a natureza humana para nos salvar. É a proposta
-                que Gabriel faz a Nossa Senhora. A resposta é afirmativa e,assim, o Redentor
-                dos homens e do mundo poderá vir ao coracão de cada um de nós para nos
-                dizer em que consiste a santidade de Deus e a santidade que Ele espera
-                de nós.
-            </p>
-
-
-            <h3>La Anunciación del Arcángel San Gabriel a María </h3>
+            <h3>Os apóstolos diante do túmulo vazio. Ressurreição</h3>
             <p>
-                El hijo de Dios recibirá la naturaleza humana para salvarnos. Es la propuesta
-                que Gabriel hace a la Virgen. La respuesta fue afirmativa y, de esa manera,
-                el Redentor de los hombres y del mundo podrá venir al corazón de cada uno
-                de nosotros para decirnos en qué consiste la santidad de Dios y también la
-                santidad que Él espera de nosotros.
+                O sepulcro está vazio, informam as mulheres aos apóstolos, depois de ter
+                querido embalsamar o corpo morto de Jesus. Quem o terá roubado? E…
+                para quê?
+                “Destrui este templo e Eu o reedificarei em três dias, tinha anunciado” Jesus
+                ressuscitou. A Vida pôde mais do que a morte.
+                Tomé terá de ver e tocar as suas chagas para acreditar. Homem de pouca fé.
+                Duvidou. Não acreditou no testemunho de Pedro e dos outros apóstolos. “Meu
+                Senhor e meu Deus” acabará por afirmar quando encontrar novamente Jesus
+                gloriosamente vivo.
             </p>
-            <h3> Annunciation of the Archangel Saint Gabriel to Mary</h3>
+            <h3>Los apóstoles ante el sepulcro vacío. Resurrección.</h3>
             <p>
-                The Son of God will become man to save us. $event proposal that Gabriel
-                makes to Our Lady. She accepts the proposal, and thus, the Redeemer of men
-                and the world can come to the heart of each of us to tell us what the holiness
-                of God consists of and the holiness that He expects from us.
+                El sepulcro está vacío, informan las mujeres a los apóstoles, después de
+                haber querido embalsamar el cuerpo muerto de Jesús. Quien lo habrá
+                robado?, se preguntan. Y… para qué? “Destruid este templo y Yo lo reedificaré en tres dias”, había
+                anunciado. Jesús resucitó. La Vida pudo más que la
+                muerte. Tomás tendrá que ver y tocar sus llagas para creer. Hombre de poca
+                fé. Dudó. No creyó en el testimonio de Pedro y de los otros apóstoles. “Señor
+                mío y Dios mío” acabó por afirmar cuando encontró nuevamente a Jesús
+                gloriosamente vivo.
+            </p>
+            <h3> The apostles before the empty tomb. Resurrection.</h3>
+            <p>
+                After wanting to embalm Jesus’ dead body, the women inform the apostles that
+                the tomb is empty. Who could have stolen it? And... what for?
+                “You will destroy this temple and I rebuild it in three days”, Jesus had announced. Jesus rose from the
+                dead. Life triumphed over death.
+                Thomas will have to see and touch his wounds to believe. Man of little faith.
+                He doubted. He did not believe the testimony of Peter and the other apostles.
+                “My Lord and my God,” he will eventually affirm when he sees Jesus gloriously
+                alive again.
             </p>
 
             <div class="autor-texto">
@@ -37,17 +47,31 @@
             <hr>
             <br><br>
 
-            <h3>Anunciação do Arcanjo S. Gabriel a Maria</h3>
+            <h3>Apóstolos diante do Túmulo vazio</h3>
             <p>
-                <br>Acendam-se as estrelas nas alturas!
-                <br>Abrande o Astro Rei o seu fulgor!
-                <br>Escutem o convite do Arcanjo
-                <br>À Eleita Mãe do nosso Redendor.
+                <br>Roubaram o Senhor! Vinde depressa!,
+                <br>Gritaram as mulheres do Calvário...
+                <br>No chão jaz o lençol ensanguentado
+                <br>E, posto à parte, vemos o sudário.
                 <br>
-                <br>Chegou esta alvorada de Esperança,
-                <br>Depois de muitos anos de vigília.
-                <br>O Verbo Se fez Carne. Veio ao mundo
-                <br>E quer pʼra sempre ser nossa Família.
+                <br>Um Anjo radiante ali proclama:
+                <br>Ressuscitou deveras! Está vivo!
+                <br>E não se encontra aqui, pois vos espera
+                <br>Em clima jubiloso e mui festivo.
+            </p>
+            <br>
+            <h3>Ressurreição de Jesus</h3>
+            <p>
+                <br>Na madrugada do primeiro Dia
+                <br>Sem remover a pedra, a sepultura,
+                <br>Brilhou nas trevas o Crucificado,
+                <br>Radiante de luz e formosura.
+                <br>
+                <br>Tal como prometeu, ressuscitou,
+                <br>E não mais tem poder sobre Ele a morte.
+                <br>Promete-nos que, sendo generosos,
+                <br>No fim, também teremos igual sorte.
+
             </p>
             <div class="text-right">
                 <div class="autor-texto">Fernando Silva</div>
@@ -61,23 +85,50 @@
             <br><br>
 
 
-            <div class="img-container">
-                <img src="@/assets/imagens/anunciacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
-                    style="max-width: 300px; cursor: pointer;"></img>
+            <div class="d-flex flex-row justify-space-around">
+                <div>
+                    <div class="img-container">
+                        <img src="@/assets/imagens/o tumulo vazio.jpg" alt="" class="ma-5" aspect-ratio="1"
+                            @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
 
-            </div>
-            <div class="img-desc">
-                <span class="img-titulo">Anunciação I</span>
-                <span class="img-autor">Paulo Teia</span>
+                    </div>
+                    <div class="img-desc">
+                        <span class="img-titulo">O túmulo vazio</span>
+                        <span class="img-autor">Paulo Teia</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <img src="@/assets/imagens/redenção.jpg" alt="" class="ma-5" aspect-ratio="1"
+                            @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
 
+                    </div>
+                    <div class="img-desc">
+                        <span class="img-titulo">Redenção</span>
+                        <span class="img-autor">Paulo Teia</span>
+                    </div>
+                </div>
             </div>
+
             <h3>OUTRO OLHAR </h3>
 
             <div class="autor-texto"> Maria José Morais </div>
             <p>
-                Uma mulher menina “vestida de Sol”, o olhar especial e profundo
-                porque vai ao fundo do coração. A iluminada ou iluminadora a
-                nossa Senhora que se entrega inteiramente e adere com determinação ao ousado plano de AMOR.
+                O sobressalto: “Retiraram o Senhor do túmulo e não sabemos onde o
+                colocaram.” <br>
+                A verdade da Páscoa: “Jesus está vivo!”
+                Para uns, prova do maravilhoso, para outros, falso testemunho e
+                suborno. <br>
+                Para Madalena, o túmulo vazio é sobressalto, correria e alegria.
+                Para Pedro e João é perplexidade, pressa para “ver e crer”.
+                João chegou primeiro ao local, mas foi Pedro o primeiro a entrar no
+                sepulcro. <br>
+                Pedro viu e examinou primeiro, seguido por João que acreditou, mal
+                chegou. br
+
+                Ambos acreditaram, mas entenderam? <br>
+                Pedro concentrava-se nas provas do desaparecimento do corpo. <br>
+                João percebia o sinal da ressurreição.
             </p>
 
 
@@ -87,26 +138,34 @@
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/visitacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
-                    style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/ressurreição.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
             <div class="img-desc">
-                <span class="img-titulo">Anunciação II</span>
+                <span class="img-titulo">Ressurreição</span>
                 <span class="img-autor">Paulo Teia</span>
 
             </div>
             <h3>OUTRO OLHAR </h3>
 
-            <div class="autor-texto"> Maria José Meireles </div>
+            <div class="autor-texto"> Jesus Gomez-Pablos </div>
             <p>
-                Regresso
-                <br> sempre
-                <br> aqui
-                <br> quando a alma
-                <br> está faminta.
-                <br> Este canto
-                <br> é alimento.
+                Alegria! Dança! Vida! A evocação da ressurreição de Cristo lembra-
+                -nos que estamos destinados a ressuscitar: e que alegria! Oh! dança!
+                Quanta Vida! Não envasilhemos a Vida! Quão suave é o pôr do sol…
+                E quantos sonhos reservados no seu nascimento!
+            </p>
+
+            <br>
+
+            <div class="autor-texto">Maria José Meireles </div>
+            <p>
+                e a ressurreição acontece
+                <br>revelando o segredo da vida
+                <br>a alegria espalhada
+                <br>pelos quatro cantos
+                <br>da Terra.
             </p>
 
 
@@ -117,72 +176,135 @@
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/anunciação 1.jpg" alt="" class="ma-5" aspect-ratio="1"
+                <img src="@/assets/imagens/Árvore da Vida 1.jpg" alt="" class="ma-5" aspect-ratio="1"
                     @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
 
-                <img src="@/assets/imagens/anunciação 2.jpg" alt="" class="ma-5" aspect-ratio="1"
+                <img src="@/assets/imagens/Árvore da Vida 2.jpg" alt="" class="ma-5" aspect-ratio="1"
                     @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
             </div>
             <div class="img-desc">
-                <span class="img-titulo">Aconchego</span>
-                <span class="img-autor">Técnica Mista</span>
+                <span class="img-titulo">Árvore da Vida</span>
+                <span class="img-autor">Acrílico s/ tela</span>
 
             </div>
             <h3>O OLHAR DA ARTISTA</h3>
-
-            <div class="autor-texto"> Nuna Poliana Magalhães </div>
+            <br>
+            <div class="autor-texto"> Verónica Parente </div>
+            <b>CADA VIDA, CADA HORA</b>
             <p>
-                A paz e a felicidade de um menino nos braços protetores
-                de uma Mãe debaixo do olhar sereno e abençoado do
-                anjo da guarda.
+                ó Árvore da vida,
+                <br>Tu dás-Te totalmente a nós!
+                <br>e que fazemos nós, por Ti, ó Árvore?
+                <br>(…)
+                <br>– que saibamos subir contigo, ó cruz, à cruz,
+                <br>e para sempre viver-Te, viver de amor,
+                <br>viver a Tua vida graças à Tua
+                <br>morte e ressurreição.
+                <br>morrer cada vida em cada hora,
+                <br>para que nasçamos para a autêntica Vida
             </p>
 
             <br>
             <h3>OUTRO OLHAR</h3>
 
-            <div class="autor-texto">Mário Malheiro </div>
+            <div class="autor-texto">Maria José Morais </div>
             <p>
-                Poço de virtudes
-                <br> Cântaro de água viva
-                <br> Raios férteis
-                <br> Pureza de açucena velada
-                <br> Tálamo nupcial divino
+                Desafio: a morte gera Vida pela cruz
+                <br>
+                <br>A morte que gera Vida não à superfície, mas… no interior, no “silêncio
+                essencial” do coração dos seres e das coisas. Esse essencial,“invisível aos olhos”,onde se encontra o
+                sentido, o norte, a cada hora, e o
+                impulso, em cada momento da vida.
             </p>
             <br>
             <br>
-            <h4>O ícone em palavra</h4>
+
+            <div class="img-container">
+                <img src="@/assets/imagens/ressurreição 1.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/ressurreição 2.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
+
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Ressurreição</span>
+                <span class="img-autor">Óleo s/ tela</span>
+
+            </div>
+            <h3>O OLHAR DO ARTISTA</h3>
+            <div class="autor-texto"> Ademar Magalhães </div>
             <p>
-                <b> Inspirado na simbologia icónica da Anunciação das pinturas medievais e renascentistas</b>
-                <br><a href="https://ler.letras.up.pt/uploads/ficheiros/9411.pdf" target="_blank">
-                    https://ler.letras.up.pt/uploads/ficheiros/9411.pdf</a>
+                “Eu sou a ressurreição e a vida.”
             </p>
-            <br><br>
+            <br>
+            <h3>OUTRO OLHAR</h3>
+            <div class="autor-texto"> Mário Malheiro </div>
+            <p>
+                Túmulo negro
+                <br>Túnel de luz
+                <br>Rubro rosto corpóreo em crescendo doirado
+                <br>Caminho do meio encontrado
+                <br>Reta justiça
+                <br>Reta compaixão
+                <br>Reta redenção...
+                <br>A Reta libertação!
+            </p>
+            <br>
 
-            <h4> Anunciação</h4>
-            <br>Poço de virtudes
-            <br>Cântaro de água viva
-            <br>Raios férteis
-            <br>Pureza de açucena velada
-            <br>Tálamo nupcial divino
-            <br>Livro sagrado
-            <br>Porta celeste
-            <br>Vaso de cristal
-            <br>Mensageiro alado
-            <br>Arcanjo de ceptro ostentado
-            <br>Sarça ardente materna
-            <br>Púrpura violácea descida sobre frágeis ombros eleitos
-            <br>Drap’d honneur guardado por 12 primaveras
-            <br>Concha em ninho do futuro divino
-            <br>Tábuas da lei em doce dossel de cetim encoberto
-            <br>Esteira de oração rubra em templo sagrado
-            <br>Janela para o horto do Éden da expiação
-            <br>«Fiat Mihi secundum verbum tuum»
-            <br>Faça-se em mim, segundo a tua vontade
-            <br>Véu do templo cosido
-            <br>Muro de Gadreel reconstruído
-            <br>Horto fechado resgatado
+            <div class="img-container">
+                <img src="@/assets/imagens/Reesurreição 1.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/Reesurreição 2.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
 
-            <div class="autor-texto"> Mário Malheiro</div>
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Ressurreição</span>
+                <span class="img-autor">Chacota</span>
+            </div>
+
+            <br>
+            O OLHAR DA ARTISTA
+            [ Celestina Oliveira ]
+            O que os olhos jamais viram, o que os ouvidos jamais escutaram e
+            o que o coração jamais sentiu é o que Deus preparou para os que O
+            amam.
+            OUTRO OLHAR
+            [ Jesus Gomez-Pablos ]
+            Jesus ressuscitou. A Vida pôde mais do que a morte.
+            [ Maria José Morais ]
+            Poder restaurador e transformador (transforma a dor)
+            Não há irremediável, não há incurável, não há irreversível, há a reabertura das possibilidades da vida de
+            cada um a começar e a recomeçar
+            pela via do amor e da confiança.
+            Entenderemos Jesus, intérprete de Deus, ao entendermos e nos avizinharmos da Sua liberdade. Manda-nos sair,
+            desconcerta-nos e ensina-
+            -nos uma liberdade que não conhecemos e da qual temos medo
+
+
+
+            Dizes
+            que somos
+            a maior história
+            de amor
+            da humanidade
+            e eu digo
+            ao mundo
+            que somos apenas
+            um segredo.
+            [ Maria José Meireles ]
+            In Momentos de Liberdade
+            Com o fascínio
+            de todos
+            os abismos
+            aqueço agora a alma
+            e o corpo
+            e aprendo a coragem
+            da luz.
+            [ Maria José Meireles ]
+            In Momentos de Liberdade
+
+
 
 
             <v-dialog v-model="dialog" max-width="96vw">
@@ -192,8 +314,10 @@
 
 
             </v-dialog>
-
+            <br>
         </div>
+        <br>
+        <br>
     </v-container>
 
 
