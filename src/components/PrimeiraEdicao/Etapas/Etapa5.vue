@@ -387,41 +387,86 @@
                 <br>(Por isso, nãum me morrendes antes q’a luz se m’apague!)
                 <br>
                 <br>Alembraibos bem disto,
-                <br>filhinhos meus do meu coraçõm,
-                <br>q’o pior q’oubera d’acontecer à bossa mãin era saber
-                <br>q’ lo Santo Sangue do Redentor caía na terra,
-                <br>por môr de bós serdes maus!
+                filhinhos meus do meu coraçõm,
+                q’o pior q’oubera d’acontecer à bossa mãin era saber
+                q’ lo Santo Sangue do Redentor caía na terra,
+                por môr de bós serdes maus! <br>
                 <br>E agora alevantaibos, bá, e’inde,
-                <br>e rezainde, cada um de bós três,
-                <br>dois Padre Nostros pequeninos e uma Abé Maria
-                <br>em nome da Virgemaria do Samáculo Pecado,
-                <br>e’inde durmir descansados q’a bossa mãin
-                <br>inda bai labar a louça.
-
+                e rezainde, cada um de bós três,
+                dois Padre Nostros pequeninos e uma Abé Maria
+                em nome da Virgemaria do Samáculo Pecado,
+                e’inde durmir descansados q’a bossa mãin
+                inda bai labar a louça.
+                <br>
                 <br>[E quando já na cama, quase dormíamos:] <br>
                 <br>– Benzendebos daí, q’eu bos benzo daqui:
                 <br>Padre Nostro e Abé Maria!
-
+            </p>
             <div class="text-right">
                 <div class="autor-texto">Frei João Costa</div>
             </div>
+            <br>
+
+            <h3 class="text-center">Acender as palavras… </h3>
+            <p>
+
+                <br>O coração é um órgão de fogo
+                <br>Neste meu corpo que se vai gastando.
+                <br>Adoro a morte que me faz sentir em continuidade da vida.
+                <br>– Desta magia de viajante sem nada saber, além de sentir que
+                <br>Pertence ao Cosmo.
             </p>
-
-
-
-
-
+            <div class="text-right">
+                <div class="autor-texto"> Jerónimo </div>
+                maio de 2002
+            </div>
+            <br>
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/Colo.jpeg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)" row
-                    style="max-width: 300px; cursor: pointer;"></img>
-
+                <img src="@/assets/imagens/Cristo I.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                    row style="max-width: 300px; cursor: pointer;"></img>
             </div>
             <div class="img-desc">
-                <span class="img-titulo">??????????????</span>
-                <span class="img-autor">Paulo Renato</span>
-
+                <span class="img-titulo">Cristo I</span>
+                <span class="img-autor">Técnica: Crayon s/ papel</span>
+            </div>
+            <br>
+            <div class="img-container">
+                <img src="@/assets/imagens/Cristo II.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                    row style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/Cristo II 2.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Cristo II</span>
+                <span class="img-autor">Técnica: Crayon s/ papel</span>
+            </div>
+            <br>
+            <div class="img-container">
+                <img src="@/assets/imagens/Cristo III.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                    row style="max-width: 300px; cursor: pointer;"></img>
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Cristo III</span>
+                <span class="img-autor">Aguarela s/ papel</span>
+            </div>
+            <br>
+            <div class="img-container">
+                <img src="@/assets/imagens/Cristo I.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                    row style="max-width: 300px; cursor: pointer;"></img>
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Cristo IV</span>
+                <span class="img-autor">Técnica mista s/ azulejo</span>
+            </div>
+            <br>  <div class="img-container">
+                <img src="@/assets/imagens/Cristo I.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                    row style="max-width: 300px; cursor: pointer;"></img>
+            </div>
+            <div class="img-desc">
+                <span class="img-titulo">Cristo V</span>
+                <span class="img-autor">Técnica mista s/ azulejo</span>
             </div>
             <br>
             <h3>OUTRO OLHAR</h3>
