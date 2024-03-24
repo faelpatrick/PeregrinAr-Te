@@ -211,9 +211,10 @@
             <br>
 
             <div class="img-container">
-                <img src="@/assets/imagens/Cor(o)ação 1.jpg" alt="" class="ma-5" aspect-ratio="1"
+                <img src="@/assets/imagens/coroa de espinhos 1.jpg" alt="" class="ma-5" aspect-ratio="1"
                     @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
-
+                <img src="@/assets/imagens/coroa de espinhos 2.jpg" alt="" class="ma-5" aspect-ratio="1"
+                    @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
             </div>
             <div class="img-desc">
                 <span class="img-titulo">Coroação de espinhos</span>
@@ -223,33 +224,28 @@
 
             <h3>O OLHAR DA ARTISTA</h3>
 
-            <div class="autor-texto"> Nuna Poliana Magalhães </div>
+            <div class="autor-texto">Celestina Oliveira</div>
             <p>
-                Quando a luz e a cor são caminho...
+                Ilustre glória da imortalidade.
             </p>
 
             <br>
             <h3>OUTRO OLHAR</h3>
 
-            <div class="autor-texto">Maria do Céu Nogueira</div>
+            <div class="autor-texto">Isabel Vasco Costa</div>
             <p>
-                <i>
-                    Mas só nós sabemos bem que o nosso Rei levava sal.
-                    <br>Sal e não diamantes, porque mais precioso que qualquer
-                    <br>diamante é o sal.
-                    <br>O gesto e preocupação e lembrança deste Quarto Rei
-                    <br>que saiu da minha imaginação foi, porém, esquecido
-                    <br>pelos vindouros, isto é, por todos nós.
-                </i>
+                Uma humilde coroa, mas sem espinhos. Não será a dos mártires, mas
+                sim a de muitos santos desconhecidos.
             </p>
             <br>
-            <div class="autor-texto">Mário Malheiro</div>
+            <div class="autor-texto">Teresa Nogueira</div>
             <p>
-                <i>
-                    Sal celeste
-                    <br>A teus pés deponho
-                    <br>Meu ainda não chagado menino.
-                </i>
+                Uma coroa sem espinhos que nos convida à coroação dos seres
+                divinos que somos. <br>
+                Um convite para uma abertura deste canal com o divino que habita em
+                cada um de nós. <br>
+                Um convite para que cada um de nós possa acender a este canal de luz
+                interna e colocá-la ao serviço da Vida. <br>
             </p>
             <br>
             <div class="img-container">
@@ -258,8 +254,8 @@
 
             </div>
             <div class="img-desc">
-                <span class="img-titulo">Presépio</span>
-                <span class="img-autor">Óleo s/ tela</span>
+                <span class="img-titulo">Crucificação</span>
+                <span class="img-autor">Chacota, óxidos e base em ferro forjado</span>
 
             </div>
             <h3>O OLHAR DA ARTISTA</h3>
