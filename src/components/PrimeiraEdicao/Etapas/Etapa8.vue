@@ -122,7 +122,7 @@
 
             </div>
             <div class="img-desc">
-                <span class="img-titulo">Anunciação II</span>
+                <span class="img-titulo">Emaús</span>
                 <span class="img-autor">Paulo Teia</span>
 
             </div>
