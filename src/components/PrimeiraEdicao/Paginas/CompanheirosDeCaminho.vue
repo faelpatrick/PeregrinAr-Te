@@ -58,10 +58,6 @@
     width: 92vw;
 }
 
-.box_title {
-
-}
-
 .banner {
     margin-top: 0 !important;
 }

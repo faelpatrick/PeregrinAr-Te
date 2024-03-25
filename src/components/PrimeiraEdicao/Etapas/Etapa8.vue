@@ -109,7 +109,7 @@
                 Não poderei viver
                 <br>sem a beleza
                 <br>com que me brindas
-                <br>todos os dias 
+                <br>todos os dias
             </p>
             <br><br>
             <hr>
@@ -117,102 +117,186 @@
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/visitacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                <img src="@/assets/imagens/Emaús 1.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                    style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/Emaús 2.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
                     style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
             <div class="img-desc">
                 <span class="img-titulo">Emaús</span>
-                <span class="img-autor">Paulo Teia</span>
-
+                <span class="img-autor">Cerâmica e placas de xisto</span>
             </div>
-            <h3>OUTRO OLHAR </h3>
 
-            <div class="autor-texto"> Maria José Meireles </div>
-            <p>
-                Regresso
-                <br> sempre
-                <br> aqui
-                <br> quando a alma
-                <br> está faminta.
-                <br> Este canto
-                <br> é alimento.
-            </p>
-
-
-
-            <br><br>
-            <hr>
-            <br><br>
-
-
-            <div class="img-container">
-                <img src="@/assets/imagens/anunciação 1.jpg" alt="" class="ma-5" aspect-ratio="1"
-                    @click="mostrar($event)" row style="max-width: 300px; cursor: pointer;"></img>
-
-                <img src="@/assets/imagens/anunciação 2.jpg" alt="" class="ma-5" aspect-ratio="1"
-                    @click="mostrar($event)" style="max-width: 300px; cursor: pointer;"></img>
-            </div>
-            <div class="img-desc">
-                <span class="img-titulo">Aconchego</span>
-                <span class="img-autor">Técnica Mista</span>
-
-            </div>
             <h3>O OLHAR DA ARTISTA</h3>
 
-            <div class="autor-texto"> Nuna Poliana Magalhães </div>
+            <div class="autor-texto">Conceição Araújo</div>
             <p>
-                A paz e a felicidade de um menino nos braços protetores
-                de uma Mãe debaixo do olhar sereno e abençoado do
-                anjo da guarda.
-            </p>
 
+                Ele está connosco!
+                Ao trilharmos o nosso caminho até Emaús não estamos sozinhos.
+                Podemos convidar o Ressuscitado a acompanhar-nos - “Fica connosco”
+                (Lc 24:29).
+                Esta experiência de partilha com o “coração a arder” e com “os olhos
+                abertos” levam-nos a reconhecê- Lo e a senti-Lo.
+            </p>
             <br>
             <h3>OUTRO OLHAR</h3>
+            <div class="autor-texto">Mário Malheiro</div>
+            <p>
 
-            <div class="autor-texto">Mário Malheiro </div>
-            <p>
-                Poço de virtudes
-                <br> Cântaro de água viva
-                <br> Raios férteis
-                <br> Pureza de açucena velada
-                <br> Tálamo nupcial divino
-            </p>
-            <br>
-            <br>
-            <h4>O ícone em palavra</h4>
-            <p>
-                <b> Inspirado na simbologia icónica da Anunciação das pinturas medievais e renascentistas</b>
-                <br><a href="https://ler.letras.up.pt/uploads/ficheiros/9411.pdf" target="_blank">
-                    https://ler.letras.up.pt/uploads/ficheiros/9411.pdf</a>
+                <br>Abre-se o caminho
+                <br>Trindade escura e clara
+                <br>dois cinzas, um luz
+                <br>
+                <br>Alba ao centro
+                <br>Rostos velados
+                <br>para a imensidão do cosmos voltados
+                <br>(…)
+                <br>Abre-se o caminho
+                <br>Ainda que não se conheça…
+                <br>Alba imensidão
+                <br>una, plena, velada
             </p>
             <br><br>
+            <h4>NO CAMINHO DE EMAÚS </h4>
+            <div class="text-left">
+                <br>Inspirado em “Road to Emmaus”
+                <br>por J. Kirk Richards
+            </div>
+            <p>
+                <br>Abre-se o caminho
+                <br>Trindade escura e clara
+                <br>dois cinzas, um luz
+                <br>
+                <br>Alba ao centro
+                <br>Rostos velados
+                <br>para a imensidão do cosmos voltados
+                <br>
+                <br>Caminho irregular
+                <br>torna-se plano
+                <br>sereno,
+                <br>fluido e fruído
+                <br>
+                <br>Apenas…
+                <br>nada de tudo,
+                <br>tudo em nada
+                <br>Somente uno
+                <br>
+                <br>Três em um
+                <br>Céu claro,
+                <br>raízes fundas
+                <br>Nascente viva verdejante
+                <br>
+                <br>Abre-se o caminho
+                <br>Ainda que não se conheça…
+                <br>Alba imensidão
+                <br>una, plena, velada
+            </p>
+            <div class="autor-texto">Mário Malheiro</div>
+            <br><br>
+            <h4>CAMINHO DE EMAÚS</h4>
+            <p>
+                <br>Inspirado no quadro The Disciples on the Road to Emmaus
+                <br>de James Jacques Joseph Tissot
+                <br>
+                <br>Vento do mar morto
+                <br>Agita oliveiras do horto
+                <br>Mas o morto está vivo
+                <br>
+                <br>Eles se encolhem e tolhem
+                <br>Eles fletem para dentro
+                <br>O do centro enfrenta o vento
+                <br>
+                <br>Sinistra ereta explana
+                <br>Que o mar agita as águas
+                <br>E que vento morto é vida
+                <br>
+                <br>Rostos brancos velados
+                <br>Pelo vento atordoados
+                <br>O do centro domina o tempo
+                <br>
+                <br>Sinistra ereta celeste
+                <br>Sob as águas planou
+                <br>O vento do mar morto amainou
+                <br>
+                <br>Gravilha corrói sandálias
+                <br>O do meio está descalço
+                <br>Pé ante pé
+                <br>Sinistra ad caelum
+            </p>
 
-            <h4> Anunciação</h4>
-            <br>Poço de virtudes
-            <br>Cântaro de água viva
-            <br>Raios férteis
-            <br>Pureza de açucena velada
-            <br>Tálamo nupcial divino
-            <br>Livro sagrado
-            <br>Porta celeste
-            <br>Vaso de cristal
-            <br>Mensageiro alado
-            <br>Arcanjo de ceptro ostentado
-            <br>Sarça ardente materna
-            <br>Púrpura violácea descida sobre frágeis ombros eleitos
-            <br>Drap’d honneur guardado por 12 primaveras
-            <br>Concha em ninho do futuro divino
-            <br>Tábuas da lei em doce dossel de cetim encoberto
-            <br>Esteira de oração rubra em templo sagrado
-            <br>Janela para o horto do Éden da expiação
-            <br>«Fiat Mihi secundum verbum tuum»
-            <br>Faça-se em mim, segundo a tua vontade
-            <br>Véu do templo cosido
-            <br>Muro de Gadreel reconstruído
-            <br>Horto fechado resgatado
+            <div class="autor-texto">Mário Malheiro</div>
+            <br><br>
+            <div class="d-flex flex-row justify-space-around">
+                <div>
+                    <h4>CAMINHOS DE SANTIAGO...</h4>
+                    <br>Agora
+                    <br>os caminhos
+                    <br>de Santiago
+                    <br>passam
+                    <br>junto à minha lareira
+                    <br>onde abrigo
+                    <br>todos
+                    <br>os que têm fome
+                    <br>e sede
+                    <br>de justiça.
+                    <br><br>
+                    <div class="autor-texto">Maria José Meireles </div>
+                </div>
+                <div>
+                    <h4 class="text-center">PAZ...</h4>
+                    <br>Hoje
+                    <br>quero
+                    <br>deitar a minha cabeça
+                    <br>no teu colo
+                    <br>peço que
+                    <br>a afagues
+                    <br>com as tuas mãos
+                    <br>divinas.
+                    <br>Ensina-me
+                    <br>uma oração
+                    <br>que cure as dores da alma
+                    <br>e dá-me
+                    <br>somente um pouco
+                    <br>da tua paz
+                    <br>que não a quero toda.
+                    <div class="text-center">
+                        <div class="autor-texto">Maria José Meireles </div>
+                        In poemas para quem gosta
+                    </div>
+                </div>
+                <div>
+                    <br>Encontro
+                    <br>em ti
+                    <br>a casa
+                    <br>onde habita
+                    <br>toda a minha
+                    <br>humanidade.
+                    <div class="text-center">
+                        <div class="autor-texto">Maria José Meireles </div>
+                        In Momentos de Liberdade
+                    </div>
+                </div>
+                <div>
+                    <br>Sim
+                    <br>regressas-me
+                    <br>à origem
+                    <br>de todos
+                    <br>os universos
+                    <br>e és ainda
+                    <br>o melhor
+                    <br>abraço.
+                    <div class="text-center">
+                        <div class="autor-texto">Maria José Meireles </div>
+                        In Momentos de Liberdade
+                    </div>
+                </div>
+            </div>
 
-            <div class="autor-texto"> Mário Malheiro</div>
+
+            <br><br>
+        
 
 
             <v-dialog v-model="dialog" max-width="96vw">
@@ -224,8 +308,9 @@
             </v-dialog>
 
         </div>
+        <br>
     </v-container>
-
+<br>
 
 
 
