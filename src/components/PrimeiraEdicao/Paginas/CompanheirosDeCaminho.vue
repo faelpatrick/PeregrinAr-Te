@@ -4,8 +4,8 @@
             <img src="/src/assets/peregrinarte.png" alt="" class="w-75 h-100">
         </div>
         <div class="box_title">
-            <h2>Companheiros de Caminho</h2>
-            <h3>PeregrinAr-Te in via Vitae Christi 2024</h3>
+            <h2 class="ml-8">Companheiros de Caminho</h2>
+            <h3 class="ml-8">PeregrinAr-Te in via Vitae Christi 2024</h3>
         </div>
         <div class="creditos">
             <span>Verónica Parente</span>
@@ -29,7 +29,6 @@
             <span>Jesus Gomez-Pablos</span>
             <span>Fernando Silva</span>
             <span>Maria do Céu Camposinhos</span>
-            <span></span>
             <span>Casey Coelho</span>
             <span>Cristina Gonçalves</span>
             <span>Dírio Alves</span>
@@ -49,14 +48,18 @@
 
 </template>
 
-<style>
-.banner,
-.box_title {
+<style scoped>
+
+.v-container {
     box-shadow: 0 0 10px #00000050;
-    background-color: #fdfdfd50;
-    padding: 1rem !important;
-    margin: 1.2rem;
+    background-color: #fdfdfdaa;
+    margin: 1rem;
     border-radius: 15px;
+    width: 92vw;
+}
+
+.box_title {
+
 }
 
 .banner {
@@ -67,14 +70,10 @@
 
     text-align: justify;
     font-weight: 500;
-    padding: 1rem;
-    margin: 2rem;
     text-align: center;
     display: grid;
     grid-template-columns: 2fr 2fr;
-    background-color: #fdfdfd50;
-    border-radius: 15px;
-    box-shadow: 0 0 10px #00000050;
+    line-height: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
