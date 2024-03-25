@@ -271,11 +271,13 @@
                 o que o coração jamais sentiu é o que Deus preparou para os que O
                 amam.
             </p>
+            <br><br><br>
             <h3> OUTRO OLHAR</h3>
             <div class="autor-texto">Jesus Gomez-Pablos</div>
             <p>
                 Jesus ressuscitou. A Vida pôde mais do que a morte.
             </p>
+            <br><br>
             <div class="autor-texto">Maria José Morais </div>
             <p>
 
@@ -291,37 +293,50 @@
             </p>
 
             <br>
-            <p>
-
-                Dizes
-                <br>que somos
-                <br>a maior história
-                <br>de amor
-                <br>da humanidade
-                <br>e eu digo
-                <br>ao mundo
-                <br>que somos apenas
-                <br>um segredo.
-            </p>
-            <div class="text-right">
-                <div class="autor-texto">Maria José Meireles </div>
-                In Momentos de Liberdade
-            </div>
-
             <br>
+            <br>
+            <br>
+            <div class="d-flex flex-row justify-space-around">
 
-            <p>
-                Com o fascínio
-                <br>de todos
-                <br>os abismos
-                <br>aqueço agora a alma
-                <br>e o corpo
-                <br>e aprendo a coragem
-                <br>da luz.
-            </p>
-            <div class="text-right">
-                <div class="autor-texto">Maria José Meireles </div>
-                In Momentos de Liberdade
+                <div>
+
+                    <p>
+
+                        Dizes
+                        <br>que somos
+                        <br>a maior história
+                        <br>de amor
+                        <br>da humanidade
+                        <br>e eu digo
+                        <br>ao mundo
+                        <br>que somos apenas
+                        <br>um segredo.
+                    </p>
+                    <div class="text-center">
+                        <div class="autor-texto">Maria José Meireles </div>
+                        In Momentos de Liberdade
+                    </div>
+
+                    <br>
+                </div>
+                <div>
+
+                    <p>
+                        Com o fascínio
+                        <br>de todos
+                        <br>os abismos
+                        <br>aqueço agora a alma
+                        <br>e o corpo
+                        <br>e aprendo a coragem
+                        <br>da luz.
+                    </p>
+                    <br>
+                    <br>
+                    <div class="text-right">
+                        <div class="autor-texto">Maria José Meireles </div>
+                        In Momentos de Liberdade
+                    </div>
+                </div>
             </div>
 
             <br>

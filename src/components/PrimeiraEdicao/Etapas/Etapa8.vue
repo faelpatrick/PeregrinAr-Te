@@ -1,34 +1,42 @@
 <template>
     <v-container>
         <div class="primeiro-texto">
-            <h1>Etapa I</h1>
-            <h2>ANUNCIAÇÃO A MARIA</h2>
+            <h1>Etapa VIII</h1>
+            <h2>CAMINHO E CEIA DE EMAÚS</h2>
 
 
-            <h3>Anunciação do Arcanjo S. Gabriel a Maria</h3>
-            <p>O filho de Deus irá assumir a natureza humana para nos salvar. É a proposta
-                que Gabriel faz a Nossa Senhora. A resposta é afirmativa e,assim, o Redentor
-                dos homens e do mundo poderá vir ao coracão de cada um de nós para nos
-                dizer em que consiste a santidade de Deus e a santidade que Ele espera
-                de nós.
-            </p>
+            <h3>Ceia de Emaús</h3>
+            <p>No caminho de Emaús Jesus sai ao encontro de dois dos seus discípulos,
+                descrentes e tristonhos por tudo o acontecido. Esqueceram-se das palavras
+                de João Baptista referidas ao Mestre: “Eis o Cordeiro de Deus que tira o
+                pecado do mundo”. A sua imolação, como cordeiro levado ao matadouro, era
+                necessária. <br>
+                Já noite, voltaram a correr a Jerusalém anunciar o encontro com Jesus. “Fica
+                connosco” tinham-lhe proposto. E Jesus ficou e deu-se a conhecer quando
+                parte o pão, sentados á mesa. O caminho de regresso já não era igual ao de
+                ida. Cristo ressuscitado tinha-lhes aberto os “caminhos divinos da Terra”.</p>
 
+            <h3>La cena de Emaús</h3>
+            <p>En el camino de Emaús Jesús sale al encuentro de dos de sus discípulos,
+                incrédulos y entristecidos por todo lo ocurrido. Se habían olvidado de las palabras de Juan Bautista
+                referidas al Maestro: “Este es el Cordero de Dios que
+                quita el pecado del mundo”. Su inmolación, como cordero llevado al matadero, era necesaria. Ya noche,
+                vuelven corriendo a Jerusalén para anunciar
+                el encuentro con Jesús. “Quédate con nosotros” le propusieron . Y Jesús se
+                quedó y se dio a conocer al partir el pan, ya en la mesa. El camino de regreso
+                no sería igual al de ida. Cristo resucitado les había abierto los “caminos divinos
+                de la tierra”.</p>
 
-            <h3>La Anunciación del Arcángel San Gabriel a María </h3>
-            <p>
-                El hijo de Dios recibirá la naturaleza humana para salvarnos. Es la propuesta
-                que Gabriel hace a la Virgen. La respuesta fue afirmativa y, de esa manera,
-                el Redentor de los hombres y del mundo podrá venir al corazón de cada uno
-                de nosotros para decirnos en qué consiste la santidad de Dios y también la
-                santidad que Él espera de nosotros.
-            </p>
-            <h3> Annunciation of the Archangel Saint Gabriel to Mary</h3>
-            <p>
-                The Son of God will become man to save us. $event proposal that Gabriel
-                makes to Our Lady. She accepts the proposal, and thus, the Redeemer of men
-                and the world can come to the heart of each of us to tell us what the holiness
-                of God consists of and the holiness that He expects from us.
-            </p>
+            <h3> Supper at Emmaus</h3>
+            <p>On the road to Emmaus, Jesus meets two of his disciples, unbelieving and
+                saddened by everything that happened. They forgot the words of John the
+                Baptist about the Master: “Behold the Lamb of God who takes away the sin of
+                the world.” His sacrifice, like a lamb led to the slaughter, was necessary.
+                It was night already when they hurried to Jerusalem to announce the encounter
+                with Jesus. “Stay with us,” they had proposed to him. And Jesus stayed and
+                made himself known when he broke the bread, sitting at the table. The journey
+                back was no longer the same as the journey there. The resurrected Christ had
+                revealed to them the “divine paths of the Earth.”</p>
 
             <div class="autor-texto">
                 Jesus Gomez-Pablos e Ana Alves
@@ -37,17 +45,22 @@
             <hr>
             <br><br>
 
-            <h3>Anunciação do Arcanjo S. Gabriel a Maria</h3>
+            <h3>Ceia de Emaús</h3>
             <p>
-                <br>Acendam-se as estrelas nas alturas!
-                <br>Abrande o Astro Rei o seu fulgor!
-                <br>Escutem o convite do Arcanjo
-                <br>À Eleita Mãe do nosso Redendor.
+                As núvens que ensombravam os seus olhos
+                <br>Diluem-se... E aos poucos, de mansinho.
+                <br>O Mestre paciente afasta as dúvidas
+                <br>Que os levavam pr´ra fora do Caminho.
                 <br>
-                <br>Chegou esta alvorada de Esperança,
-                <br>Depois de muitos anos de vigília.
-                <br>O Verbo Se fez Carne. Veio ao mundo
-                <br>E quer pʼra sempre ser nossa Família.
+                <br>Convidam para a ceia o Peregrino,
+                <br>Em Emaús. E, na mansão da aldeia,
+                <br>Depressa se fez luz quando aquele Homem
+                <br>À mesa, fez o mesmo que na Ceia.
+                <br>
+                <br>Senhor, vamos contigo pelo mundo,
+                <br>Semeadores cheios de alegria.
+                <br>Mas dá-nos maior fé e mais amor,
+                <br>Na Comunhão da santa Eucaristia.
             </p>
             <div class="text-right">
                 <div class="autor-texto">Fernando Silva</div>
@@ -62,25 +75,42 @@
 
 
             <div class="img-container">
-                <img src="@/assets/imagens/anunciacao.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                <img src="@/assets/imagens/Vida 1.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                    style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/Vida 2.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
+                    style="max-width: 300px; cursor: pointer;"></img>
+                <img src="@/assets/imagens/Vida 3.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)"
                     style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
             <div class="img-desc">
-                <span class="img-titulo">Anunciação I</span>
-                <span class="img-autor">Paulo Teia</span>
-
+                <span class="img-titulo">Vida</span>
+                <span class="img-autor">Técnica Mista</span>
             </div>
-            <h3>OUTRO OLHAR </h3>
 
-            <div class="autor-texto"> Maria José Morais </div>
+            <h3>O OLHAR DA ARTISTA</h3>
+
+            <div class="autor-texto"> Nuna Poliana Magalhães </div>
             <p>
-                Uma mulher menina “vestida de Sol”, o olhar especial e profundo
-                porque vai ao fundo do coração. A iluminada ou iluminadora a
-                nossa Senhora que se entrega inteiramente e adere com determinação ao ousado plano de AMOR.
+                Todos somos convocados para os caminhos divinos, os caminhos do Amor.
             </p>
+            <br>
 
+            <h3>OUTRO OLHAR</h3>
+            <div class="autor-texto">Jesus Gomez-Pablos</div>
+            <p>
+                O caminho de regresso já não era igual ao de ida. Cristo ressuscitado
+                tinha-lhes aberto os “caminhos divinos da Terra”.
+            </p>
+            <br>
 
+            <div class="autor-texto">Maria José Meireles"</div>
+            <p>
+                Não poderei viver
+                <br>sem a beleza
+                <br>com que me brindas
+                <br>todos os dias
+            </p>
             <br><br>
             <hr>
             <br><br>
