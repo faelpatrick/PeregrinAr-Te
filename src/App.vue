@@ -90,6 +90,29 @@ main.v-main {
   padding-left: 1.8rem;
 }
 
+
+.autor-texto {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: .6rem;
+}
+
+.autor-texto::before {
+    content: " [ ";
+}
+
+.autor-texto::after {
+    content: " ] ";
+}
+
+.autor-texto::after,
+.autor-texto::before {
+    color: #a7834a;
+    font-size: 1.4rem;
+    position: relative;
+    top: 1px;
+}
+
 footer {
   background-color: var(--menu-bg-color);
   color: var(--menu-text-color);

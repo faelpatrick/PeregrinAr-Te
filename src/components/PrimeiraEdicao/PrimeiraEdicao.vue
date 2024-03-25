@@ -16,12 +16,8 @@
                     </v-list-item>
 
                     <v-divider></v-divider>
-                    <v-list-item
-                    key="etapas"
-                    prepend-icon="mdi-format-list-bulleted"
-                    title="Etapas"
-                    subtitle="Etapas I a VIII" 
-                    @click="etapas = !etapas">
+                    <v-list-item key="etapas" prepend-icon="mdi-format-list-bulleted" title="Etapas"
+                        subtitle="Etapas I a VIII" @click="etapas = !etapas">
                     </v-list-item>
                 </v-list>
                 <v-list>
@@ -108,8 +104,10 @@
                             <etapa8 />
                         </v-window-item>
 
-                        <v-window-item value="tab-8">
-                            <!-- Etapa 9 -->
+                        <v-window-item value="tab-descanso">
+                            <!-- Pagina Descanso -->
+                            <Descanso />
+
                         </v-window-item>
                         <v-window-item value="tab-8">
                             <!-- Etapa 9 -->
@@ -147,6 +145,7 @@ import Etapa5 from './Etapas/Etapa5.vue';
 import Etapa6 from './Etapas/Etapa6.vue';
 import Etapa7 from './Etapas/Etapa7.vue';
 import Etapa8 from './Etapas/Etapa8.vue';
+import Descanso from './Paginas/Descanso.vue';
 import Musica from './Paginas/Musica.vue';
 import CompanheirosDeCaminho from './Paginas/CompanheirosDeCaminho.vue';
 import { useRouter } from 'vue-router';
@@ -190,7 +189,7 @@ const items = [
     { t11: 'Etapa VIII', title: 'Caminho e Ceia de Emaús', icon: 'mdi-roman-numeral-8', tab: 'tab-8' }
 ];
 const itemsFinais = [
-    { subtitle: 'Exposição fotográfica', title: 'Descanso', icon: 'mdi-pause-box-outline', tab: 'tab-9' },
+    { subtitle: 'Exposição fotográfica', title: 'Descanso', icon: 'mdi-pause-box-outline', tab: 'tab-descanso' },
     { subtitle: 'Concerto Musical', title: 'Música ', icon: 'mdi-music-rest-sixteenth', tab: 'tab-musica' },
     { subtitle: '', title: 'Credencial ', icon: 'mdi-badge-account-horizontal-outline', tab: 'tab-11' },
     { subtitle: '', title: 'Companheiros de Caminho', icon: 'mdi-account-supervisor', tab: 'CompanheirosDeCaminho' },
