@@ -71,16 +71,6 @@ h6 {
     color: #622f31;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    /* 12 colunas imaginando um sistema de grade de 12 colunas para flexibilidade */
-    grid-template-rows: repeat(6, auto);
-    /* Alturas de linha automática */
-    gap: 0;
-    /* Espaçamento entre os itens */
-}
-
 .grid-container img {
     margin: 0 !important;
     padding: 0 !important;
@@ -96,14 +86,11 @@ h6 {
 
 .grid-container {
     display: grid;
-
     grid-template-rows: repeat(15, 1fr) 1fr;
     grid-template-columns: repeat(3, 1fr);
-
     gap: 0px;
     height: 100%;
     width: auto;
-
 }
 
 .item-1 {
