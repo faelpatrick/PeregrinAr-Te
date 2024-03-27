@@ -212,7 +212,7 @@
             </p>
             <br>
             <div class="img-container">
-                <img src="@/assets/imagens/Colo.jpeg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)" row
+                <img src="@/assets/imagens/Colo.jpg" alt="" class="ma-5" aspect-ratio="1" @click="mostrar($event)" row
                     style="max-width: 300px; cursor: pointer;"></img>
 
             </div>
