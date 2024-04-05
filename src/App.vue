@@ -28,19 +28,21 @@
 
     <v-main>
       <router-view />
-    <footer>&copy;Desenvolvido por <a href="https://linktr.ee/faelpatrick" target="_blank">Rafael Patrick</a> </footer>
+      <footer>&copy;Desenvolvido por <a href="https://linktr.ee/faelpatrick" target="_blank">Rafael Patrick</a>
+      </footer>
     </v-main>
 
     <!-- Alterar cores do Site -->
-   
+
     <AlterarCoresSite />
   </v-app>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import AlterarCoresSite from './components/Cores/AlterarCoresSite.vue';
+import live from './components/PrimeiraEdicao/Paginas/Live.vue';
 
 const drawer = ref(false);
 const drawerTop = ref(false);
@@ -52,7 +54,24 @@ function goTo(route) {
   drawerTop.value = false; // Opcional: fecha o menu após a navegação
 }
 
-console.log('Rota atual:', router.currentRoute.value.path)
+onMounted(() => {
+  const path = window.location.pathname.split("/").pop();
+
+  switch (path) {
+    case 'live':
+      console.log('Página de Live');
+      goTo('/live');
+      break;
+    case 'patrocinio':
+      console.log('Página de Patrocínio');
+      break;
+    case 'edicao':
+      console.log('Página de Edição');
+      break;
+    default:
+      console.log('Página não reconhecida');
+  }
+});
 
 </script>
 
@@ -92,25 +111,25 @@ main.v-main {
 
 
 .autor-texto {
-    font-size: 1rem;
-    font-weight: 500;
-    margin: .6rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: .6rem;
 }
 
 .autor-texto::before {
-    content: " [ ";
+  content: " [ ";
 }
 
 .autor-texto::after {
-    content: " ] ";
+  content: " ] ";
 }
 
 .autor-texto::after,
 .autor-texto::before {
-    color: #a7834a;
-    font-size: 1.4rem;
-    position: relative;
-    top: 1px;
+  color: #a7834a;
+  font-size: 1.4rem;
+  position: relative;
+  top: 1px;
 }
 
 footer {
@@ -132,60 +151,60 @@ footer a {
 }
 
 .primeiro-texto {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f6f6f6;
-    border-radius: 2rem;
-    box-shadow: 0 0 10px #00000050;
-    margin: .1rem;
-    padding: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f6f6f6;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px #00000050;
+  margin: .1rem;
+  padding: 1rem;
 }
 
 h1 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: var(--primary-color);
-    padding: 1rem;
-    text-align: left;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding: 1rem;
+  text-align: left;
 }
 
 h2 {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #a7834a;
-    padding: 1rem 0 0 0;
-    margin-left: 1rem;
-    margin-bottom: .6rem;
-    /* text-align: left; */
-    border-bottom: solid 2px var(--primary-color);
-    width: fit-content;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #a7834a;
+  padding: 1rem 0 0 0;
+  margin-left: 1rem;
+  margin-bottom: .6rem;
+  /* text-align: left; */
+  border-bottom: solid 2px var(--primary-color);
+  width: fit-content;
 }
 
 h3 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding: .8rem 0 0 0px;
-    margin: 0px;
-    /* text-align: left; */
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: .8rem 0 0 0px;
+  margin: 0px;
+  /* text-align: left; */
 }
 
 h4 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    padding: .8rem 0 0 0px;
-    margin: 0px;
-    /* text-align: left; */
-    color: #a7834a;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: .8rem 0 0 0px;
+  margin: 0px;
+  /* text-align: left; */
+  color: #a7834a;
 }
 
 .primeiro-texto p {
-    font-size: 1rem;
-    font-weight: 300;
-    padding: 4px;
-    margin: 0;
-    text-align: justify;
-    /* border: solid 1px #00000050; */
-    width: fit-content;
-    margin: auto;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 4px;
+  margin: 0;
+  text-align: justify;
+  /* border: solid 1px #00000050; */
+  width: fit-content;
+  margin: auto;
 }
 
 @media screen and (min-width: 1024px) {
@@ -328,8 +347,8 @@ h4 {
 }
 
 .text-right {
-    text-align: right !important;
-    margin-right: 20px;
-    margin-bottom: 20px;
+  text-align: right !important;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 </style>
