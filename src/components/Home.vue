@@ -12,6 +12,9 @@
       </v-list-item>
       <v-list-item key="Primeira Edição" prepend-icon="mdi-watermark" title="Patrocínio"
         @click="onItemClick('Patrocinio')">
+      </v-list-item> 
+      <v-list-item key="Primeira Edição" prepend-icon="mdi-youtube-tv" title="Live e Videos"
+        @click="onItemClick('Live')">
       </v-list-item>
     </v-list>
   </v-navigation-drawer>
@@ -69,6 +72,9 @@
         </v-window-item>
         <v-window-item value="Patrocinio" id="patrocinio" class="patrocinio text-center">
           <Patrocinio />
+        </v-window-item> 
+        <v-window-item value="Live" id="live" class="live text-center">
+          <Live />
         </v-window-item>
       </v-window>
     </v-container>
@@ -78,6 +84,7 @@
 <script setup>
 import { ref } from 'vue';
 import Patrocinio from './PrimeiraEdicao/Paginas/Patrocinio.vue';
+import Live from './PrimeiraEdicao/Paginas/Live.vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();

@@ -175,6 +175,66 @@
         </v-expansion-panels>
 
 
+
+        <hr>
+        <h3>Música Clássica – RECITAL</h3>
+        <div class="sobre">
+            <br>
+            “A música, desde que sublime, é prece que enleva e enobrece o espírito
+            eterno que todos somos, permitindo-nos entrar em estreita comunhão com os
+            planos superiores da expressão espiritual.”
+
+            <div class="autor-texto text-right">João Coelho </div>
+            <br>
+            <h4>PROGRAMA</h4>
+            <br> 
+            <h5 style="font-size: 1rem;">Parte I</h5>
+            1 – J. S. Bach, Paixão Segundo S. Mateus,
+            “Erbarme dich mein Gott”.
+            Tradução:
+            Tem piedade, meu Deus,
+            Por causa das minhas lágrimas!
+            Olha aqui, coração e olhos
+            Choram amargamente perante Ti.
+            Tem piedade, meu Deus!
+            Duração: 7’
+            2 – A. Vivaldi, Stabat Mater
+            Tradução:
+            Estava a Mãe dolorosa,
+            Ao pé da Cruz lacrimosa
+            E o filho pendente dela.
+            Duração: 4’
+            Intérpretes:
+            Cristina Gonçalves | Mezzo-soprano
+            Dírio Alves | Viola d’Arco
+            Natália Ferreira | Piano
+
+        </div>
+        <v-expansion-panels>
+            <!-- Música 1 -->
+            <v-expansion-panel>
+                <v-expansion-panel-title>
+                    CAMINHO E CEIA DE EMAÚS
+                    Resucitados (Kenosis)
+                </v-expansion-panel-title>
+
+                <v-expansion-panel-text>
+                    <div class="musica-divisao">
+                        <div class="musica-letra">
+                        </div>
+                        <div class="musica-video">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/jLdcb28bL_I?si=G2hID3fHDFxVtRlQ"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </v-expansion-panel-text>
+            </v-expansion-panel>
+        </v-expansion-panels>
+
+
     </v-container>
 </template>
 
