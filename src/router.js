@@ -28,24 +28,9 @@ const routes = [
     path: '/live',
     name: 'Live',
     component: Live
-  },
-  {
-    path: '/primeira-edicao/patrocinio',
-    name: 'Patrocinio',
-    component: Patrocinio
-  },
-  {
-    path: '/primeira-edicao/patrocinador',
-    name: 'Patrocinio',
-    component: Patrocinio
-  },
+  }, 
   {
     path: '/patrocinio',
-    name: 'Patrocinio',
-    component: Patrocinio
-  },
-  {
-    path: '/patrocinador',
     name: 'Patrocinio',
     component: Patrocinio
   },

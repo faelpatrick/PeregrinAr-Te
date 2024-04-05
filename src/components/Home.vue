@@ -1,23 +1,5 @@
 <template>
-  <v-navigation-drawer v-model="drawer" app rail :expand-on-hover :permanent="true" :width="width">
-    <v-list dense>
-      <v-list style="font-size: 32pt; padding: 0;">
-        <v-list-item class="logo-menu" prepend-avatar="@/assets/logo.png" title="PeregrinAr-Te" subtitle="">
-        </v-list-item>
-      </v-list>
-      <v-list-item key="HOME" prepend-icon="mdi-home" title="Casa" @click="onItemClick('Casa')">
-      </v-list-item>
-      <v-list-item key="Primeira Edição" prepend-icon="mdi-book-open-page-variant" title="Primeira Edição"
-        @click="$router.push('/primeira-edicao')">
-      </v-list-item>
-      <v-list-item key="Primeira Edição" prepend-icon="mdi-watermark" title="Patrocínio"
-        @click="onItemClick('Patrocinio')">
-      </v-list-item> 
-      <v-list-item key="Primeira Edição" prepend-icon="mdi-youtube-tv" title="Live e Videos"
-        @click="onItemClick('Live')">
-      </v-list-item>
-    </v-list>
-  </v-navigation-drawer>
+ <NavHome :activeTab="activeTab"/>
   <!-- Conteúdo -->
   <v-main>
     <v-container>
@@ -83,21 +65,11 @@
 
 <script setup>
 import { ref } from 'vue';
-import Patrocinio from './PrimeiraEdicao/Paginas/Patrocinio.vue';
-import Live from './PrimeiraEdicao/Paginas/Live.vue';
+import NavHome from './NavHome.vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
-const drawer = ref(true);
-const expandOnHover = ref(true);
-const width = 350;
 const activeTab = ref('Casa');
-
-const onItemClick = (tab) => {
-  activeTab.value = tab;
-}
-
-console.log('Rota atual:', router.currentRoute.value.path)
 
 </script>
 

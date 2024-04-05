@@ -1,4 +1,5 @@
 <template>
+    <NavHome @onItemClick="onItemClick" />
     <div class="video-container">
         <h1>PeregrinAr-Te - Live</h1>
         <br>
@@ -15,7 +16,16 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, defineProps } from 'vue';
+import NavHome from '../../NavHome.vue';
+
+const props = defineProps({
+    activeTab: String
+})
+
+function onItemClick(tab) {
+    props.activeTab.value = tab;
+}
 
 const videoID = 'AQUI_VAI_O_ID_DO_SEU_VIDEO';
 const videoUrl = ref('https://www.youtube.com/embed/'+videoID+'?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=1');
