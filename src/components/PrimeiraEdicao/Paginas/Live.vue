@@ -1,12 +1,13 @@
 <template>
     <div class="video-container">
         <h1>PeregrinAr-Te - Live</h1>
+        <br>
         <iframe width="560" height="315" :src="videoUrl" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
 
-      
+      <br>
         <p class="mensagem-aguarde">
             Por favor, aguarde a transmissão começar. Agradecemos a sua paciência.
         </p>
@@ -23,10 +24,11 @@ const videoUrl = ref(`https://www.youtube.com/embed/${videoID}?rel=0&modestbrand
 <style>
 .video-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* Ajusta a altura para ocupar toda a altura da tela */
+    background-color: #f5f5f5;
 }
 
 iframe {
