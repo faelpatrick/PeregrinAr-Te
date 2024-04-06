@@ -5,7 +5,7 @@
         <br>
         <div class="d-flex flex-row justify-space-around">
             <div class="w-25"></div>
-            <iframe  widtd="600" :src="videoUrl" title="YouTube video player" frameborder="0"
+            <iframe  :src="videoUrl" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
