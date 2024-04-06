@@ -37,7 +37,7 @@ function onItemClick(tab) {
     props.activeTab.value = tab;
 }
 
-const videoID = 'AQUI_VAI_O_ID_DO_SEU_VIDEO';
+const videoID = 'd5LG1cxGaGA';
 const videoUrl = ref('https://www.youtube.com/embed/' + videoID + '?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=1');
 </script>
 
