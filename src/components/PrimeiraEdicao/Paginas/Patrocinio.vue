@@ -43,6 +43,8 @@ const props = defineProps({
     justify-content: center;
     gap: 2rem;
     margin-left: 2rem;
+    background-color: #ffffff;
+    min-height: 100vh;
 }
 
 .patrocinadores img {
@@ -67,6 +69,7 @@ h2 {
 
     .patrocinadores img {
         max-height: 150px;
+        max-width: 96%;
     }
 
 }
