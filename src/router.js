@@ -4,6 +4,7 @@ import PrimeiraEdicao from './components/PrimeiraEdicao/PrimeiraEdicao.vue';
 import Patrocinio from './components/PrimeiraEdicao/Paginas/Patrocinio.vue';
 import Live from './components/PrimeiraEdicao/Paginas/Live.vue';
 import Noticias from './components/PrimeiraEdicao/Paginas/Noticias.vue';
+import CitacaoFinal from './components/PrimeiraEdicao/Paginas/CitacaoFinal.vue';
 import Etapa1 from './components/PrimeiraEdicao/Etapas/Etapa1.vue';
 import Etapa2 from './components/PrimeiraEdicao/Etapas/Etapa2.vue';
 import Etapa3 from './components/PrimeiraEdicao/Etapas/Etapa3.vue';
@@ -39,6 +40,11 @@ const routes = [
     path: '/patrocinio',
     name: 'Patrocinio',
     component: Patrocinio
+  },
+  {
+    path: '/primeira-edicao/citacao-final',
+    name: 'CitacaoFinal',
+    component: CitacaoFinal
   },
   {
     path: '/etapa-1',

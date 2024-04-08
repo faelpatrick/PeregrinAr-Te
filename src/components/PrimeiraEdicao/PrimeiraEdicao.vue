@@ -125,6 +125,11 @@
                         <v-window-item value="tab-8">
                             <!-- Etapa 11 -->
                         </v-window-item>
+
+                        <v-window-item value="tab-citacao-final">
+                            <CitacaoFinal />
+                        </v-window-item>
+                        
                     </v-window>
                 </v-card-text>
             </v-container>
@@ -193,7 +198,7 @@ const itemsFinais = [
     { subtitle: 'Concerto Musical', title: 'Música ', icon: 'mdi-music-rest-sixteenth', tab: 'tab-musica' },
     { subtitle: '', title: 'Credencial ', icon: 'mdi-badge-account-horizontal-outline', tab: 'tab-11' },
     { subtitle: '', title: 'Companheiros de Caminho', icon: 'mdi-account-supervisor', tab: 'CompanheirosDeCaminho' },
-    { subtitle: 'Citação Final', title: ' ', icon: 'mdi-ray-end', tab: 'tab-13' },
+    { subtitle: 'Citação Final', title: ' ', icon: 'mdi-ray-end', tab: 'tab-citacao-final' },
 ];
 
 

@@ -61,6 +61,9 @@
         <v-window-item>
           <Noticias />
         </v-window-item>
+        <v-window-item>
+          <CitacaoFinal />
+        </v-window-item>
         < </v-window>
     </v-container>
   </v-main>
@@ -70,6 +73,7 @@
 import { ref } from 'vue';
 import NavHome from './NavHome.vue';
 import { useRouter } from 'vue-router';
+import CitacaoFinal from './PrimeiraEdicao/Paginas/CitacaoFinal.vue';
 
 const router = useRouter();
 const activeTab = ref('Casa');
