@@ -88,6 +88,10 @@ import NavHome from '../../NavHome.vue';
     box-shadow: 0 0 10px #00000050;
     border-radius: 10px;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
 .noticias-container .v-img {
