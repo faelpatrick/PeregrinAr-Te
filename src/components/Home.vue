@@ -37,11 +37,11 @@
             <h4>
               <br> Evento: datas e horário
             </h4>
-            <p>
+            <p style="text-decoration: line-through;">
               28/03 - Museu Pio XII, 10h às 11h30
               <br> Museu Nogueira da Silva, Salão Nobre, 12h às 13h
             </p>
-            <p>
+            <p  style="text-decoration: line-through;">
               06/04 - Museu Pio XII, 14h30 às 16h
               <br> Museu Nogueira da Silva, Salão Nobre, 16h30 às 18h
             </p>
