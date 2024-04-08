@@ -6,12 +6,17 @@
                 in via Vitae Christi
                 o(s) olhar(es) do(s) peregrino(s)
             </h3>
-            <hr><br>
         </header>
 
         <p>
             Utilize a o menu de navegação, localizado na barra lateral esquerda, para acessar os Etapas do livro.
         </p>
+        <br>
+        <div class="materiais-container">
+            <v-img src="@/assets/materiais/Cartaz.jpg" alt="Roteiro1" />
+            <v-img src="@/assets/materiais/convite frente.jpg" alt="Roteiro1" />
+            <v-img src="@/assets/materiais/convite verso.jpg" alt="Roteiro1" />
+        </div>
 
     </v-container>
 
@@ -40,5 +45,35 @@ header {
 
     gap: 20px;
 
+}
+
+.materiais-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    p {
+        text-align: justify;
+        margin: 0 10px;
+    }
+.materiais-container {
+    flex-wrap: wrap;
+}
+    .materiais-container .v-img {
+        width: 100%;
+    }
+    
 }
 </style>
