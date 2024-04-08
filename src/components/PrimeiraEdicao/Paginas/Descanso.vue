@@ -10,7 +10,7 @@
             <br><br>
             <h6>Exposição fotográfica
             </h6>
-            <p class="px-12 mx-12 my-4">
+            <p class="p-descanso">
 
                 O amor é linguagem, uma linguagem de descanso. Fomos
                 criados para descansar e o Mestre do descanso incansavelmente nos comunica a sua proposta de descanso. A
@@ -54,6 +54,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     text-align: left;
+}
+
+.p-descanso {
+    padding: 0 12px;
+    margin: 12px;
 }
 
 h5 {
