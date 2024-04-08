@@ -92,4 +92,24 @@ import NavHome from '../../NavHome.vue';
     display: inline-block;
 
 }
+@media screen and (max-width: 1024px) {
+    .noticias-container {
+        margin: 0 1rem 1rem 1rem;
+    }
+    .noticias-container .lista-noticias {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: .5rem 0 0 0;
+}
+
+.noticias-container article {
+    width: 80%;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 4rem;
+    }
+    
+}
 </style>
