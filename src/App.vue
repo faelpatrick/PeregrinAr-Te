@@ -132,6 +132,10 @@ main.v-main {
   top: 1px;
 }
 
+.v-img__img--contain {
+  max-height: 100vh;
+}
+
 footer {
   background-color: var(--menu-bg-color);
   color: var(--menu-text-color);

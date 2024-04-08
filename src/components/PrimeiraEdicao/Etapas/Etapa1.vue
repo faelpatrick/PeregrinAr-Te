@@ -185,7 +185,7 @@
             <div class="autor-texto"> Mário Malheiro</div>
 
 
-            <v-dialog v-model="dialog" max-width="96vw">
+            <v-dialog v-model="dialog" max-width="96vw" class="dialog-container">
                 <v-btn size="large" @click="dialog = false" class="btnClose ml-4">X</v-btn>
 
                 <v-img id="dialog-img" :src="urlImg" aspect-ratio="1" width="90vw"></v-img>
@@ -222,6 +222,7 @@ function mostrar(event) {
 <style scoped>
 .v-dialog {
     background-color: #000000e0;
+    overflow-y: auto;
 }
 
 .v-overlay__content {
@@ -230,6 +231,7 @@ function mostrar(event) {
     align-items: center;
     margin: 0;
     padding: 0;
+    overflow-y: auto;
 }
 
 .img-container {
@@ -243,6 +245,7 @@ function mostrar(event) {
     background-color: #e9decf;
     box-shadow: inset 0 0 10px #00000050;
     box-shadow: 0 0 10px #00000050;
+    overflow-y: auto;
 }
 
 .img-desc {

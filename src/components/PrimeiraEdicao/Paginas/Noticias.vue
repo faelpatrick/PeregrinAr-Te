@@ -64,7 +64,7 @@ import NavHome from '../../NavHome.vue';
 }
 
 .noticias-container article {
-    width: 40%;
+    width: 45%;
     padding: 2rem;
     box-sizing: border-box;
     box-shadow: 0 0 10px #00000050;
