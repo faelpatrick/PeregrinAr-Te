@@ -1,5 +1,5 @@
 <template>
- <NavHome :activeTab="activeTab"/>
+  <NavHome :activeTab="activeTab" />
   <!-- Conteúdo -->
   <v-main>
     <v-container>
@@ -54,11 +54,14 @@
         </v-window-item>
         <v-window-item value="Patrocinio" id="patrocinio" class="patrocinio text-center">
           <Patrocinio />
-        </v-window-item> 
+        </v-window-item>
         <v-window-item value="Live" id="live" class="live text-center">
           <Live />
         </v-window-item>
-      </v-window>
+        <v-window-item>
+          <Noticias />
+        </v-window-item>
+        < </v-window>
     </v-container>
   </v-main>
 </template>
@@ -166,15 +169,17 @@ const activeTab = ref('Casa');
     margin-right: 2%;
     margin-left: 0 !important;
   }
+
   #casa h4 {
     font-size: 1.5rem !important;
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
+
   #casa p {
     margin-top: 0px;
     padding-top: 0px;
-  } 
+  }
 
 }
 </style>

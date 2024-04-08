@@ -16,6 +16,9 @@
             <v-list-item key="Primeira Edição" prepend-icon="mdi-youtube-tv" title="Live e Videos"
             @click="$router.push('/live')">
             </v-list-item>
+            <v-list-item key="Noticias" prepend-icon="mdi-newspaper" title="Notícias" 
+            @click="$router.push('/noticias')">
+            </v-list-item>
         </v-list>
     </v-navigation-drawer>
 </template>
