@@ -1,11 +1,11 @@
 <template>
-    <v-container>
+    <div class="container-companheiros">
         <div class="banner text-center">
             <img src="/src/assets/peregrinarte.png" alt="" class="w-75 h-100">
         </div>
         <div class="box_title">
-            <h2 class="ml-8">Companheiros de Caminho</h2>
-            <h3 class="ml-8">PeregrinAr-Te in via Vitae Christi 2024</h3>
+            <h2 class="banner-text">Companheiros de Caminho</h2>
+            <h3 class="banner-text">PeregrinAr-Te in via Vitae Christi 2024</h3>
         </div>
         <div class="creditos">
             <span>Verónica Parente</span>
@@ -44,16 +44,16 @@
             <span>Eduardo Bueso</span>
 
         </div>
-    </v-container>
+    </div>
 
 </template>
 
 <style scoped>
 
-.v-container {
+.container-companheiros {
     box-shadow: 0 0 10px #00000050;
-    background-color: #fdfdfdaa;
-    margin: 1rem;
+    background-color: #fdfdfd;
+    margin: .1rem;
     border-radius: 15px;
     width: 92vw;
 }
@@ -63,7 +63,6 @@
 }
 
 .creditos {
-
     text-align: justify;
     font-weight: 500;
     text-align: center;
@@ -75,6 +74,23 @@
 @media screen and (max-width: 1024px) {
     .creditos {
         grid-template-columns: 1fr;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .container-companheiros {
+        width: 100vw;
+    }
+
+    .banner {
+        margin-top: 0px !important;
+        padding-top: 20px;
+        padding-right: 80px;
+    }
+
+    h3.banner-text {
+        font-size: .9rem;
+        margin-left: 1.2rem;
     }
 
 }
