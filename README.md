@@ -6,8 +6,8 @@ Explore arte e cultura com a PeregrinAr-te, uma plataforma desenvolvida para con
 | -------------  | --- |
 | :sparkles: Nome        | **PeregrinAr-te**
 | :label: Tecnologias | JavaScript, HTML, CSS (Tecnologias Utilizadas)
-| :rocket: URL         | [Site](https://peregrinarte.vercel.app/)
-| 📁: URL         | [GitHub](https://github.com/faelpatrick/PeregrinAr-Te)
+| :rocket: URL         | https://peregrinarte.vercel.app
+| 📁: URL         | https://github.com/faelpatrick/PeregrinAr-Te
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![image](https://raw.githubusercontent.com/faelpatrick/PeregrinAr-Te/main/src/assets/peregrinarte_home.jpg#vitrinedev)
