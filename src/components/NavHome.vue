@@ -7,13 +7,16 @@
             </v-list>
             <v-list-item key="HOME" prepend-icon="mdi-home" title="Casa" @click="$router.push('/')">
             </v-list-item>
-            <v-list-item key="Primeira Edição" prepend-icon="mdi-book-open-page-variant" title="Primeira Edição"
+            <v-list-item key="Pri.Ed" prepend-icon="mdi-book-open-page-variant" title="Segunda Edição"
+                @click="$router.push('/segunda-edicao')">
+            </v-list-item> 
+            <v-list-item key="Pri.Ed" prepend-icon="mdi-bookshelf" title="Primeira Edição"
                 @click="$router.push('/primeira-edicao')">
             </v-list-item>
-            <v-list-item key="Primeira Edição" prepend-icon="mdi-watermark" title="Patrocínio"
+            <v-list-item key="Pri.Ed" prepend-icon="mdi-watermark" title="Patrocínio"
             @click="$router.push('/patrocinio')">
             </v-list-item>
-            <v-list-item key="Primeira Edição" prepend-icon="mdi-youtube-tv" title="Live e Videos"
+            <v-list-item key="Pri.Ed" prepend-icon="mdi-youtube-tv" title="Live e Videos"
             @click="$router.push('/live')">
             </v-list-item>
             <v-list-item key="Noticias" prepend-icon="mdi-newspaper" title="Notícias" 

@@ -11,9 +11,53 @@
               <img src="/src/assets/peregrinarte.png" class="peregrinarte-logo" alt="">
             </v-col>
           </v-row>
-          <h2 class="d-flex text-center justify-center mx-auto">in via Vitae Christi</h2>
-
+          <h2 class="d-flex text-center justify-center mx-auto">in via vitae Mariae</h2>
+          <br>
           <div class="casa-info">
+            <p>
+
+              Maria, menina, mulher e Mãe
+
+              Na sequência do evento <b>PeregrinAr-Te in via Vitae Christi</b> – Semana Santa Braga 2024-, surge, a 7 de
+              dezembro de 2024, a 1.ª de 2 etapas do evento <b>"PeregrinAr-Te in via Vitae Mariae".</b>
+            </p>
+            <p>
+              Convidam-se todos os caminheiros a percorrerem 3 lugares em Braga que são palco onde arte e a cultura
+              apontam caminhos de espiritualidade. As dinâmicas artísticas começam, pelas 14.30, no monte de Santa
+              Margarida, na Capela de N. Sr.ª da Guadalupe, com a presença do arqueólogo Ricardo Silva, entre outros
+              criativos.
+            </p>
+            <p>
+              Prossegue-se para a Igreja de S. Vitor (15.30-16.20), onde o P. Sérgio e o respetivo coro nos acolhem. O
+              roteiro termina (16.30-17.30) na Capela da Imaculada Conceição, no Seminário Menor de Braga. Aqui, o P.
+              Joaquim Félix e o arquiteto António Jorge Fontes farão uma visita guiada a esta obra premiada.
+            </p>
+            <p>
+              Eis um convite à escuta e ao SIM, como o da Senhora do sim, o da Senhora dos Mil Nomes, a escolhida para
+              esta 2.ª edição.
+            </p>
+            <p>
+              A impulsionadora, <br>
+              Maria José Morais Silva
+
+            </p>
+            <h4>
+              Pré-inscrição:
+            </h4>
+            <p>
+              <br><b>Museu Pio XII</b> – (+351) 253 200 130;
+              <br><b>E-mail:</b> <a href="info@museupioxii.pt" target="_blank">info@museupioxii.pt</a>
+            </p>
+            <h4>
+              <br> Segunda Edição: datas e horário
+            </h4>
+            <p>
+              07/12 - Museu Pio XII, 14h30 às 17h30
+            </p>
+            <br>
+            <hr>
+            <h4>Primeira Edição </h4>
+            <h2 class="d-flex text-center justify-center mx-auto">PeregrinAr-Te in via Vitae Christi</h2>
             <p>
               <span>PeregrinAr-Te</span> apresenta, na Semana Santa de Braga 2024, a exposição in via Vitae Christi, no
               Museu Pio XII (disponível
@@ -28,33 +72,17 @@
               <br>
             </p>
             <h4>
-              Pré-inscrição:
-            </h4>
-            <p>
-              <br><b>Museu Pio XII</b> – (+351) 253 200 130;
-              <br><b>E-mail:</b> <a href="info@museupioxii.pt" target="_blank">info@museupioxii.pt</a>
-            </p>
-            <h4>
-              <br> Segunda Edição: datas e horário
-            </h4>
-            <p>
-              07/12 - Museu Pio XII, 14h30 às 17h30 
-            </p>
-            <br>
-            <hr>
-            <br>
-            <h4>
-              <br> Primeira Edição Eventos Encerrados
+              <br>Eventos Encerrados
             </h4>
             <p style="text-decoration: line-through;">
               28/03 - Museu Pio XII, 10h às 11h30
               <br> Museu Nogueira da Silva, Salão Nobre, 12h às 13h
             </p>
-            <p  style="text-decoration: line-through;">
+            <p style="text-decoration: line-through;">
               06/04 - Museu Pio XII, 14h30 às 16h
               <br> Museu Nogueira da Silva, Salão Nobre, 16h30 às 18h
             </p>
-            <p  style="text-decoration: line-through;">
+            <p style="text-decoration: line-through;">
               20/04 - Museu Pio XII, 14h30 às 16h
               <br>Museu Nogueira da Silva, salão nobre, 16h30 às 18h
             </p>
@@ -83,6 +111,7 @@ import { ref } from 'vue';
 import NavHome from './NavHome.vue';
 import { useRouter } from 'vue-router';
 import CitacaoFinal from './PrimeiraEdicao/Paginas/CitacaoFinal.vue';
+// import CitacaoFinal from './PrimeiraEdicao/Paginas/CitacaoFinal.vue';
 
 const router = useRouter();
 const activeTab = ref('Casa');

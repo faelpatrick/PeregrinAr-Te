@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './components/Home.vue';
 import PrimeiraEdicao from './components/PrimeiraEdicao/PrimeiraEdicao.vue';
+import SegundaEdicao from './components/SegundaEdicao/SegundaEdicao.vue';
 import Patrocinio from './components/PrimeiraEdicao/Paginas/Patrocinio.vue';
 import Live from './components/PrimeiraEdicao/Paginas/Live.vue';
 import Noticias from './components/PrimeiraEdicao/Paginas/Noticias.vue';
@@ -21,6 +22,11 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/segunda-edicao',
+    name: 'SegundaEdicao',
+    component: SegundaEdicao
+  }, 
   {
     path: '/primeira-edicao',
     name: 'PrimeiraEdicao',

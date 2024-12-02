@@ -51,75 +51,75 @@
 
                         <!-- Ícone Coração -->
                         <v-window-item value="tab-icone-coracao">
-                            <Joia />
+                            <!-- <Joia /> -->
                         </v-window-item>
 
                         <!-- Roteiro -->
                         <v-window-item value="tab-roteiro">
-                            <Roteiro />
+                            <!-- <Roteiro /> -->
                         </v-window-item>
 
                         <!-- Partida -->
                         <v-window-item value="tab-partida" class="container-conteudo">
-                            <Partida />
+                            <!-- <Partida /> -->
                         </v-window-item>
 
                         <!-- Etapa 1 -->
                         <v-window-item value="tab-1">
-                            <etapa1 />
+                            <!-- <etapa1 /> -->
                         </v-window-item>
 
                         <!-- Etapa 2 -->
                         <v-window-item value="tab-2">
-                            <etapa2 />
+                            <!-- <etapa2 /> -->
                         </v-window-item>
 
                         <!-- Etapa 3 -->
                         <v-window-item value="tab-3">
-                            <etapa3 />
+                            <!-- <etapa3 /> -->
                         </v-window-item>
 
                         <!-- Etapa 4 -->
                         <v-window-item value="tab-4">
-                            <etapa4 />
+                            <!-- <etapa4 /> -->
                         </v-window-item>
 
                         <v-window-item value="tab-5">
                             <!-- Etapa 5 -->
-                            <etapa5 />
+                            <!-- <etapa5 /> -->
                         </v-window-item>
 
                         <v-window-item value="tab-6">
                             <!-- Etapa 6 -->
-                            <etapa6 />
+                            <!-- <etapa6 /> -->
                         </v-window-item>
 
                         <v-window-item value="tab-7">
                             <!-- Etapa 7 -->
-                            <etapa7 />
+                            <!-- <etapa7 /> -->
                         </v-window-item>
 
                         <v-window-item value="tab-8">
                             <!-- Etapa 8 -->
-                            <etapa8 />
+                            <!-- <etapa8 /> -->
                         </v-window-item>
 
                         <v-window-item value="tab-descanso">
                             <!-- Pagina Descanso -->
-                            <Descanso />
-
+                            <!-- <Descanso /> -->
                         </v-window-item>
+
                         <v-window-item value="tab-8">
                             <!-- Etapa 9 -->
                         </v-window-item>
 
                         <v-window-item value="tab-musica" class="container-conteudo">
-                            <Musica />
+                            <!-- <Musica /> -->
                         </v-window-item>
 
                         <!-- Etapa 10 -->
                         <v-window-item value="CompanheirosDeCaminho">
-                            <CompanheirosDeCaminho />
+                            <!-- <CompanheirosDeCaminho /> -->
                         </v-window-item>
 
                         <v-window-item value="tab-8">
@@ -127,7 +127,7 @@
                         </v-window-item>
 
                         <v-window-item value="tab-citacao-final">
-                            <CitacaoFinal />
+                            <!-- <CitacaoFinal /> -->
                         </v-window-item>
                         
                     </v-window>
@@ -139,20 +139,20 @@
 
 <script setup>
 import { ref } from 'vue';
-import Joia from './Paginas/Joia.vue';
+//  import Joia from './Paginas/Joia.vue';
 import Partida from './Etapas/Partida.vue';
 import Roteiro from './Paginas/Roteiro.vue';
-import Etapa1 from './Etapas/Etapa1.vue';
-import Etapa2 from './Etapas/Etapa2.vue';
-import Etapa3 from './Etapas/Etapa3.vue';
-import Etapa4 from './Etapas/Etapa4.vue';
-import Etapa5 from './Etapas/Etapa5.vue';
-import Etapa6 from './Etapas/Etapa6.vue';
-import Etapa7 from './Etapas/Etapa7.vue';
-import Etapa8 from './Etapas/Etapa8.vue';
-import Descanso from './Paginas/Descanso.vue';
-import Musica from './Paginas/Musica.vue';
-import CompanheirosDeCaminho from './Paginas/CompanheirosDeCaminho.vue';
+// import Etapa1 from './Etapas/Etapa1.vue';
+// import Etapa2 from './Etapas/Etapa2.vue';
+// import Etapa3 from './Etapas/Etapa3.vue';
+// import Etapa4 from './Etapas/Etapa4.vue';
+// import Etapa5 from './Etapas/Etapa5.vue';
+// import Etapa6 from './Etapas/Etapa6.vue';
+// import Etapa7 from './Etapas/Etapa7.vue';
+// import Etapa8 from './Etapas/Etapa8.vue';
+// import Descanso from './Paginas/Descanso.vue';
+// import Musica from './Paginas/Musica.vue';
+// import CompanheirosDeCaminho from './Paginas/CompanheirosDeCaminho.vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
