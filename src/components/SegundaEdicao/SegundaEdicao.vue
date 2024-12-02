@@ -180,18 +180,18 @@ function goTo(route) {
 
 const itemsRaiz = [
     { title: 'Partida ', subtitle: 'Prefácio', icon: 'mdi-ray-start-arrow', tab: 'tab-partida' },
-    { title: 'Jóia ', subtitle: 'CorAção em Ação ', icon: 'mdi-heart-settings-outline', tab: 'tab-icone-coracao' },
+    // { title: 'Jóia ', subtitle: 'CorAção em Ação ', icon: 'mdi-heart-settings-outline', tab: 'tab-icone-coracao' },
     { title: 'Roteiro: ', subtitle: 'Jóin via Vitae Christi', icon: 'mdi-chart-timeline', tab: 'tab-roteiro' },
 ];
 const items = [
-    { t11: 'Etapa I', title: 'Anunciação', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
-    { t11: 'Etapa II', title: 'Nascimento', icon: 'mdi-roman-numeral-2', tab: 'tab-2' },
-    { t11: 'Etapa III', title: 'Autorrevelação... bodas de Caná', icon: 'mdi-roman-numeral-3', tab: 'tab-3' },
-    { t11: 'Etapa IV', title: 'Última Ceia e Instituição eucarística', icon: 'mdi-roman-numeral-4', tab: 'tab-4' },
-    { t11: 'Etapa V', title: 'Coroação de Espinhos e Crucifixão', icon: 'mdi-roman-numeral-5', tab: 'tab-5' },
-    { t11: 'Etapa VI', title: 'Senhora Diante da Cruz  Pietá', icon: 'mdi-roman-numeral-6', tab: 'tab-6' },
-    { t11: 'Etapa VII', title: 'Ressurreição', icon: 'mdi-roman-numeral-7', tab: 'tab-7' },
-    { t11: 'Etapa VIII', title: 'Caminho e Ceia de Emaús', icon: 'mdi-roman-numeral-8', tab: 'tab-8' }
+    // { t11: 'Etapa I', title: 'Anunciação', icon: 'mdi-roman-numeral-1', tab: 'tab-1' },
+    // { t11: 'Etapa II', title: 'Nascimento', icon: 'mdi-roman-numeral-2', tab: 'tab-2' },
+    // { t11: 'Etapa III', title: 'Autorrevelação... bodas de Caná', icon: 'mdi-roman-numeral-3', tab: 'tab-3' },
+    // { t11: 'Etapa IV', title: 'Última Ceia e Instituição eucarística', icon: 'mdi-roman-numeral-4', tab: 'tab-4' },
+    // { t11: 'Etapa V', title: 'Coroação de Espinhos e Crucifixão', icon: 'mdi-roman-numeral-5', tab: 'tab-5' },
+    // { t11: 'Etapa VI', title: 'Senhora Diante da Cruz  Pietá', icon: 'mdi-roman-numeral-6', tab: 'tab-6' },
+    // { t11: 'Etapa VII', title: 'Ressurreição', icon: 'mdi-roman-numeral-7', tab: 'tab-7' },
+    // { t11: 'Etapa VIII', title: 'Caminho e Ceia de Emaús', icon: 'mdi-roman-numeral-8', tab: 'tab-8' }
 ];
 const itemsFinais = [
     { subtitle: 'Exposição fotográfica', title: 'Descanso', icon: 'mdi-pause-box-outline', tab: 'tab-descanso' },
