@@ -3,19 +3,25 @@
 		<header>
 			<h2> Peregrinar-Te – Roteiro:</h2>
 			<h3>
-				in via Vitae Mariae <br>
-				Assim também a fé, por si só, se não for acompanhada de obras, está morta. (Tiago 2:17)
+				<i>
+					in via Vitae Mariae <br>
+				</i>
+				<small>
+					Assim também a fé, por si só, se não for acompanhada de obras, está morta. (Tiago 2:17)
+				</small>
 			</h3>
 		</header>
 
 		<p>
+		<h3>
 			<b>1ª etapa - Maria, menina, mulher e Mãe - 7 de dezembro 2024</b>
-			<br>
-			<b>Monte de Guadalupe: 14.30-15.20</b>
-			<br>
-			<b> A Menina, filha de Joaquim e Ana, a destinada </b>
-			<br>
-			- Ponto de partida para as dinâmicas/participações: escultura de St. Ana a ensinar a menina Maria a ler…
+		</h3>
+		<br>
+		<b>Monte de Guadalupe: 14.30-15.20</b>
+		<br>
+		<b> A Menina, filha de Joaquim e Ana, a destinada </b>
+		<br>
+		- Ponto de partida para as dinâmicas/participações: escultura de St. Ana a ensinar a menina Maria a ler…
 		</p>
 		<br>
 		<p>
@@ -46,29 +52,31 @@
 		<hr>
 		<br>
 		<p>
-			<b>
-				2ª etapa - Pela Devoção a Maria, sempre Presente – 10 de maio 2025
-			</b><br>
-			<b>
-				Conservatório de Música Calouste Gulbenkian Braga
-			</b><br>
-			<b>
-				- Tributo musical a Maria …
-			</b><br>
-			<b>Ponto de partida:</b> 1 trabalho inspirador de Maria Bethânia, Cânticos, Preces, Súplicas à Senhora dos
-			Jardins do Céu
-			<br>
-			<small>
-				“*Gosto das palavras poderosas que carregam em si perguntas e respostas, abismos e chão firme, rios
-				subterrâneos, mares luminosos: Âmbar, Álibi, Talismã etc. Mas aqui, a minha opinião era o que menos
-				interessava. Somente o essencial: minha fé, profundo amor por Nossa Senhora, o coração manso e a voz que
-				Deus me deu. Dentro do turbilhão da vida, todos os momentos e encontros dedicados a realizar este disco foram
-				encantados, inesquecíveis, de uma suavidade como há muito, ou melhor, só quando criança experimentei.”</small>
-			<br>
-			<span class="assinatura">Maria Bethânia</span>
-			<br>
-			<small>[*Texto de abertura do encarte do CD Cânticos, Preces, Súplicas à Senhora dos Jardins do Céu na voz de
-				Maria Bethânia.]</small>
+		<h3>
+			<b>2ª etapa - Pela Devoção a Maria, sempre Presente – 10 de maio 2025</b>
+		</h3>
+
+		<br>
+		<b>
+			Conservatório de Música Calouste Gulbenkian Braga
+		</b><br>
+		<b>
+			- Tributo musical a Maria …
+		</b><br>
+		<b>Ponto de partida:</b> 1 trabalho inspirador de Maria Bethânia, Cânticos, Preces, Súplicas à Senhora dos
+		Jardins do Céu
+		<br>
+		<small>
+			“*Gosto das palavras poderosas que carregam em si perguntas e respostas, abismos e chão firme, rios
+			subterrâneos, mares luminosos: Âmbar, Álibi, Talismã etc. Mas aqui, a minha opinião era o que menos
+			interessava. Somente o essencial: minha fé, profundo amor por Nossa Senhora, o coração manso e a voz que
+			Deus me deu. Dentro do turbilhão da vida, todos os momentos e encontros dedicados a realizar este disco foram
+			encantados, inesquecíveis, de uma suavidade como há muito, ou melhor, só quando criança experimentei.”</small>
+		<br>
+		<span class="assinatura">Maria Bethânia</span>
+		<br>
+		<small>[*Texto de abertura do encarte do CD Cânticos, Preces, Súplicas à Senhora dos Jardins do Céu na voz de
+			Maria Bethânia.]</small>
 		</p>
 		<br>
 		<p>
@@ -88,17 +96,20 @@
 		<br>LADAINHA DE NOSSA SENHORA
 		<br>MAGNIFICAT
 		</p>
-		<br><a href="https://www.letras.mus.br/maria-bethania/discografia/canticos-preces-suplicas-a-senhora-dos-jardins-do-ceu-2003/" target="_blank">https://www.letras.mus.br/maria-bethania/discografia/canticos-preces-suplicas-a-senhora-dos-jardins-do-ceu-2003/</a>
+		<br><a
+			href="https://www.letras.mus.br/maria-bethania/discografia/canticos-preces-suplicas-a-senhora-dos-jardins-do-ceu-2003/"
+			target="_blank">https://www.letras.mus.br/maria-bethania/discografia/canticos-preces-suplicas-a-senhora-dos-jardins-do-ceu-2003/</a>
 		<br>
-		<a href="https://www.biscoitofino.com.br/cd/cd-maria-bethania-canticos-preces-suplicas" target="_blank">https://www.biscoitofino.com.br/cd/cd-maria-bethania-canticos-preces-suplicas/</a>
+		<a href="https://www.biscoitofino.com.br/cd/cd-maria-bethania-canticos-preces-suplicas"
+			target="_blank">https://www.biscoitofino.com.br/cd/cd-maria-bethania-canticos-preces-suplicas/</a>
 		<br>
 		<br>
 		<p>
-			<h3>
-				Santuário de Nossa Senhora do Sameiro
-			</h3>
-			- Partilhas/dinâmicas da Arte e da Ciência
-			<br>- Exposição Ad Mariam per Mariam até 1 de junho
+		<h3>
+			Santuário de Nossa Senhora do Sameiro
+		</h3>
+		- Partilhas/dinâmicas da Arte e da Ciência
+		<br>- Exposição Ad Mariam per Mariam até 1 de junho
 		</p>
 		<br>
 		<p>
