@@ -61,7 +61,7 @@
 
                         <!-- Partida -->
                         <v-window-item value="tab-partida" class="container-conteudo">
-                            <!-- <Partida /> -->
+                            <Partida />
                         </v-window-item>
 
                         <!-- Etapa 1 -->

@@ -1,143 +1,102 @@
 <template>
 
 	<h2 class="mb-2">
-			Partida
+		Enquadramento
 	</h2>
 
 	<article>
-			<p> PeregrinAR´TE, é um convite a fazer caminho com o Senhor que é Caminho.
-					O amor é comunicação, arte, e neste sentido, caminho em direção ao outro, pelo outro. Esta pequena oferta do
-					belo,
-					escrita por tão diversas mãos, pretende ser um adentramento no oceano da vida de Deus em Jesus, feito a
-					partir
-					do
-					nosso próprio texto vital e da voz inconfundível de quem o anuncia. Como água que somos queremos oferecer à
-					cidade
-					de Braga apenas um pequeno contributo, jorro singelo da nossa pretensa e humilde verdade: divina aspersão.
-			</p>
-			<span class="assinatura">Paulo Teia</span>
+		<div class="text-center">
+		<h3>
+			PeregrinAr-Te in via vitae Mariae
+		</h3>
+		<small>Assim também a fé, por si só, se não for acompanhada de obras, está morta. (Tiago 2:17)</small>
+	</div>
+
+		<h4>PeregrinAr’Te…</h4>
+		<h4>Vem e segue-Me! (Mateus 9: 9-13)</h4>
+
+		<p>
+			A arte é via de acesso à realidade profunda do homem e do mundo. Estou convicta da sua
+			importância na nossa formação espiritual e transformação. PeregrinAr-Te in via VITAE
+			CHRISTI – Semana Santa Braga 2024 surgiu a partir desta convicção. Foi e é,
+			simultaneamente, um chamamento e um testemunho. Na altura, foi “um convite a fazer
+			caminho com o Senhor que é Caminho. O amor é comunicação, arte, e, neste sentido,
+			caminho em direção ao outro, pelo outro.” Cerca de 40 “peregrinos”, aliando arte e
+			espiritualidade, acompanharam-me. Apesar de, inicialmente, nem sabermos bem o trajeto
+			deste caminho, deixamo-nos arrastar “por e nesta rede”. O ícone, um coração – Coração
+			em Ação –, mostra o cerne do propósito desta primeira edição: “oferecer à cidade de Braga
+			apenas um pequeno contributo, jorro singelo da nossa pretensa e humilde verdade: divina
+			aspersão.” e ainda evidenciar que é ele, o coração, “a música, a banda sonora que conecta
+			o nosso corpo à nossa alma.”, por isso lugar de encontro e rampa de lançamento para o
+			espetáculo incomensurável da vida.
+		</p>
+		<p>
+			Senti e sinto que Ele nos comprometeu a todos os envolvidos direta e indiretamente, bem
+			como aos que nos acolheram e aderiram aos eventos. Foram oito quadros bíblicos da vida
+			de Cristo, selecionados e propostos para esta missão, que testemunharam criatividade,
+			trabalho, fé e amor. Jesus foi o Mentor do grupo de caminheiros que ia crescendo, à medida
+			que, surpreendentemente, uns ficavam para trás e outros iam surgindo sem programações e
+			previsões. O percurso esteve marcado por manifestações artísticas de diversas áreas,
+			apresentadas no Museu Pio XII e no Museu Nogueira da Silva, em Braga, e, posteriormente,
+			na Igreja do Carmo. Todo o processo criativo aconteceu num curto período de tempo
+			(outubro de 2023 a fevereiro de 2024). O registo das etapas, obras, sentidos e sentires
+			perpetua-se nos nossos corações e ainda online e em livro. A última página é um portal que
+			nos incita a entrarmos e continuarmos por este Caminho de Luz.
+		</p>
+		<p>
+			Sinto e escuto com o coração, de novo, o chamamento e, neste dia que sinaliza o
+			nascimento de Maria (08 de setembro), venho, nesta espécie de convite, dar início ao
+			PeregrinAr’Te in via VITAE MARIAE”. Mais uma aventura deste ano, marcado em agosto
+			pelo caminho Português da Costa que me levou a Santiago de Compostela. No caminho, a
+			imagem e a referência a Maria, Mãe do Céu, eram diárias, tal como a saudação típica entre
+			os peregrinos que, como um refrão, tinha ressonâncias em cada um de nós. Ao desejar boa
+			jornada entre aqueles que caminhavam e aqueles que nos viam passar - Buen Camino - a
+			conexão era inevitável. Em todas as rotas/etapas, continuava a desbravar-me internamente
+			e vinculava a minha escolha: Jesus é O Caminho e Maria é a Mãe que nos mostra o
+			caminho que leva a Cristo.
+		</p>
+		<p>
+			Por tudo isto, volto a escolher, neste PeregrinAr’Te, o reconhecimento, a partilha, o
+			encorajamento, a persistência, a amizade, o Amor… escolho o encontro com todos os
+			desafios inerentes ao caminho em relação comigo e com o outro. A jornada afigura-se
+			sempre desafiadora e exigente, no tempo, no espaço, na disponibilidade e na recetividade…
+			porém, é boa e catártica, pois o foco está naqueles que participam e se conectam com o
+			que os une: superar distâncias e aparentes diferenças e reconhecer que todos somos
+			buscadores. Ainda na senda do Caminho de Santiago, resgato para aqui, dos tempos idos,
+			algo que julgo adaptar-se ao PeregrinAr´Te: Ultreia, a saudação mais usada pelos
+			peregrinos de Santiago, durante muitos séculos, com o objetivo firme de realçar “Vamos
+			mais longe/Vamos em frente”; Et Suseia, a resposta/o retorno esperançoso e alegre que se
+			oferece “E vamos mais alto/ E vamos além”.
+		</p>
+		<p>
+			Sinto esta proximidade e quero continuar a partilhá-la com o meu semelhante. Daí que o
+			Coração em Ação continuará a orientar este caminho espiritual, com os pés assentes na
+			Terra, os olhos postos no Céu, o coração a arder e com o olhar de Maria, olhar com o
+			coração. Sempre a invocar-Te, acredito no papel que cada um de nós tem como semeador
+			de Esperança. Desde já, ressoa &quot;Efatá!&quot; (Marcos 7:34) como ordem e conselho para que se
+			abram os nossos corações humanos, subsidiados pelas manifestações artísticas focadas
+			em Maria. Assim, neste percurso, poderemos comprometer-nos a superar barreiras físicas e
+			espirituais, de maneira a melhorar e ampliar a comunicação e a compreensão, caminhando
+			para a transformação de vida. Neste PeregrinAr-Te, ver, escutar, falar e sentir rumam em
+			direção a Maria, a cheia de Graça(s), ecoando ainda o tema das Jornadas Mundiais da
+			Juventude do verão de 2023, em Lisboa: «Maria levantou-se e partiu apressadamente» (Lc
+			1, 39), além do verbo “Peregrinar” a ação por excelência deste encontro mundial. Neste
+			seguimento, para reforçar o nosso encontro em Braga, recordo palavras ditas a 5 de agosto
+			de 2023 no Santuário de Fátima pelo Papa Francisco: “(…) a Virgem «que sai correndo»,
+			sempre que há um problema; sempre que A invocamos, Ela não demora a vir; é solícita.
+			Nossa Senhora solícita (...). Apressa-Se, para estar perto de nós, apressa-Se porque é
+			Mãe.” Não há dúvidas que toda a vida de Maria é um caminho e uma peregrinação de fé.
+		</p>
+		<p>
+
+
+			<span class="assinatura">
+				Maria José Morais Silva
+			</span>
+		</p>
 	</article>
-
-	<article>
-
-			<h3>Para que serve a arte? Para quê uma exposição? </h3>
-			<p>
-
-					Sentir e entender são os dois níveis de conhecimento humano[1]. As várias formas de arte têm sido
-					ferramentas
-					que
-					acompanham a peregrinação e evolução das pessoas sobre a terra, com novas descobertas, desafios e superações
-					envoltos em beleza. É em sociedade que se pode cooperar, ajudar, partilhar conhecimentos. Arte e ciência
-					caminham de
-					mãos dadas num caminho que leva à cultura, sim, mas em busca de verdades que ainda ficam aquém daquela
-					Verdade
-					que o
-					coração anseia.
-			</p>
-			_______________________________________ <br>
-			[1] Em “Antropología Filosófica”, José Ramón Aullón, Ariel
-
-			<span class="assinatura"> Isabel Vasco Costa </span>
-
-	</article>
-
-	<article>
-			<h3>Peregrinar é um verbo intransitivo, significando "Ir em romaria a lugares santos".</h3>
-			<p>
-					Frei Luís de Sousa, in "Vida do Arcebispo", escreve: "Não sei que doçura encerra em si este nome de Pátria,
-					que
-					vendo entrar o Arcebispo nela, assim nos alegra escrevendo, como se com ele fôramos peregrinando e com ele
-					tornáramos triunfantes..." Aquilino Ribeiro, in"Quando ao Gavião cai a Pena", imprime: "O resplendor divino
-					virá
-					depois, quando peregrinar com os apóstolos na Galileia..." Muito bem, mas consideremos agora
-					<i>PeregrinAr-Te</i> como
-					um
-					verbo transitivo e teríamos <i>PeregrinAr-te</i> como ser mensageiro de Deus, caminhando até esse mesmo
-					Deus,
-					mas
-					através
-					da Arte, pois é isso mesmo que aqui se pretende.
-			</p>
-			<span class="assinatura">Maria do Céu Nogueira</span>
-	</article>
-
-	<article>
-			<p>A superabundância de estímulos e de coisas nos tempos de hoje dificulta a ponderação acerca do fundamental,
-					neste atravessamento breve e vívido. Facilmente nos dispersamos, alienando o tempo que nos foi dado – o
-					único bem que connosco cruzará todas as cortinas entre a vida e a morte. Daí que a condição de peregrino,
-					imperativa para que possamos, com a peneira fina, guardar o ouro das horas, nos remete aqui para a essência
-					da
-					existência que consiste, afinal de contas, na superação da glória e da coroa de espinhos, enquanto
-					artifícios
-					transitórios no longo caminho pelo qual viemos procurar o Amor!</p>
-
-			<span class="assinatura">Fátima Marinho </span>
-	</article>
-
-	<article>
-			<p>
-					Somos peregrinos da Esperança! Nascemos para caminhar até às portas do Céu, onde nos aguardam, impacientes,
-					os braços amorosos do nosso Pai. A peregrinação humana supõe a esperança de chegar à meta que nos foi
-					proposta e nos acena com a alegria e a paz da chegada. <br>
-					Não correremos o risco de nos desorientarmos, pois vai connosco o Divino Peregrino. Ele, com os exemplos da
-					sua vida, convida-nos a acompanhá-lo até à entrega, por amor a todos, no Calvário. Descer, com Ele, ao
-					túmulo do
-					esquecimento de nós próprios, para ressuscitarmos com o Ressuscitado, que brilha aos nossos olhos
-					resplandecente de glória, na manhã da Páscoa. <br>
-					Vale a pena lançarmo-nos ao caminho, para abraçar a distância e alcançarmos a visão da glória eterna
-					prometida.
-			</p>
-
-			<span class="assinatura">Jesus Gomez-Pablos</span>
-	</article>
-
-	<article>
-			<h3>Peregrinar é timbre do crente. </h3>
-			<p>
-					Abraão teve que peregrinar, rumo à terra da promessa. Levou acesa a candeia da fé, o lume a arder na
-					promessa que Deus lhe fez. <br>
-					Moisés pôs-se a caminho, encorajado pela palavra libertadora, as águas do Mar Vermelho tornadas terra enxuta
-					para o Povo do Senhor, afogados atrás os carros e cavaleiros enviados pelo faraó. <br>
-					No caminho, agora que o Novo Testamento começa a escrever-se, aparece Nossa Senhora, dizendo-nos a todos que
-					o encontro com Deus nos põe na estrada, nos obriga ao pó, nos faz "encontro" com quem tem idade avançada ou
-					forças quebradas. <br>
-					O nascimento do Jesus acontece quanto Maria e José estão no caminho, em Belém, aí ainda a terem que se
-					mexer, à procura de estalagem, a terem depois que tecer o berço com a ternura e carinho que até pedras
-					toscas
-					amaciam. <br>
-					O Filho do Homem não tem onde reclinar a cabeça. "Vamos a outras povoações...". "Vamos a outras aldeias...".
-					Que a Boa Nova não pode parar, não tem freios, ninguém a pode algemar. <br>
-					E Paulo peregrina pelo mundo, chegando à nossa Europa, pois o Evangelho tem que chegar a todos. <br>
-					Peregrinar! Eis o desafio! Eis o imperativo! Eis a missão! Para levar o alegre anúncio, para estender
-					braços, para "caminhar com", para pôr Deus nos corações e os corações em Deus. <br>
-					Que o Senhor que não se cansa de fazer estrada para chegar até nós, nos possa encontrar em qualquer
-					encruzilhada, para que também nós possamos chegar até Ele, mergulhados, enfim, numa felicidade eterna!
-			</p>
-			<span class="assinatura">Paulo Abreu</span>
-
-	</article>
-
-	<article>
-			<h3>[Prometo.]</h3>
-			<p>Escrever cem vezes na lousa de minha alma:
-					<br><i>«Minha salvação és tu, Jesus!»</i>
-					<br>
-					<br>Cem vezes no caderno de duas linhas de meu coração:
-					<br><i>«Minha salvação é tua cruz, Jesus!»</i>
-					<br>
-					<br>Cem vezes nos fios de luz de meu vesgo olhar:
-					<br><i>«Minha salvação é teu corpo, teu sangue, Senhor!»</i>
-					<br>
-					<br>Cem vezes no pó das tiras de minhas sandálias:
-					<br><i>«Minha salvação é o caminho da tua luz, Senhor!»</i>
-					<br>
-			</p>
-
-			<span class="assinatura">João Costa</span>
-
-	</article>
-
 </template>
+
 <style scoped>
 h2 {
 	text-align: left;
@@ -203,25 +162,25 @@ article p::first-letter {
 
 
 	h2 {
-			margin-left: 1rem;
+		margin-left: 1rem;
 	}
 
 	h3 {
-			font-size: 1.2rem;
+		font-size: 1.2rem;
 	}
 
 	.assinatura {
-			margin: .5rem;
+		margin: .5rem;
 	}
 
 	article p::first-letter {
-			font-size: 1.5rem;
+		font-size: 1.5rem;
 	}
 
 	article {
 
-			padding: 10px;
-			margin: 1px;
+		padding: 10px;
+		margin: 1px;
 	}
 }
 </style>
