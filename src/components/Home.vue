@@ -35,7 +35,16 @@
               <br><b>E-mail:</b> <a href="info@museupioxii.pt" target="_blank">info@museupioxii.pt</a>
             </p>
             <h4>
-              <br> Evento: datas e horário
+              <br> Segunda Edição: datas e horário
+            </h4>
+            <p>
+              07/12 - Museu Pio XII, 14h30 às 17h30 
+            </p>
+            <br>
+            <hr>
+            <br>
+            <h4>
+              <br> Primeira Edição Eventos Encerrados
             </h4>
             <p style="text-decoration: line-through;">
               28/03 - Museu Pio XII, 10h às 11h30
@@ -45,7 +54,7 @@
               06/04 - Museu Pio XII, 14h30 às 16h
               <br> Museu Nogueira da Silva, Salão Nobre, 16h30 às 18h
             </p>
-            <p>
+            <p  style="text-decoration: line-through;">
               20/04 - Museu Pio XII, 14h30 às 16h
               <br>Museu Nogueira da Silva, salão nobre, 16h30 às 18h
             </p>
