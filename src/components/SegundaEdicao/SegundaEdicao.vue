@@ -56,7 +56,7 @@
 
                         <!-- Roteiro -->
                         <v-window-item value="tab-roteiro">
-                            <!-- <Roteiro /> -->
+                            <Roteiro />
                         </v-window-item>
 
                         <!-- Partida -->
